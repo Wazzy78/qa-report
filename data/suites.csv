@@ -1,648 +1,648 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:23 UTC 2026","Sat May 16 11:11:24 UTC 2026","797","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - announcement_count is non-negative","
-        Purpose: Verify that announcement_count is >= 0 for all sellers
-        "
-"failed","Sat May 16 11:10:41 UTC 2026","Sat May 16 11:10:41 UTC 2026","0","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - verify seller object fields (authenticated)","
-        Purpose: Verify that each seller object contains all required fields with correct types
-        "
-"passed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:29 UTC 2026","503","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:11 UTC 2026","Sat May 16 11:12:15 UTC 2026","3773","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - celery is running","
-        Purpose: Verify that Celery worker is healthy and responding
-        "
-"failed","Sat May 16 11:11:31 UTC 2026","Sat May 16 11:11:31 UTC 2026","0","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","0","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - idempotent (double call returns 0)","
-        Purpose: Verify that calling read-all twice is safe — second call returns count=0
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=999999 - invalid country returns empty list","
-        Purpose: Verify that non-existent country id returns empty list or 404
-        "
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - invalid refresh token returns 401","
-        Purpose: Verify that an invalid refresh token returns 401
-        "
-"passed","Sat May 16 11:11:43 UTC 2026","Sat May 16 11:11:48 UTC 2026","5243","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - pagination field types are valid","
-        Purpose: Verify that pagination fields have correct types
-        "
-"passed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","586","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - unauthorized returns 401","
-        Purpose: Verify that delete request without token returns 401
-        "
-"failed","Sat May 16 11:12:10 UTC 2026","Sat May 16 11:12:10 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:10:38 UTC 2026","Sat May 16 11:10:39 UTC 2026","1091","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - next page link is valid (public)","
-        Purpose: Verify that next page link points to page=2 and previous is null
-        "
-"passed","Sat May 16 11:11:33 UTC 2026","Sat May 16 11:11:34 UTC 2026","560","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:22 UTC 2026","Sat May 16 11:11:23 UTC 2026","1379","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - sellers sorted by announcement_count desc","
-        Purpose: Verify that sellers are sorted by announcement_count in descending order
-        "
-"passed","Sat May 16 11:11:18 UTC 2026","Sat May 16 11:11:18 UTC 2026","657","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:12:04 UTC 2026","Sat May 16 11:12:05 UTC 2026","506","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - first page has 10 results (authenticated)","
-        Purpose: Verify that the first page returns 10 results
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_01_create","TestChatRoomCRUD","","","POST /api/v1/chat/room/ - create room","
-        Purpose: Create a chat room and save room_id for next tests
-        "
-"failed","Sat May 16 11:12:04 UTC 2026","Sat May 16 11:12:04 UTC 2026","0","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - invalid announcement id returns 404","
-        Purpose: Verify that reporting a non-existent announcement returns 404
-        "
-"passed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:10 UTC 2026","504","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"passed","Sat May 16 11:11:13 UTC 2026","Sat May 16 11:11:13 UTC 2026","506","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"passed","Sat May 16 11:11:58 UTC 2026","Sat May 16 11:11:59 UTC 2026","534","tests.announcement.announcement","test_similar","TestAnnouncementSimilar","","","GET /api/v1/announcement/{id}/similar/ - invalid id returns 404","
-        Purpose: Verify that non-existent announcement returns 404
-        "
-"failed","Sat May 16 11:11:31 UTC 2026","Sat May 16 11:11:31 UTC 2026","0","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - missing required fields returns 400","
-        Purpose: Verify that missing required fields returns 400
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - success with valid token","
-        Purpose: Verify that authenticated user can access district list by region
-        "
-"failed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:08 UTC 2026","0","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - count increases after receiving message","
-        Purpose: Verify that unread count increases after sending a message to the room
-        "
-"failed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:28 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify all required fields exist","
-        Purpose: Verify that response contains all required fields
-        "
-"passed","Sat May 16 11:12:23 UTC 2026","Sat May 16 11:12:24 UTC 2026","572","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - server is running","
-        Purpose: Verify that the server is healthy and responding
-        "
-"failed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:32 UTC 2026","0","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:07 UTC 2026","0","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:11:26 UTC 2026","Sat May 16 11:11:26 UTC 2026","0","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - success with valid verification_token","
-#         Purpose: Verify that a valid verification_token returns user info and tokens.
-#         Step 1: Get verification_token from /api/v1/auth/verification/
-#         Step 2: POST verification_token to /api/v1/account/user/
-#         "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - delete sent message","
-        Purpose: Delete the message created in test_01
-        "
-"passed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:13 UTC 2026","877","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - new message is_read is false","
-        Purpose: Verify that newly sent message has is_read=False
-        "
-"passed","Sat May 16 11:11:17 UTC 2026","Sat May 16 11:11:18 UTC 2026","1008","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - next page link is valid","
-        Purpose: Verify pagination fields — next points to page=2, previous is null
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify room object fields and types","
-        Purpose: Verify that each room object contains all required fields with correct types
-        "
-"passed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:07 UTC 2026","504","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - unauthorized returns 401","
+"passed","Sat May 16 11:29:43 UTC 2026","Sat May 16 11:29:44 UTC 2026","520","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - unauthorized returns 401","
         Purpose: Verify that request without token returns 401
         "
-"passed","Sat May 16 11:11:26 UTC 2026","Sat May 16 11:11:26 UTC 2026","519","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - invalid verification_token returns 4xx","
-        Purpose: Verify that an invalid verification_token returns a 4xx error
-        "
-"failed","Sat May 16 11:12:10 UTC 2026","Sat May 16 11:12:10 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:28 UTC 2026","Sat May 16 11:12:28 UTC 2026","1","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - message matches sent payload","
-        Purpose: Verify that response message matches the sent message text
-        "
-"passed","Sat May 16 11:11:30 UTC 2026","Sat May 16 11:11:30 UTC 2026","506","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"passed","Sat May 16 11:12:24 UTC 2026","Sat May 16 11:12:24 UTC 2026","547","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - response time is under 2 seconds","
-        Purpose: Verify that the server responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - new access token is a valid JWT","
-        Purpose: Verify that the returned access token has valid JWT format (3 parts separated by dots)
-        "
-"passed","Sat May 16 11:11:30 UTC 2026","Sat May 16 11:11:31 UTC 2026","504","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - unauthorized returns 401","
+"passed","Sat May 16 11:30:16 UTC 2026","Sat May 16 11:30:16 UTC 2026","517","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - unauthorized returns 401","
         Purpose: Verify that request without token returns 401 Unauthorized
         "
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - success with valid refresh token","
-        Purpose: Verify that a valid refresh token returns a new access token
+"passed","Sat May 16 11:28:57 UTC 2026","Sat May 16 11:28:57 UTC 2026","571","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - invalid id returns 404","
+        Purpose: Verify that non-existent announcement returns 404
         "
-"passed","Sat May 16 11:11:13 UTC 2026","Sat May 16 11:11:15 UTC 2026","1474","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - success","
-        Purpose: Verify that seller announcement list is returned successfully
+"passed","Sat May 16 11:28:35 UTC 2026","Sat May 16 11:28:37 UTC 2026","1656","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - verify field types","
+        Purpose: Verify that seller object fields have correct data types
         "
-"passed","Sat May 16 11:11:53 UTC 2026","Sat May 16 11:11:58 UTC 2026","4663","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:10 UTC 2026","Sat May 16 11:12:10 UTC 2026","0","tests.chat.chatroom","test_03_delete","TestChatRoomCRUD","","","DELETE /api/v1/chat/room/{id}/ - delete non-existent room returns 404","
-        Purpose: Verify that deleting a non-existent room returns 404
-        "
-"passed","Sat May 16 11:10:28 UTC 2026","Sat May 16 11:10:29 UTC 2026","1054","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - invalid id returns 404","
-        Purpose: Verify that non-existent seller returns 404
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - returns 16 districts for Andijon","
-        Purpose: Verify that Andijon viloyati has exactly 16 districts
-        "
-"failed","Sat May 16 11:12:33 UTC 2026","Sat May 16 11:12:33 UTC 2026","0","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - response time is under 2 seconds","
+"passed","Sat May 16 11:29:15 UTC 2026","Sat May 16 11:29:20 UTC 2026","5063","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - response time is under 6 seconds","
         Purpose: Verify that the endpoint responds within an acceptable time
         "
-"skipped","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - muvaffaqiyatli login","
-        Maqsad: To'g'ri security_code va verification_token bilan access token olish
+"passed","Sat May 16 11:30:38 UTC 2026","Sat May 16 11:30:39 UTC 2026","534","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
         "
-"skipped","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - successful login","
+"passed","Sat May 16 11:29:04 UTC 2026","Sat May 16 11:29:10 UTC 2026","5672","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - verify announcement object fields","
+        Purpose: Verify that each announcement object contains required fields
+        "
+"passed","Sat May 16 11:30:30 UTC 2026","Sat May 16 11:30:31 UTC 2026","1438","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:52 UTC 2026","Sat May 16 11:28:53 UTC 2026","1417","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:50 UTC 2026","Sat May 16 11:29:52 UTC 2026","1670","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - count increases after receiving message","
+        Purpose: Verify that unread count increases after sending a message to the room
+        "
+"skipped","Sat May 16 11:31:05 UTC 2026","Sat May 16 11:31:05 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - successful login","
         Purpose: Get access and refresh tokens using valid security_code
         and verification_token.
         API returns: { ""tokens"": { ""access"": ""..."", ""refresh"": ""..."" } }
         "
-"failed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:28 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify user id is positive","
-        Purpose: Verify that user id is a positive integer
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=999999 - invalid region returns empty list or 404","
-        Purpose: Verify that non-existent region id returns empty list or 404
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - success with valid token","
-        Purpose: Verify that authenticated user can access chat room list
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - code starts with country iso_code","
-        Purpose: Verify that region code follows format: ISO_CODE-XX (e.g. UZ-AN)
-        "
-"passed","Sat May 16 11:11:20 UTC 2026","Sat May 16 11:11:21 UTC 2026","821","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - returns exactly 10 sellers","
-        Purpose: Verify that exactly 10 top sellers are returned
-        "
-"passed","Sat May 16 11:12:10 UTC 2026","Sat May 16 11:12:10 UTC 2026","505","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - response time is under 2 seconds (authenticated)","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:32 UTC 2026","504","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"passed","Sat May 16 11:12:23 UTC 2026","Sat May 16 11:12:23 UTC 2026","523","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - POST method is not allowed","
-        Purpose: Verify that POST method returns 405 Method Not Allowed
-        "
-"failed","Sat May 16 11:11:59 UTC 2026","Sat May 16 11:11:59 UTC 2026","0","tests.announcement.announcement","test_status_update","TestAnnouncementStatusUpdate","","","POST /api/v1/announcement/{id}/update/status/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:10:26 UTC 2026","Sat May 16 11:10:28 UTC 2026","2022","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - success returns 200","
-        Purpose: Verify that seller detail is returned successfully (public endpoint)
-        "
-"passed","Sat May 16 11:10:40 UTC 2026","Sat May 16 11:10:41 UTC 2026","954","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - Content-Type is application/json (public)","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:15 UTC 2026","Sat May 16 11:12:18 UTC 2026","3687","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - response time is under 2 seconds","
-        Purpose: Verify that the celery health endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","0","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - success with valid token","
-        Purpose: Verify that authenticated user can mark all notifications as read
-        "
-"passed","Sat May 16 11:11:19 UTC 2026","Sat May 16 11:11:20 UTC 2026","545","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - success","
-        Purpose: Verify that the top sellers list is returned successfully
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - all district ids are unique","
-        Purpose: Verify that all district ids are unique
-        "
-"failed","Sat May 16 11:12:28 UTC 2026","Sat May 16 11:12:28 UTC 2026","0","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - verify context field exists","
-        Purpose: Verify that response contains context field
-        "
-"passed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:07 UTC 2026","504","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"skipped","Sat May 16 11:12:36 UTC 2026","Sat May 16 11:12:36 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - wrong security_code","
-        Purpose: Verify error response for invalid security_code.
-        "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - verify update is persisted","
-        Purpose: Verify that updated fields are actually saved by checking /me/ endpoint
-        "
-"passed","Sat May 16 11:12:34 UTC 2026","Sat May 16 11:12:35 UTC 2026","507","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - bo'sh body","
-        Maqsad: Bo'sh body bilan xato qaytarishini tekshirish
-        "
-"failed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:08 UTC 2026","0","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - success with valid token","
-        Purpose: Verify that authenticated user can get unread message count
-        "
-"failed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:07 UTC 2026","0","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - success with valid token","
-        Purpose: Verify that authenticated user can mark all messages in a room as read
-        "
-"passed","Sat May 16 11:12:00 UTC 2026","Sat May 16 11:12:01 UTC 2026","509","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - verify announcement object fields","
-        Purpose: Verify that each VIP announcement contains required fields
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/ - missing country param returns empty list or 400","
-        Purpose: Verify behavior when country query param is missing
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/999999/delete/ - non-existent message returns 404","
-        Purpose: Verify that deleting a non-existent message returns 404
-        "
-"failed","Sat May 16 11:10:29 UTC 2026","Sat May 16 11:10:31 UTC 2026","1074","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - verify all fields and types","
-        Purpose: Verify that all seller detail fields have correct types
-        "
-"passed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","507","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401
-        "
-"passed","Sat May 16 11:12:01 UTC 2026","Sat May 16 11:12:01 UTC 2026","510","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:26 UTC 2026","Sat May 16 11:11:27 UTC 2026","505","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - missing verification_token returns 400","
-        Purpose: Verify that missing verification_token in body returns 400
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:08 UTC 2026","0","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - success with valid token","
-        Purpose: Verify that authenticated user can send a message to a room
-        "
-"passed","Sat May 16 11:12:01 UTC 2026","Sat May 16 11:12:03 UTC 2026","1827","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:31 UTC 2026","507","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:33 UTC 2026","Sat May 16 11:12:33 UTC 2026","0","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:26 UTC 2026","Sat May 16 11:12:27 UTC 2026","505","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"passed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:32 UTC 2026","523","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - missing registration_id returns 400","
-        Purpose: Verify that missing registration_id returns 400
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - already deleted returns 404","
-        Purpose: Verify that deleting an already deleted message returns 404
-        "
-"passed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:06 UTC 2026","503","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401
-        "
-"passed","Sat May 16 11:11:25 UTC 2026","Sat May 16 11:11:26 UTC 2026","901","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","504","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"passed","Sat May 16 11:12:18 UTC 2026","Sat May 16 11:12:23 UTC 2026","4390","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - missing refresh field returns 400","
-        Purpose: Verify that missing refresh field in body returns 400
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","1","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:11:21 UTC 2026","Sat May 16 11:11:21 UTC 2026","562","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - verify seller object fields","
-        Purpose: Verify that each seller object contains all required fields
-        "
-"failed","Sat May 16 11:12:26 UTC 2026","Sat May 16 11:12:26 UTC 2026","0","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - verify country object fields and types","
-        Purpose: Verify that each country object contains all required fields with correct types
-        "
-"failed","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:07 UTC 2026","0","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - idempotent (double call safe)","
-        Purpose: Verify that calling read-all twice does not cause errors
-        "
-"passed","Sat May 16 11:10:36 UTC 2026","Sat May 16 11:10:38 UTC 2026","1612","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - first page has 10 results (public)","
-        Purpose: Verify that the first page returns 10 results
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify last_message object fields","
-        Purpose: Verify that last_message object contains required fields when not null
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - verify region object fields and types","
-        Purpose: Verify that each region object contains all required fields with correct types
-        "
-"failed","Sat May 16 11:12:26 UTC 2026","Sat May 16 11:12:26 UTC 2026","0","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - success with valid token","
-        Purpose: Verify that authenticated user can access country list
-        "
-"passed","Sat May 16 11:10:33 UTC 2026","Sat May 16 11:10:35 UTC 2026","1480","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - success (public)","
-        Purpose: Verify that the seller list is returned successfully (public endpoint)
-        "
-"passed","Sat May 16 11:12:34 UTC 2026","Sat May 16 11:12:34 UTC 2026","505","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - noto'g'ri telefon raqam","
-        Maqsad: Noto'g'ri telefon raqam bilan xato qaytarishini tekshirish
-        "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - success with valid token","
-        Purpose: Verify that authenticated user can update their profile
-        "
-"passed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:33 UTC 2026","506","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","0","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - next page link is valid (authenticated)","
-        Purpose: Verify that next page link points to page=2
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:11:48 UTC 2026","Sat May 16 11:11:53 UTC 2026","4849","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - response time is under 6 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:04 UTC 2026","Sat May 16 11:12:04 UTC 2026","0","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - empty list is valid response","
-        Purpose: Verify that empty results with count=0 is a valid response
-        "
-"passed","Sat May 16 11:11:18 UTC 2026","Sat May 16 11:11:19 UTC 2026","870","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:10:31 UTC 2026","Sat May 16 11:10:32 UTC 2026","1385","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - Content-Type is application/json (authenticated)","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:30 UTC 2026","0","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - empty list is valid response","
-        Purpose: Verify that empty results with count=0 is a valid response
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - verify district object fields and types","
-        Purpose: Verify that each district object contains all required fields with correct types
-        "
-"failed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:32 UTC 2026","0","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:12:03 UTC 2026","Sat May 16 11:12:04 UTC 2026","505","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:28 UTC 2026","Sat May 16 11:12:28 UTC 2026","0","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - success with valid token","
+"passed","Sat May 16 11:30:25 UTC 2026","Sat May 16 11:30:26 UTC 2026","855","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - success with valid token","
         Purpose: Verify that authenticated user can access dictionary info
         "
-"failed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:28 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - success with valid token","
-        Purpose: Verify that authenticated user can access their own profile
+"passed","Sat May 16 11:30:19 UTC 2026","Sat May 16 11:30:19 UTC 2026","565","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - verify district object fields and types","
+        Purpose: Verify that each district object contains all required fields with correct types
         "
-"failed","Sat May 16 11:11:13 UTC 2026","Sat May 16 11:11:13 UTC 2026","0","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
+"passed","Sat May 16 11:30:04 UTC 2026","Sat May 16 11:30:08 UTC 2026","3616","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - response time is under 2 seconds","
+        Purpose: Verify that the celery health endpoint responds within an acceptable time
         "
-"failed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:30 UTC 2026","0","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - success with valid token","
-        Purpose: Verify that authenticated user can access notification list
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"skipped","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - noto'g'ri security_code","
-        Maqsad: Noto'g'ri security_code bilan xato qaytarishini tekshirish
-        "
-"passed","Sat May 16 11:10:39 UTC 2026","Sat May 16 11:10:40 UTC 2026","922","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - response time is under 2 seconds (public)","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:07 UTC 2026","0","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","POST /api/v1/chat/message/{room_id}/ - send message","
+"passed","Sat May 16 11:29:40 UTC 2026","Sat May 16 11:29:40 UTC 2026","550","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","POST /api/v1/chat/message/{room_id}/ - send message","
         Purpose: Send a message and save message_id for delete test
         "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - partial update (only first_name)","
+"passed","Sat May 16 11:31:04 UTC 2026","Sat May 16 11:31:04 UTC 2026","545","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"skipped","Sat May 16 11:31:06 UTC 2026","Sat May 16 11:31:06 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - wrong security_code","
+        Purpose: Verify error response for invalid security_code.
+        "
+"passed","Sat May 16 11:28:55 UTC 2026","Sat May 16 11:28:55 UTC 2026","531","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - missing required fields returns 400","
+        Purpose: Verify that missing required fields returns 400
+        "
+"passed","Sat May 16 11:29:34 UTC 2026","Sat May 16 11:29:35 UTC 2026","527","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:59 UTC 2026","Sat May 16 11:29:59 UTC 2026","558","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:39 UTC 2026","Sat May 16 11:30:40 UTC 2026","1696","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - success with valid token","
+        Purpose: Verify that authenticated user can register a device for notifications
+        "
+"passed","Sat May 16 11:28:26 UTC 2026","Sat May 16 11:28:27 UTC 2026","792","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:30:26 UTC 2026","Sat May 16 11:30:27 UTC 2026","799","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - verify context field exists","
+        Purpose: Verify that response contains context field
+        "
+"passed","Sat May 16 11:30:53 UTC 2026","Sat May 16 11:30:55 UTC 2026","1420","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - success with valid token","
+        Purpose: Verify that authenticated user can get unread notification count
+        "
+"passed","Sat May 16 11:28:40 UTC 2026","Sat May 16 11:28:41 UTC 2026","529","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - invalid verification_token returns 4xx","
+        Purpose: Verify that an invalid verification_token returns a 4xx error
+        "
+"passed","Sat May 16 11:29:48 UTC 2026","Sat May 16 11:29:48 UTC 2026","527","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:28:27 UTC 2026","Sat May 16 11:28:27 UTC 2026","683","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:30:43 UTC 2026","Sat May 16 11:30:44 UTC 2026","545","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:49 UTC 2026","Sat May 16 11:29:49 UTC 2026","542","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:56 UTC 2026","Sat May 16 11:30:56 UTC 2026","519","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:28:33 UTC 2026","Sat May 16 11:28:34 UTC 2026","572","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:42 UTC 2026","Sat May 16 11:30:43 UTC 2026","803","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:48 UTC 2026","Sat May 16 11:28:48 UTC 2026","533","tests.account.user","test_upd_number","TestUserUpdateNumber","","","PATCH /api/v1/account/user/update/number/ - invalid verification_token returns 400","
+        Purpose: Verify that invalid verification_token returns 400
+        "
+"passed","Sat May 16 11:30:13 UTC 2026","Sat May 16 11:30:14 UTC 2026","527","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - POST method is not allowed","
+        Purpose: Verify that POST method returns 405 Method Not Allowed
+        "
+"passed","Sat May 16 11:31:02 UTC 2026","Sat May 16 11:31:03 UTC 2026","534","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - new access token is a valid JWT","
+        Purpose: Verify that the returned access token has valid JWT format (3 parts separated by dots)
+        "
+"passed","Sat May 16 11:31:03 UTC 2026","Sat May 16 11:31:04 UTC 2026","529","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - missing refresh field returns 400","
+        Purpose: Verify that missing refresh field in body returns 400
+        "
+"passed","Sat May 16 11:28:28 UTC 2026","Sat May 16 11:28:29 UTC 2026","559","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:49 UTC 2026","Sat May 16 11:28:50 UTC 2026","538","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - partial update (only first_name)","
         Purpose: Verify that partial update (single field) works correctly
         "
-"failed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:28 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify field types","
-        Purpose: Verify that each field has the correct data type
+"passed","Sat May 16 11:28:29 UTC 2026","Sat May 16 11:28:29 UTC 2026","598","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - success","
+        Purpose: Verify that seller announcement list is returned successfully
         "
-"passed","Sat May 16 11:11:39 UTC 2026","Sat May 16 11:11:43 UTC 2026","4480","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - verify announcement object fields","
-        Purpose: Verify that each announcement object contains required fields
+"passed","Sat May 16 11:28:34 UTC 2026","Sat May 16 11:28:34 UTC 2026","559","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - success","
+        Purpose: Verify that the top sellers list is returned successfully
         "
-"passed","Sat May 16 11:12:33 UTC 2026","Sat May 16 11:12:33 UTC 2026","522","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - muvaffaqiyatli OTP yuborish","
+"passed","Sat May 16 11:30:53 UTC 2026","Sat May 16 11:30:53 UTC 2026","542","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:33 UTC 2026","Sat May 16 11:29:34 UTC 2026","544","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - empty list is valid response","
+        Purpose: Verify that empty results with count=0 is a valid response
+        "
+"passed","Sat May 16 11:30:20 UTC 2026","Sat May 16 11:30:21 UTC 2026","818","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/ - missing region param returns empty list or 400","
+        Purpose: Verify behavior when region query param is missing
+        "
+"passed","Sat May 16 11:29:55 UTC 2026","Sat May 16 11:29:55 UTC 2026","552","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify room object fields and types","
+        Purpose: Verify that each room object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:28:07 UTC 2026","Sat May 16 11:28:09 UTC 2026","1959","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:16 UTC 2026","Sat May 16 11:28:17 UTC 2026","1102","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - response time is under 2 seconds (public)","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:51 UTC 2026","Sat May 16 11:28:52 UTC 2026","525","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401
+        "
+"passed","Sat May 16 11:29:37 UTC 2026","Sat May 16 11:29:38 UTC 2026","533","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - missing message field returns 400","
+        Purpose: Verify that missing message field returns 400
+        "
+"passed","Sat May 16 11:28:50 UTC 2026","Sat May 16 11:28:51 UTC 2026","1144","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - verify update is persisted","
+        Purpose: Verify that updated fields are actually saved by checking /me/ endpoint
+        "
+"failed","Sat May 16 11:28:57 UTC 2026","Sat May 16 11:28:58 UTC 2026","582","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - verify all detail fields present","
+        Purpose: Verify that the detail response contains all required fields
+        "
+"passed","Sat May 16 11:29:30 UTC 2026","Sat May 16 11:29:31 UTC 2026","517","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"failed","Sat May 16 11:28:09 UTC 2026","Sat May 16 11:28:10 UTC 2026","1712","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:54 UTC 2026","Sat May 16 11:28:54 UTC 2026","543","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:28:55 UTC 2026","Sat May 16 11:28:56 UTC 2026","543","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:39 UTC 2026","Sat May 16 11:28:40 UTC 2026","550","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:32 UTC 2026","Sat May 16 11:29:33 UTC 2026","548","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - success with valid token","
+        Purpose: Verify that authenticated user can access announcement report list
+        "
+"passed","Sat May 16 11:28:54 UTC 2026","Sat May 16 11:28:55 UTC 2026","518","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:58 UTC 2026","Sat May 16 11:29:59 UTC 2026","548","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:24 UTC 2026","Sat May 16 11:30:25 UTC 2026","980","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:32 UTC 2026","Sat May 16 11:28:33 UTC 2026","1037","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:42 UTC 2026","Sat May 16 11:29:43 UTC 2026","556","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - success with valid token","
+        Purpose: Verify that authenticated user can access message list for a room
+        "
+"passed","Sat May 16 11:29:38 UTC 2026","Sat May 16 11:29:39 UTC 2026","551","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:58 UTC 2026","Sat May 16 11:30:59 UTC 2026","632","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - muvaffaqiyatli OTP yuborish","
         Maqsad: To'g'ri ma'lumotlar bilan verification_token olish
         Server 201 qaytaradi (yangi resurs yaratildi)
         "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify participant object fields","
-        Purpose: Verify that each participant object contains required fields
-        "
-"failed","Sat May 16 11:10:32 UTC 2026","Sat May 16 11:10:33 UTC 2026","1326","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:11:58 UTC 2026","Sat May 16 11:11:58 UTC 2026","548","tests.announcement.announcement","test_similar","TestAnnouncementSimilar","","","GET /api/v1/announcement/{id}/similar/ - response is list or paginated","
-        Purpose: Verify that similar response is a list or paginated dict
-        "
-"failed","Sat May 16 11:12:28 UTC 2026","Sat May 16 11:12:29 UTC 2026","516","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"failed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","0","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - success with valid token","
-        Purpose: Verify that authenticated user can access their own announcement list
-        "
-"failed","Sat May 16 11:12:26 UTC 2026","Sat May 16 11:12:26 UTC 2026","0","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - iso_code is 2 uppercase characters","
-        Purpose: Verify that iso_code follows ISO 3166-1 alpha-2 format (2 uppercase letters)
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - verify response matches request payload","
-        Purpose: Verify that response fields match the sent payload
-        "
-"passed","Sat May 16 11:12:00 UTC 2026","Sat May 16 11:12:00 UTC 2026","508","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - response is a list or paginated","
-        Purpose: Verify that VIP response contains valid structure
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - success with valid token","
-        Purpose: Verify that authenticated user can access region list by country
-        "
-"failed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:08 UTC 2026","0","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:04 UTC 2026","Sat May 16 11:12:04 UTC 2026","0","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:32 UTC 2026","Sat May 16 11:11:32 UTC 2026","794","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - invalid id returns 404","
-        Purpose: Verify that non-existent announcement returns 404
-        "
-"passed","Sat May 16 11:12:10 UTC 2026","Sat May 16 11:12:11 UTC 2026","505","tests.chat.chatroom","test_03_delete","TestChatRoomCRUD","","","DELETE /api/v1/chat/room/{id}/ - unauthorized returns 401","
-        Purpose: Verify that delete request without token returns 401
-        "
-"passed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:30 UTC 2026","522","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - empty list is valid response","
-        Purpose: Verify that empty results with count=0 is a valid response
-        "
-"passed","Sat May 16 11:12:24 UTC 2026","Sat May 16 11:12:25 UTC 2026","563","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","504","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - success with valid token","
-        Purpose: Verify that authenticated user can access message list for a room
-        "
-"passed","Sat May 16 11:11:15 UTC 2026","Sat May 16 11:11:16 UTC 2026","930","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - first page has 10 results","
-        Purpose: Verify that the first page returns 10 results
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - success with valid token","
-        Purpose: Verify that authenticated user can register a device for notifications
-        "
-"skipped","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - bo'sh body","
-        Maqsad: Bo'sh body bilan xato qaytarishini tekshirish
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:59 UTC 2026","Sat May 16 11:12:00 UTC 2026","703","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - success returns 200","
-        Purpose: Verify that VIP announcement list is returned successfully (public endpoint)
-        "
-"passed","Sat May 16 11:11:27 UTC 2026","Sat May 16 11:11:27 UTC 2026","504","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:32 UTC 2026","0","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - success with valid token","
-        Purpose: Verify that authenticated user can get unread notification count
-        "
-"failed","Sat May 16 11:12:04 UTC 2026","Sat May 16 11:12:04 UTC 2026","0","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - success with valid token","
-        Purpose: Verify that authenticated user can access announcement report list
-        "
-"skipped","Sat May 16 11:12:35 UTC 2026","Sat May 16 11:12:35 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - noto'g'ri verification_token","
-        Maqsad: Noto'g'ri verification_token bilan xato qaytarishini tekshirish
-        "
-"failed","Sat May 16 11:11:31 UTC 2026","Sat May 16 11:11:31 UTC 2026","0","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:07 UTC 2026","Sat May 16 11:12:08 UTC 2026","507","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401
-        "
-"failed","Sat May 16 11:11:30 UTC 2026","Sat May 16 11:11:30 UTC 2026","0","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:12:25 UTC 2026","Sat May 16 11:12:26 UTC 2026","503","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - POST method is not allowed","
-        Purpose: Verify that POST method returns 405 Method Not Allowed
-        "
-"passed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","594","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - invalid token returns 401","
+"passed","Sat May 16 11:30:16 UTC 2026","Sat May 16 11:30:17 UTC 2026","527","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - invalid token returns 401","
         Purpose: Verify that request with invalid token returns 401
         "
-"failed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:30 UTC 2026","0","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
+"passed","Sat May 16 11:30:19 UTC 2026","Sat May 16 11:30:20 UTC 2026","547","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - all district ids are unique","
+        Purpose: Verify that all district ids are unique
         "
-"passed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:08 UTC 2026","507","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - empty list is valid response","
-        Purpose: Verify that empty results with count=0 is a valid response
-        "
-"passed","Sat May 16 11:11:24 UTC 2026","Sat May 16 11:11:25 UTC 2026","893","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:12:09 UTC 2026","Sat May 16 11:12:09 UTC 2026","0","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:31 UTC 2026","Sat May 16 11:11:32 UTC 2026","585","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - success returns 200","
-        Purpose: Verify that announcement detail is returned successfully (public endpoint)
-        "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - Content-Type is application/json","
+"passed","Sat May 16 11:29:39 UTC 2026","Sat May 16 11:29:40 UTC 2026","558","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - Content-Type is application/json","
         Purpose: Verify that the response Content-Type is JSON
         "
-"passed","Sat May 16 11:12:33 UTC 2026","Sat May 16 11:12:34 UTC 2026","522","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - aktiv kod mavjud bo'lganda 409 qaytarishi","
-        Maqsad: Aktiv OTP mavjud bo'lganda 409 qaytarishini tekshirish
-        "
-"passed","Sat May 16 11:12:26 UTC 2026","Sat May 16 11:12:26 UTC 2026","548","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"passed","Sat May 16 11:11:34 UTC 2026","Sat May 16 11:11:39 UTC 2026","4408","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - success returns 200","
-        Purpose: Verify that announcement list is returned successfully (public endpoint)
-        "
-"failed","Sat May 16 11:11:59 UTC 2026","Sat May 16 11:11:59 UTC 2026","0","tests.announcement.announcement","test_status_update","TestAnnouncementStatusUpdate","","","POST /api/v1/announcement/{id}/update/status/ - invalid id returns 404","
-        Purpose: Verify that non-existent announcement returns 404
-        "
-"passed","Sat May 16 11:11:21 UTC 2026","Sat May 16 11:11:22 UTC 2026","556","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - verify field types","
-        Purpose: Verify that seller object fields have correct data types
-        "
-"skipped","Sat May 16 11:12:36 UTC 2026","Sat May 16 11:12:36 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - invalid verification_token","
-        Purpose: Verify error response for invalid verification_token.
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - returns 14 regions for Uzbekistan","
-        Purpose: Verify that Uzbekistan has exactly 14 regions
-        "
-"failed","Sat May 16 11:12:28 UTC 2026","Sat May 16 11:12:28 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:16 UTC 2026","Sat May 16 11:11:17 UTC 2026","816","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - verify announcement object fields and types","
-        Purpose: Verify that each announcement object contains all required fields with correct types
-        "
-"passed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:30 UTC 2026","529","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401
-        "
-"failed","Sat May 16 11:11:13 UTC 2026","Sat May 16 11:11:13 UTC 2026","0","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:27 UTC 2026","0","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/ - missing region param returns empty list or 400","
-        Purpose: Verify behavior when region query param is missing
-        "
-"passed","Sat May 16 11:10:35 UTC 2026","Sat May 16 11:10:36 UTC 2026","1142","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - verify seller object fields and types (public)","
-        Purpose: Verify that each seller object contains all required fields with correct types
-        "
-"failed","Sat May 16 11:12:05 UTC 2026","Sat May 16 11:12:05 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - missing message field returns 400","
-        Purpose: Verify that missing message field returns 400
-        "
-"failed","Sat May 16 11:12:06 UTC 2026","Sat May 16 11:12:06 UTC 2026","0","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:11:32 UTC 2026","Sat May 16 11:11:33 UTC 2026","567","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - verify all detail fields present","
-        Purpose: Verify that the detail response contains all required fields
-        "
-"passed","Sat May 16 11:11:27 UTC 2026","Sat May 16 11:11:28 UTC 2026","796","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:30 UTC 2026","Sat May 16 11:12:30 UTC 2026","0","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"failed","Sat May 16 11:12:29 UTC 2026","Sat May 16 11:12:29 UTC 2026","0","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_upd_number","TestUserUpdateNumber","","","PATCH /api/v1/account/user/update/number/ - invalid verification_token returns 400","
-        Purpose: Verify that invalid verification_token returns 400
-        "
-"passed","Sat May 16 11:12:03 UTC 2026","Sat May 16 11:12:03 UTC 2026","507","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"passed","Sat May 16 11:11:31 UTC 2026","Sat May 16 11:11:31 UTC 2026","505","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - invalid token returns 401","
-        Purpose: Verify that request with invalid token returns 401
-        "
-"passed","Sat May 16 11:11:28 UTC 2026","Sat May 16 11:11:28 UTC 2026","505","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401 Unauthorized
-        "
-"skipped","Sat May 16 11:12:36 UTC 2026","Sat May 16 11:12:36 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - empty body","
-        Purpose: Verify error response for empty request body.
-        "
-"failed","Sat May 16 11:11:12 UTC 2026","Sat May 16 11:11:12 UTC 2026","0","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - empty list is valid","
-        Purpose: Verify that empty results with count=0 is a valid response
-        "
-"passed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:30 UTC 2026","504","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - unauthorized returns 401","
-        Purpose: Verify that request without token returns 401
-        "
-"failed","Sat May 16 11:12:32 UTC 2026","Sat May 16 11:12:32 UTC 2026","0","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - count is 0 after read-all","
+"passed","Sat May 16 11:30:55 UTC 2026","Sat May 16 11:30:56 UTC 2026","1150","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - count is 0 after read-all","
         Purpose: Verify that unread count becomes 0 after marking all as read
         "
-"passed","Sat May 16 11:12:27 UTC 2026","Sat May 16 11:12:28 UTC 2026","1343","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - unauthorized returns 401","
+"passed","Sat May 16 11:30:51 UTC 2026","Sat May 16 11:30:52 UTC 2026","575","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:30:22 UTC 2026","Sat May 16 11:30:22 UTC 2026","807","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - unauthorized returns 401","
         Purpose: Verify that request without token returns 401 Unauthorized
         "
-"failed","Sat May 16 11:11:29 UTC 2026","Sat May 16 11:11:29 UTC 2026","0","tests.account.user","test_upd_number","TestUserUpdateNumber","","","PATCH /api/v1/account/user/update/number/ - response time is under 2 seconds","
-        Purpose: Verify that the endpoint responds within an acceptable time
-        "
-"passed","Sat May 16 11:11:34 UTC 2026","Sat May 16 11:11:34 UTC 2026","566","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - Content-Type is application/json","
-        Purpose: Verify that the response Content-Type is JSON
-        "
-"passed","Sat May 16 11:12:08 UTC 2026","Sat May 16 11:12:09 UTC 2026","505","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - unauthorized returns 401","
+"passed","Sat May 16 11:29:47 UTC 2026","Sat May 16 11:29:48 UTC 2026","517","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - unauthorized returns 401","
         Purpose: Verify that request without token returns 401
         "
-"failed","Sat May 16 11:12:31 UTC 2026","Sat May 16 11:12:31 UTC 2026","0","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - count matches unread notifications","
+"skipped","Sat May 16 11:31:02 UTC 2026","Sat May 16 11:31:02 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - bo'sh body","
+        Maqsad: Bo'sh body bilan xato qaytarishini tekshirish
+        "
+"passed","Sat May 16 11:30:57 UTC 2026","Sat May 16 11:30:57 UTC 2026","544","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"skipped","Sat May 16 11:31:06 UTC 2026","Sat May 16 11:31:06 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - invalid verification_token","
+        Purpose: Verify error response for invalid verification_token.
+        "
+"passed","Sat May 16 11:28:14 UTC 2026","Sat May 16 11:28:16 UTC 2026","1690","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - next page link is valid (public)","
+        Purpose: Verify that next page link points to page=2 and previous is null
+        "
+"passed","Sat May 16 11:30:57 UTC 2026","Sat May 16 11:30:58 UTC 2026","533","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:48 UTC 2026","Sat May 16 11:28:49 UTC 2026","537","tests.account.user","test_upd_number","TestUserUpdateNumber","","","PATCH /api/v1/account/user/update/number/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:31:03 UTC 2026","Sat May 16 11:31:03 UTC 2026","526","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - invalid refresh token returns 401","
+        Purpose: Verify that an invalid refresh token returns 401
+        "
+"passed","Sat May 16 11:28:25 UTC 2026","Sat May 16 11:28:25 UTC 2026","802","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - success with valid token","
+        Purpose: Verify that authenticated user can access their own announcement list
+        "
+"passed","Sat May 16 11:30:52 UTC 2026","Sat May 16 11:30:53 UTC 2026","739","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"skipped","Sat May 16 11:31:02 UTC 2026","Sat May 16 11:31:02 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - noto'g'ri security_code","
+        Maqsad: Noto'g'ri security_code bilan xato qaytarishini tekshirish
+        "
+"passed","Sat May 16 11:29:31 UTC 2026","Sat May 16 11:29:32 UTC 2026","564","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - invalid announcement id returns 404","
+        Purpose: Verify that reporting a non-existent announcement returns 404
+        "
+"skipped","Sat May 16 11:31:06 UTC 2026","Sat May 16 11:31:06 UTC 2026","0","tests.verification","test_verify","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - empty body","
+        Purpose: Verify error response for empty request body.
+        "
+"passed","Sat May 16 11:30:49 UTC 2026","Sat May 16 11:30:51 UTC 2026","1239","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - idempotent (double call returns 0)","
+        Purpose: Verify that calling read-all twice is safe — second call returns count=0
+        "
+"passed","Sat May 16 11:28:59 UTC 2026","Sat May 16 11:29:04 UTC 2026","5032","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - success returns 200","
+        Purpose: Verify that announcement list is returned successfully (public endpoint)
+        "
+"passed","Sat May 16 11:29:29 UTC 2026","Sat May 16 11:29:30 UTC 2026","529","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:14 UTC 2026","Sat May 16 11:30:14 UTC 2026","537","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - success with valid token","
+        Purpose: Verify that authenticated user can access country list
+        "
+"passed","Sat May 16 11:28:20 UTC 2026","Sat May 16 11:28:22 UTC 2026","1534","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - first page has 10 results (authenticated)","
+        Purpose: Verify that the first page returns 10 results
+        "
+"passed","Sat May 16 11:28:41 UTC 2026","Sat May 16 11:28:41 UTC 2026","544","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - missing verification_token returns 400","
+        Purpose: Verify that missing verification_token in body returns 400
+        "
+"passed","Sat May 16 11:30:48 UTC 2026","Sat May 16 11:30:48 UTC 2026","544","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"failed","Sat May 16 11:30:27 UTC 2026","Sat May 16 11:30:28 UTC 2026","1402","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:28:24 UTC 2026","Sat May 16 11:28:25 UTC 2026","671","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - Content-Type is application/json (authenticated)","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:22 UTC 2026","Sat May 16 11:30:24 UTC 2026","1435","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:39 UTC 2026","Sat May 16 11:28:39 UTC 2026","565","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:12 UTC 2026","Sat May 16 11:30:13 UTC 2026","588","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - response time is under 2 seconds","
+        Purpose: Verify that the server responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:10 UTC 2026","Sat May 16 11:29:15 UTC 2026","4821","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - pagination field types are valid","
+        Purpose: Verify that pagination fields have correct types
+        "
+"passed","Sat May 16 11:29:37 UTC 2026","Sat May 16 11:29:37 UTC 2026","558","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - new message is_read is false","
+        Purpose: Verify that newly sent message has is_read=False
+        "
+"passed","Sat May 16 11:28:29 UTC 2026","Sat May 16 11:28:30 UTC 2026","569","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - first page has 10 results","
+        Purpose: Verify that the first page returns 10 results
+        "
+"passed","Sat May 16 11:29:20 UTC 2026","Sat May 16 11:29:25 UTC 2026","4792","tests.announcement.announcement","test_list","TestAnnouncementList","","","GET /api/v1/announcement/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:12 UTC 2026","Sat May 16 11:30:12 UTC 2026","578","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - server is running","
+        Purpose: Verify that the server is healthy and responding
+        "
+"passed","Sat May 16 11:30:13 UTC 2026","Sat May 16 11:30:13 UTC 2026","583","tests.core","test_healthcheck","TestHealthCheck","","","GET /api/core/health/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:36 UTC 2026","Sat May 16 11:30:37 UTC 2026","541","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=999999 - invalid country returns empty list","
+        Purpose: Verify that non-existent country id returns empty list or 404
+        "
+"passed","Sat May 16 11:28:10 UTC 2026","Sat May 16 11:28:11 UTC 2026","753","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - success (public)","
+        Purpose: Verify that the seller list is returned successfully (public endpoint)
+        "
+"passed","Sat May 16 11:30:08 UTC 2026","Sat May 16 11:30:11 UTC 2026","3619","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:44 UTC 2026","Sat May 16 11:29:44 UTC 2026","529","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:30:21 UTC 2026","Sat May 16 11:30:22 UTC 2026","884","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=999999 - invalid region returns empty list or 404","
+        Purpose: Verify that non-existent region id returns empty list or 404
+        "
+"failed","Sat May 16 11:29:25 UTC 2026","Sat May 16 11:29:26 UTC 2026","1436","tests.announcement.announcement","test_similar","TestAnnouncementSimilar","","","GET /api/v1/announcement/{id}/similar/ - response is list or paginated","
+        Purpose: Verify that similar response is a list or paginated dict
+        "
+"passed","Sat May 16 11:28:17 UTC 2026","Sat May 16 11:28:17 UTC 2026","641","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - Content-Type is application/json (public)","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"skipped","Sat May 16 11:31:01 UTC 2026","Sat May 16 11:31:01 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - muvaffaqiyatli login","
+        Maqsad: To'g'ri security_code va verification_token bilan access token olish
+        "
+"passed","Sat May 16 11:29:46 UTC 2026","Sat May 16 11:29:47 UTC 2026","1107","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - idempotent (double call safe)","
+        Purpose: Verify that calling read-all twice does not cause errors
+        "
+"passed","Sat May 16 11:29:53 UTC 2026","Sat May 16 11:29:53 UTC 2026","547","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:47 UTC 2026","Sat May 16 11:28:48 UTC 2026","562","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:55 UTC 2026","Sat May 16 11:29:56 UTC 2026","552","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify participant object fields","
+        Purpose: Verify that each participant object contains required fields
+        "
+"passed","Sat May 16 11:30:46 UTC 2026","Sat May 16 11:30:47 UTC 2026","526","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:29:52 UTC 2026","Sat May 16 11:29:53 UTC 2026","538","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:43 UTC 2026","Sat May 16 11:29:43 UTC 2026","549","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - empty list is valid response","
+        Purpose: Verify that empty results with count=0 is a valid response
+        "
+"passed","Sat May 16 11:28:42 UTC 2026","Sat May 16 11:28:43 UTC 2026","965","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:35 UTC 2026","Sat May 16 11:29:35 UTC 2026","543","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:17 UTC 2026","Sat May 16 11:30:17 UTC 2026","542","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:15 UTC 2026","Sat May 16 11:30:16 UTC 2026","543","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - iso_code is 2 uppercase characters","
+        Purpose: Verify that iso_code follows ISO 3166-1 alpha-2 format (2 uppercase letters)
+        "
+"passed","Sat May 16 11:28:20 UTC 2026","Sat May 16 11:28:20 UTC 2026","655","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - verify seller object fields (authenticated)","
+        Purpose: Verify that each seller object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:29:32 UTC 2026","Sat May 16 11:29:32 UTC 2026","559","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:59 UTC 2026","Sat May 16 11:31:00 UTC 2026","1280","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - noto'g'ri telefon raqam","
+        Maqsad: Noto'g'ri telefon raqam bilan xato qaytarishini tekshirish
+        "
+"passed","Sat May 16 11:29:28 UTC 2026","Sat May 16 11:29:29 UTC 2026","529","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - response is a list or paginated","
+        Purpose: Verify that VIP response contains valid structure
+        "
+"passed","Sat May 16 11:30:59 UTC 2026","Sat May 16 11:30:59 UTC 2026","545","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - aktiv kod mavjud bo'lganda 409 qaytarishi","
+        Maqsad: Aktiv OTP mavjud bo'lganda 409 qaytarishini tekshirish
+        "
+"passed","Sat May 16 11:30:32 UTC 2026","Sat May 16 11:30:33 UTC 2026","1384","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - returns 14 regions for Uzbekistan","
+        Purpose: Verify that Uzbekistan has exactly 14 regions
+        "
+"passed","Sat May 16 11:29:34 UTC 2026","Sat May 16 11:29:34 UTC 2026","530","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:29:31 UTC 2026","Sat May 16 11:29:31 UTC 2026","519","tests.announcement.report","test_create","TestAnnouncementReportCreate","","","POST /api/v1/announcement/report/{id}/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:44 UTC 2026","Sat May 16 11:29:45 UTC 2026","553","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:11 UTC 2026","Sat May 16 11:28:12 UTC 2026","1283","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - verify seller object fields and types (public)","
+        Purpose: Verify that each seller object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:30:35 UTC 2026","Sat May 16 11:30:35 UTC 2026","897","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - code starts with country iso_code","
+        Purpose: Verify that region code follows format: ISO_CODE-XX (e.g. UZ-AN)
+        "
+"passed","Sat May 16 11:30:14 UTC 2026","Sat May 16 11:30:15 UTC 2026","544","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - verify country object fields and types","
+        Purpose: Verify that each country object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:29:26 UTC 2026","Sat May 16 11:29:27 UTC 2026","586","tests.announcement.announcement","test_similar","TestAnnouncementSimilar","","","GET /api/v1/announcement/{id}/similar/ - invalid id returns 404","
+        Purpose: Verify that non-existent announcement returns 404
+        "
+"passed","Sat May 16 11:30:44 UTC 2026","Sat May 16 11:30:45 UTC 2026","1102","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - success with valid token","
+        Purpose: Verify that authenticated user can access notification list
+        "
+"passed","Sat May 16 11:28:30 UTC 2026","Sat May 16 11:28:32 UTC 2026","1460","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - next page link is valid","
+        Purpose: Verify pagination fields — next points to page=2, previous is null
+        "
+"passed","Sat May 16 11:29:58 UTC 2026","Sat May 16 11:29:58 UTC 2026","532","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:30:11 UTC 2026","Sat May 16 11:30:12 UTC 2026","526","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - POST method is not allowed","
+        Purpose: Verify that POST method returns 405 Method Not Allowed
+        "
+"passed","Sat May 16 11:28:44 UTC 2026","Sat May 16 11:28:45 UTC 2026","1392","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify field types","
+        Purpose: Verify that each field has the correct data type
+        "
+"passed","Sat May 16 11:30:18 UTC 2026","Sat May 16 11:30:19 UTC 2026","539","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - returns 16 districts for Andijon","
+        Purpose: Verify that Andijon viloyati has exactly 16 districts
+        "
+"skipped","Sat May 16 11:31:02 UTC 2026","Sat May 16 11:31:02 UTC 2026","0","tests.verification","test_create","TestVerificationVerify","","","POST /api/v1/auth/verification/verify/ - noto'g'ri verification_token","
+        Maqsad: Noto'g'ri verification_token bilan xato qaytarishini tekshirish
+        "
+"passed","Sat May 16 11:31:02 UTC 2026","Sat May 16 11:31:02 UTC 2026","565","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - success with valid refresh token","
+        Purpose: Verify that a valid refresh token returns a new access token
+        "
+"passed","Sat May 16 11:29:30 UTC 2026","Sat May 16 11:29:30 UTC 2026","528","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:17 UTC 2026","Sat May 16 11:30:18 UTC 2026","532","tests.dictionary","test_country","TestDictionaryCountry","","","GET /api/v1/dictionary/country/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:58 UTC 2026","Sat May 16 11:28:59 UTC 2026","584","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:31:04 UTC 2026","Sat May 16 11:31:05 UTC 2026","537","tests.verification","test_refresh","TestTokenRefresh","","","POST /api/v1/auth/token/refresh/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:51 UTC 2026","Sat May 16 11:30:51 UTC 2026","519","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401
+        "
+"passed","Sat May 16 11:29:57 UTC 2026","Sat May 16 11:29:58 UTC 2026","527","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:30:48 UTC 2026","Sat May 16 11:30:49 UTC 2026","558","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - success with valid token","
+        Purpose: Verify that authenticated user can mark all notifications as read
+        "
+"passed","Sat May 16 11:29:35 UTC 2026","Sat May 16 11:29:36 UTC 2026","541","tests.announcement.report","test_list","TestAnnouncementReportList","","","GET /api/v1/announcement/report/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:46 UTC 2026","Sat May 16 11:28:46 UTC 2026","529","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:30:47 UTC 2026","Sat May 16 11:30:47 UTC 2026","526","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:29:40 UTC 2026","Sat May 16 11:29:41 UTC 2026","537","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - delete sent message","
+        Purpose: Delete the message created in test_01
+        "
+"passed","Sat May 16 11:30:31 UTC 2026","Sat May 16 11:30:32 UTC 2026","885","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - success with valid token","
+        Purpose: Verify that authenticated user can access region list by country
+        "
+"passed","Sat May 16 11:30:18 UTC 2026","Sat May 16 11:30:18 UTC 2026","547","tests.dictionary","test_district","TestDictionaryDistrict","","","GET /api/v1/dictionary/district/?region=1 - success with valid token","
+        Purpose: Verify that authenticated user can access district list by region
+        "
+"passed","Sat May 16 11:30:00 UTC 2026","Sat May 16 11:30:04 UTC 2026","3606","tests.core","test_celery_healthcheck","TestCeleryHealthCheck","","","GET /api/core/celery_health/ - celery is running","
+        Purpose: Verify that Celery worker is healthy and responding
+        "
+"passed","Sat May 16 11:29:56 UTC 2026","Sat May 16 11:29:57 UTC 2026","551","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - verify last_message object fields","
+        Purpose: Verify that last_message object contains required fields when not null
+        "
+"passed","Sat May 16 11:29:28 UTC 2026","Sat May 16 11:29:28 UTC 2026","521","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - success returns 200","
+        Purpose: Verify that VIP announcement list is returned successfully (public endpoint)
+        "
+"passed","Sat May 16 11:28:22 UTC 2026","Sat May 16 11:28:23 UTC 2026","1503","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - next page link is valid (authenticated)","
+        Purpose: Verify that next page link points to page=2
+        "
+"passed","Sat May 16 11:29:45 UTC 2026","Sat May 16 11:29:46 UTC 2026","554","tests.chat.chatmessage","test_get_list","TestChatMessageList","","","GET /api/v1/chat/message/{room_id}/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:29:48 UTC 2026","Sat May 16 11:29:49 UTC 2026","549","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:49 UTC 2026","Sat May 16 11:29:50 UTC 2026","544","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - success with valid token","
+        Purpose: Verify that authenticated user can get unread message count
+        "
+"failed","Sat May 16 11:28:02 UTC 2026","Sat May 16 11:28:04 UTC 2026","2029","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - success returns 200","
+        Purpose: Verify that seller detail is returned successfully (public endpoint)
+        "
+"failed","Sat May 16 11:28:05 UTC 2026","Sat May 16 11:28:07 UTC 2026","1372","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - verify all fields and types","
+        Purpose: Verify that all seller detail fields have correct types
+        "
+"passed","Sat May 16 11:28:46 UTC 2026","Sat May 16 11:28:47 UTC 2026","517","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:28:27 UTC 2026","Sat May 16 11:28:28 UTC 2026","722","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:29 UTC 2026","Sat May 16 11:29:29 UTC 2026","531","tests.announcement.announcement","test_vip","TestAnnouncementVip","","","GET /api/v1/announcement/vip/ - verify announcement object fields","
+        Purpose: Verify that each VIP announcement contains required fields
+        "
+"passed","Sat May 16 11:28:04 UTC 2026","Sat May 16 11:28:05 UTC 2026","897","tests.account.seller","test_detail","TestSellerDetail","","","GET /api/v1/account/seller/{id}/ - invalid id returns 404","
+        Purpose: Verify that non-existent seller returns 404
+        "
+"passed","Sat May 16 11:30:37 UTC 2026","Sat May 16 11:30:37 UTC 2026","876","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401 Unauthorized
+        "
+"passed","Sat May 16 11:30:40 UTC 2026","Sat May 16 11:30:41 UTC 2026","543","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - verify response matches request payload","
+        Purpose: Verify that response fields match the sent payload
+        "
+"passed","Sat May 16 11:28:37 UTC 2026","Sat May 16 11:28:38 UTC 2026","1414","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - sellers sorted by announcement_count desc","
+        Purpose: Verify that sellers are sorted by announcement_count in descending order
+        "
+"passed","Sat May 16 11:28:25 UTC 2026","Sat May 16 11:28:26 UTC 2026","547","tests.account.seller","test_own_list","TestOwnAnnouncementList","","","GET /api/v1/account/seller/announcement/own/ - empty list is valid","
+        Purpose: Verify that empty results with count=0 is a valid response
+        "
+"passed","Sat May 16 11:29:54 UTC 2026","Sat May 16 11:29:55 UTC 2026","556","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - success with valid token","
+        Purpose: Verify that authenticated user can access chat room list
+        "
+"passed","Sat May 16 11:28:35 UTC 2026","Sat May 16 11:28:35 UTC 2026","565","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - verify seller object fields","
+        Purpose: Verify that each seller object contains all required fields
+        "
+"passed","Sat May 16 11:30:33 UTC 2026","Sat May 16 11:30:35 UTC 2026","1231","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - verify region object fields and types","
+        Purpose: Verify that each region object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:29:52 UTC 2026","Sat May 16 11:29:52 UTC 2026","528","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401
+        "
+"passed","Sat May 16 11:29:57 UTC 2026","Sat May 16 11:29:57 UTC 2026","562","tests.chat.chatroom","test_02_get_list","TestChatRoomList","","","GET /api/v1/chat/room/ - empty list is valid response","
+        Purpose: Verify that empty results with count=0 is a valid response
+        "
+"passed","Sat May 16 11:28:30 UTC 2026","Sat May 16 11:28:30 UTC 2026","582","tests.account.seller","test_seller_list","TestSellerAnnouncementList","","","GET /api/v1/account/seller/1/announcement/ - verify announcement object fields and types","
+        Purpose: Verify that each announcement object contains all required fields with correct types
+        "
+"passed","Sat May 16 11:28:56 UTC 2026","Sat May 16 11:28:57 UTC 2026","595","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - success returns 200","
+        Purpose: Verify that announcement detail is returned successfully (public endpoint)
+        "
+"passed","Sat May 16 11:29:36 UTC 2026","Sat May 16 11:29:36 UTC 2026","543","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - success with valid token","
+        Purpose: Verify that authenticated user can send a message to a room
+        "
+"passed","Sat May 16 11:30:56 UTC 2026","Sat May 16 11:30:57 UTC 2026","740","tests.notification","test_unread_count","TestNotificationUnreadCount","","","GET /api/v1/notification/notification/unread-count/ - invalid token returns 401","
+        Purpose: Verify that request with invalid token returns 401
+        "
+"passed","Sat May 16 11:28:43 UTC 2026","Sat May 16 11:28:44 UTC 2026","538","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify all required fields exist","
+        Purpose: Verify that response contains all required fields
+        "
+"passed","Sat May 16 11:28:45 UTC 2026","Sat May 16 11:28:46 UTC 2026","542","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - verify user id is positive","
+        Purpose: Verify that user id is a positive integer
+        "
+"passed","Sat May 16 11:28:12 UTC 2026","Sat May 16 11:28:14 UTC 2026","1600","tests.account.seller","test_list","TestSellerListPublic","","","GET /api/v1/account/seller/ - first page has 10 results (public)","
+        Purpose: Verify that the first page returns 10 results
+        "
+"passed","Sat May 16 11:30:42 UTC 2026","Sat May 16 11:30:42 UTC 2026","544","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401
+        "
+"passed","Sat May 16 11:28:43 UTC 2026","Sat May 16 11:28:43 UTC 2026","545","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - success with valid token","
+        Purpose: Verify that authenticated user can access their own profile
+        "
+"passed","Sat May 16 11:28:40 UTC 2026","Sat May 16 11:28:40 UTC 2026","0","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - success with valid verification_token","
+#         Purpose: Verify that a valid verification_token returns user info and tokens.
+#         Step 1: Get verification_token from /api/v1/auth/verification/
+#         Step 2: POST verification_token to /api/v1/account/user/
+#         "
+"passed","Sat May 16 11:29:42 UTC 2026","Sat May 16 11:29:42 UTC 2026","528","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - unauthorized returns 401","
+        Purpose: Verify that delete request without token returns 401
+        "
+"passed","Sat May 16 11:30:28 UTC 2026","Sat May 16 11:30:30 UTC 2026","1725","tests.dictionary","test_info1","TestDictionaryInfo","","","GET /api/v1/dictionary/info/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:59 UTC 2026","Sat May 16 11:28:59 UTC 2026","571","tests.announcement.announcement","test_detail","TestAnnouncementDetail","","","GET /api/v1/announcement/{id}/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:41 UTC 2026","Sat May 16 11:28:42 UTC 2026","524","tests.account.user","test_create","TestUserCreate","","","POST /api/v1/account/user/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:56 UTC 2026","Sat May 16 11:28:56 UTC 2026","538","tests.announcement.announcement","test_create","TestAnnouncementCreate","","","POST /api/v1/announcement/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:28:49 UTC 2026","Sat May 16 11:28:49 UTC 2026","617","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - success with valid token","
+        Purpose: Verify that authenticated user can update their profile
+        "
+"passed","Sat May 16 11:29:54 UTC 2026","Sat May 16 11:29:54 UTC 2026","550","tests.chat.chatroom","test_01_create","TestChatRoomCRUD","","","POST /api/v1/chat/room/ - create room","
+        Purpose: Create a chat room and save room_id for next tests
+        "
+"passed","Sat May 16 11:29:27 UTC 2026","Sat May 16 11:29:28 UTC 2026","526","tests.announcement.announcement","test_status_update","TestAnnouncementStatusUpdate","","","POST /api/v1/announcement/{id}/update/status/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:41 UTC 2026","Sat May 16 11:29:42 UTC 2026","543","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/999999/delete/ - non-existent message returns 404","
+        Purpose: Verify that deleting a non-existent message returns 404
+        "
+"passed","Sat May 16 11:30:00 UTC 2026","Sat May 16 11:30:00 UTC 2026","526","tests.chat.chatroom","test_03_delete","TestChatRoomCRUD","","","DELETE /api/v1/chat/room/{id}/ - unauthorized returns 401","
+        Purpose: Verify that delete request without token returns 401
+        "
+"passed","Sat May 16 11:29:38 UTC 2026","Sat May 16 11:29:38 UTC 2026","528","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - unauthorized returns 401","
+        Purpose: Verify that request without token returns 401
+        "
+"passed","Sat May 16 11:29:46 UTC 2026","Sat May 16 11:29:46 UTC 2026","553","tests.chat.chatmessage","test_readall_msg","TestChatReadAllMessages","","","PATCH /api/v1/chat/message/{room_id}/read-all/ - success with valid token","
+        Purpose: Verify that authenticated user can mark all messages in a room as read
+        "
+"passed","Sat May 16 11:29:27 UTC 2026","Sat May 16 11:29:27 UTC 2026","534","tests.announcement.announcement","test_status_update","TestAnnouncementStatusUpdate","","","POST /api/v1/announcement/{id}/update/status/ - invalid id returns 404","
+        Purpose: Verify that non-existent announcement returns 404
+        "
+"passed","Sat May 16 11:30:37 UTC 2026","Sat May 16 11:30:38 UTC 2026","547","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/?country=15 - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:30:49 UTC 2026","Sat May 16 11:30:49 UTC 2026","534","tests.notification","test_read_all","TestNotificationReadAll","","","PATCH /api/v1/notification/notification/read-all/ - count matches unread notifications","
         Purpose: Verify that count in response matches the number of marked notifications
+        "
+"passed","Sat May 16 11:28:23 UTC 2026","Sat May 16 11:28:24 UTC 2026","652","tests.account.seller","test_list","TestSellerListAuthenticated","","","GET /api/v1/account/seller/ - response time is under 2 seconds (authenticated)","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:53 UTC 2026","Sat May 16 11:29:54 UTC 2026","563","tests.chat.chatmessage","test_unread_count","TestChatMessageUnreadCount","","","GET /api/v1/chat/message/unread-count/ - Content-Type is application/json","
+        Purpose: Verify that the response Content-Type is JSON
+        "
+"passed","Sat May 16 11:30:35 UTC 2026","Sat May 16 11:30:36 UTC 2026","566","tests.dictionary","test_region","TestDictionaryRegion","","","GET /api/v1/dictionary/region/ - missing country param returns empty list or 400","
+        Purpose: Verify behavior when country query param is missing
+        "
+"passed","Sat May 16 11:28:34 UTC 2026","Sat May 16 11:28:35 UTC 2026","579","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - returns exactly 10 sellers","
+        Purpose: Verify that exactly 10 top sellers are returned
+        "
+"passed","Sat May 16 11:28:38 UTC 2026","Sat May 16 11:28:39 UTC 2026","572","tests.account.seller","test_top","TestSellerTop","","","GET /api/v1/account/seller/top/ - announcement_count is non-negative","
+        Purpose: Verify that announcement_count is >= 0 for all sellers
+        "
+"passed","Sat May 16 11:28:47 UTC 2026","Sat May 16 11:28:47 UTC 2026","535","tests.account.user","test_me","TestUserMe","","","GET /api/v1/account/user/me/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:59 UTC 2026","Sat May 16 11:30:00 UTC 2026","539","tests.chat.chatroom","test_03_delete","TestChatRoomCRUD","","","DELETE /api/v1/chat/room/{id}/ - delete non-existent room returns 404","
+        Purpose: Verify that deleting a non-existent room returns 404
+        "
+"passed","Sat May 16 11:29:36 UTC 2026","Sat May 16 11:29:37 UTC 2026","547","tests.chat.chatmessage","test_create_msg","TestChatMessageSend","","","POST /api/v1/chat/message/{room_id}/ - message matches sent payload","
+        Purpose: Verify that response message matches the sent message text
+        "
+"passed","Sat May 16 11:30:45 UTC 2026","Sat May 16 11:30:46 UTC 2026","1399","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - empty list is valid response","
+        Purpose: Verify that empty results with count=0 is a valid response
+        "
+"passed","Sat May 16 11:30:41 UTC 2026","Sat May 16 11:30:42 UTC 2026","1063","tests.notification","test_device","TestNotificationDevice","","","POST /api/v1/notification/device/ - missing registration_id returns 400","
+        Purpose: Verify that missing registration_id returns 400
+        "
+"passed","Sat May 16 11:30:47 UTC 2026","Sat May 16 11:30:48 UTC 2026","536","tests.notification","test_get_list","TestNotificationList","","","GET /api/v1/notification/notification/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:28:53 UTC 2026","Sat May 16 11:28:54 UTC 2026","551","tests.account.user","test_update","TestUserUpdate","","","PATCH /api/v1/account/user/update/ - response time is under 2 seconds","
+        Purpose: Verify that the endpoint responds within an acceptable time
+        "
+"passed","Sat May 16 11:29:41 UTC 2026","Sat May 16 11:29:41 UTC 2026","538","tests.chat.chatmessage","test_delete","TestChatMessageSendDelete","","","DELETE /api/v1/chat/message/{message_id}/delete/ - already deleted returns 404","
+        Purpose: Verify that deleting an already deleted message returns 404
+        "
+"passed","Sat May 16 11:31:00 UTC 2026","Sat May 16 11:31:01 UTC 2026","529","tests.verification","test_create","TestVerification","","","POST /api/v1/auth/verification/ - bo'sh body","
+        Maqsad: Bo'sh body bilan xato qaytarishini tekshirish
         "
