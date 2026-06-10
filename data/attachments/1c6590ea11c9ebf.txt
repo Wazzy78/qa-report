@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/chat/chatroom/test_chat_room.py::TestChatRoomCreate::test_create_room_unauthorized] [API] Create chat room - Exception: Invalid URL '/api/v1/chat/room/': No scheme supplied. Perhaps you meant https:///api/v1/chat/room/?

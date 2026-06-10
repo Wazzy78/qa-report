@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/dictionary/test_dictionary.py::TestDictionaryCountry::test_country_iso_code_format] [API] Get country list - Exception: Invalid URL '/api/v1/dictionary/country/': No scheme supplied. Perhaps you meant https:///api/v1/dictionary/country/?

@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/notification/test_notification.py::TestNotificationReadAll::test_read_all_unauthorized] [API] Mark all notifications read - Exception: Invalid URL '/api/v1/notification/notification/read-all/': No scheme supplied. Perhaps you meant https:///api/v1/notification/notification/read-all/?

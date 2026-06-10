@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/verification/test_auth.py::TestOtpRequest::test_request_otp_returns_token] [API] Send OTP verification request - Exception: Invalid URL '/api/v1/auth/verification/': No scheme supplied. Perhaps you meant https:///api/v1/auth/verification/?

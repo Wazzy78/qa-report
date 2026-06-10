@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/notification/test_notification.py::TestNotificationUnreadCount::test_unread_count_unauthorized] [API] Get unread notification count - Exception: Invalid URL '/api/v1/notification/notification/unread-count/': No scheme supplied. Perhaps you meant https:///api/v1/notification/notification/unread-count/?

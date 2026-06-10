@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/announcement/announcement/test_announcement.py::TestAnnouncementSimilar::test_get_similar_success] [API] Get announcement list - Exception: Invalid URL '/api/v1/announcement/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/?

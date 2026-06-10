@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/account/seller/test_seller.py::TestSellerList::test_seller_list_first_page] [API] Get seller list - Exception: Invalid URL '/api/v1/account/seller/': No scheme supplied. Perhaps you meant https:///api/v1/account/seller/?

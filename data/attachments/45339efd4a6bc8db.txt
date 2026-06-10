@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/chat/chatmessage/test_chat_message.py::TestChatMessageUnreadCount::test_get_unread_count_unauthorized] [API] Get unread message count - Exception: Invalid URL '/api/v1/chat/message/unread-count/': No scheme supplied. Perhaps you meant https:///api/v1/chat/message/unread-count/?

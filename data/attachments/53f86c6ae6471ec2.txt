@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/chat/chatmessage/test_chat_message.py::TestChatMessageReadAll::test_read_all_unauthorized] [API] Mark room messages read - Exception: Invalid URL '/api/v1/chat/message/7/read-all/': No scheme supplied. Perhaps you meant https:///api/v1/chat/message/7/read-all/?

@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/core/test_core.py::TestCoreHealth::test_celery_health] [API] Celery health check - Exception: Invalid URL '/api/core/celery_health/': No scheme supplied. Perhaps you meant https:///api/core/celery_health/?

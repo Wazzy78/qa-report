@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/announcement/announcement/test_announcement.py::TestAnnouncementStatusUpdate::test_status_update_requires_auth] [API] Update announcement status - Exception: Invalid URL '/api/v1/announcement/101/update/status/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/101/update/status/?

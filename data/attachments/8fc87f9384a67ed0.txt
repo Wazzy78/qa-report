@@ -1,0 +1,1 @@
+ERROR    API_LOG:api_logger.py:38 [tests/announcement/announcement/test_announcement.py::TestAnnouncementDetail::test_get_detail_not_found] [API] Get announcement detail - Exception: Invalid URL '/api/v1/announcement/999999/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/999999/?
