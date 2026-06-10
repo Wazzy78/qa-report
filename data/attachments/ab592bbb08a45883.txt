@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/account/user/test_user.py::TestUserCreate::test_create_user_missing_token] [API] Create / login user with verification_token - Exception: Invalid URL '/api/v1/account/user/': No scheme supplied. Perhaps you meant https:///api/v1/account/user/?

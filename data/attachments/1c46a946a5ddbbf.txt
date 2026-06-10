@@ -1,0 +1,25 @@
+RESPONSE
+STATUS: 409
+TIME: 944ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 10 Jun 2026 13:44:05 GMT
+  Content-Type: application/json
+  Content-Length: 178
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "active verification code already exists to this contact",
+  "message_key": "active_verification_code_exists",
+  "errors": {},
+  "exception_class": "ObjectAlreadyExistsException"
+}

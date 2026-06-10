@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/announcement/announcement/test_announcement.py::TestAnnouncementVip::test_get_vip_success] [API] Get VIP announcements - Exception: Invalid URL '/api/v1/announcement/vip/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/vip/?

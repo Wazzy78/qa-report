@@ -1,0 +1,111 @@
+RESPONSE
+STATUS: 200
+TIME: 353ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 10 Jun 2026 13:43:45 GMT
+  Content-Type: application/json
+  Content-Length: 6399
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 13
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "id": 2047,
+    "title": "Мимо сустав коллектив растеряться",
+    "slug": "-334707",
+    "price": 0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/df3ad4f738b74e83944b945e6badc091.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f2e39f1293db5098d61c222b0acd75fa04a3c8bef577171efbf2935f0e12782a",
+    "address_line": "наб. Рыбацкая, д. 9/4 к. 3/3"
+  },
+  {
+    "id": 1574,
+    "title": "Traditional in in thought blood hand",
+    "slug": "traditional-in-in-thought-blood-hand-896154",
+    "price": 26532500.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/43efcb16a9694c55a3bd5c05c48a39bf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=964b69fb221cf72887b086790e04c356b39350ca599eaee8315967d075ddc64c",
+    "address_line": "пр. Советов, д. 16 к. 7"
+  },
+  {
+    "id": 4566,
+    "title": "Сравнение расстройство степь дьявол постоянный зима",
+    "slug": "-345665",
+    "price": 37532700.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/9a0a96eb096e488e865740e1131c6501.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=97465f20e9083bd28f6a0540237651a0e1fee1ec18205330870bc8556fde9b24",
+    "address_line": "342 Breanna Village Suite 335"
+  },
+  {
+    "id": 2763,
+    "title": "Defense send environmental",
+    "slug": "defense-send-environmental-79457",
+    "price": 18878700.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/7560a0416fcb4eb7b6927b73f4c2c693.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=61248fc3928d2f3f779d7ca1fff5c0a5492190fac24cc65f3a89cb31d9a7c3b6",
+    "address_line": "499 Madison Route"
+  },
+  {
+    "id": 5302,
+    "title": "Темнеть избегать вздрагивать одиннадцать равнодушный госпожа",
+    "slug": "-562554",
+    "price": 11989600.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/198f0302061441e9a799e7ef8aed8979.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=14f1bdcfd09a4212a6868d644dba91ef8a2466f2757c6d25ee80251c2011ed6e",
+    "address_line": "пер. Лермонтова, д. 1"
+  },
+  {
+    "id": 11143,
+    "title": "Table run poor home",
+    "slug": "table-run-poor-home-758747",
+    "price": 4034500.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/21ef30f24cf743dba074566593c0d989.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2fa5baa98dda79d99bbe3653e704e1d97eec297fcebb8d47dc79e2419157de88",
+    "address_line": "42819 Irwin Isle Suite 012"
+  },
+  {
+    "id": 19601,
+    "title": "Ученый армейский упор прежний выразить заявление",
+    "slug": "-791026",
+    "price": 0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/699fc348576a43c6804ff3c1fa05bf05.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f0baf8107fbc6c27f2bad3d2eb0e8e7e4e311ccafc4455b5b02504d8c2ce27b",
+    "address_line": "9827 Kelly Pine"
+  },
+  {
+    "id": 6842,
+    "title": "Сутки дальний одиннадцать казнь",
+    "slug": "-454187",
+    "price": 55300.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d9df090d8eba462a9e83cba3a47bc871.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=edfb6cd11e6e8394a37e0f5273f5f7de8867aa46e20bec34c5d8f45cfa7074f6",
+    "address_line": "712 Karen Parkway Apt. 117"
+  },
+  {
+    "id": 3800,
+    "title": "Тяжелый кольцо запустить изба страсть",
+    "slug": "-135415",
+    "price": 0,
+    "currency": 2,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/0db4b78e134e4dbf8a3ff1e40c73e763.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a28110996d4eb10660d1379095654a5c417eb25e6162b912c0174e47b030aaaf",
+    "address_line": "пр. Запрудный, д. 1/9 стр. 54"
+  },
+  {
+    "id": 11228,
+    "title": "Size determine seven oil important",
+    "slug": "size-determine-seven-oil-important-58869",
+    "price": 41870300.0,
+    "currency": 1,
+    "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/061d286b12fd44978ee21d108fee8210.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134345Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dbdff5a343c30f67754910781904dbe950d99779a2ba32e9440e39bc0e7fd8e1",
+    "address_line": "42993 David Fall Suite 437"
+  }
+]

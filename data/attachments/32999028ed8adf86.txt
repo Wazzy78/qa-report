@@ -1,0 +1,27 @@
+RESPONSE
+STATUS: 400
+TIME: 176ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 10 Jun 2026 13:43:34 GMT
+  Content-Type: application/json
+  Content-Length: 174
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "Ensure this field has no fewer than {min_length} characters.",
+  "message_key": "invalid",
+  "errors": {
+    "security_code": "mi***"
+  },
+  "exception_class": "ValidationError"
+}

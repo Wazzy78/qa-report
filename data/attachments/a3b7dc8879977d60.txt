@@ -1,0 +1,7 @@
+REQUEST
+METHOD: GET
+URL: https://api-v2-dev.joymee.uz/api/v1/notification/notification/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json

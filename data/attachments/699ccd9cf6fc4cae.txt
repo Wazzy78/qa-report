@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/announcement/report/test_report.py::TestReportList::test_report_list_requires_auth] [API] Get report list - Exception: Invalid URL '/api/v1/announcement/report/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/report/?

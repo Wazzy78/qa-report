@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/core/test_core.py::TestCoreHealth::test_health] [API] Health check - Exception: Invalid URL '/api/core/health/': No scheme supplied. Perhaps you meant https:///api/core/health/?

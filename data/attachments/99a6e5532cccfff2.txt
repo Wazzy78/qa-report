@@ -1,0 +1,13 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/announcement/101/update/status/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 22
+
+BODY:
+{
+  "action": "activate"
+}

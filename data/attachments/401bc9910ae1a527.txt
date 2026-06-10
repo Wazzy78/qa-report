@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/verification/test_auth.py::TestLogin::test_verify_invalid_token] [API] Verify OTP and obtain tokens - Exception: Invalid URL '/api/v1/auth/verification/verify/': No scheme supplied. Perhaps you meant https:///api/v1/auth/verification/verify/?

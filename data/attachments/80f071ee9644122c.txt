@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/account/seller/test_seller.py::TestSellerList::test_top_sellers_sorted] [API] Get top sellers - Exception: Invalid URL '/api/v1/account/seller/top/': No scheme supplied. Perhaps you meant https:///api/v1/account/seller/top/?

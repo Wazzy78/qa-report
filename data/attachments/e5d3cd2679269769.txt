@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/dictionary/test_dictionary.py::TestDictionaryRegion::test_region_list_public] [API] Get region list - Exception: Invalid URL '/api/v1/dictionary/region/': No scheme supplied. Perhaps you meant https:///api/v1/dictionary/region/?

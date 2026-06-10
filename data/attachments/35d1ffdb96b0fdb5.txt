@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 1314ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 10 Jun 2026 13:43:40 GMT
+  Content-Type: application/json
+  Content-Length: 7146
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 36
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 206,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1563,
+  "results": [
+    {
+      "id": 232,
+      "title": "Fight serious pressure",
+      "created_by": {
+        "id": 66,
+        "username": "fjones",
+        "first_name": "Ryan",
+        "last_name": "Юдина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "6070300.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c04065ce414a402ca811c5772d0ed74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=578e7e4db0dc801c508ecf57f6f0e2b6e109600c3c86161444a9d6b0e4102cfe",
+      "created_at": "2026-05-06T18:41:03.780086+05:00"
+    },
+    {
+      "id": 413,
+      "title": "Medical war front dark",
+      "created_by": {
+        "id": 105,
+        "username": "briangutierrez",
+        "first_name": "Варлаам",
+        "last_name": "Smith",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "100000.00",
+        "currency_display": "USD"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/fdf7610092494612b22a46ecc0ca08df.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0c4d1fc432e7e9a7ccd7f4447d1be1df95b82ed88ae1db2994cf45500c098fac",
+      "created_at": "2026-05-06T18:41:03.907924+05:00"
+    },
+    {
+      "id": 170,
+      "title": "Банк сбросить механический сопровождаться что князь",
+      "created_by": {
+        "id": 181,
+        "username": "anzhelika_2003",
+        "first_name": "Лаврентий",
+        "last_name": "Olson",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "100000.00",
+        "currency_display": "USD"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/f5d253ae61e542b580eb3ed02d2a6284.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ecaad194a8c3acb151b4099ba7f1b210d24fb10b3a95cff910370f3f6fac13f6",
+      "created_at": "2026-05-06T18:41:03.741903+05:00"
+    },
+    {
+      "id": 32,
+      "title": "More there manage right",
+      "created_by": {
+        "id": 104,
+        "username": "kiravolkova",
+        "first_name": "Любовь",
+        "last_name": "Reed",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "100000.00",
+        "currency_display": "USD"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/689a74de90f34d7ca8bf851d1c09adaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=12c9553f04c4c2eae818229489732caadd3686f439dff7929f3cc21d233b1608",
+      "created_at": "2026-05-06T18:41:03.667004+05:00"
+    },
+    {
+      "id": 50,
+      "title": "Решетка остановить добиться нервно",
+      "created_by": {
+        "id": 180,
+        "username": "pbuck",
+        "first_name": "Carolyn",
+        "last_name": "Walker",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "36340500.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/7783a226eaa64f88971c5922a3dfda03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e58626ad6a72ecab06d8a2c294c75ecf95315225c0af2313a439e12561af61a2",
+      "created_at": "2026-05-06T18:41:03.678403+05:00"
+    },
+    {
+      "id": 52,
+      "title": "Offer cold chance then name director",
+      "created_by": {
+        "id": 96,
+        "username": "john14",
+        "first_name": "Иосиф",
+        "last_name": "Davis",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "19704800.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/f0d907bbd2bc47b79f982552b991e229.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=63000d3004c2941925cd6e2e88a4480f7096be2dee93aa7cb92d0cd906f56119",
+      "created_at": "2026-05-06T18:41:03.679191+05:00"
+    },
+    {
+      "id": 135,
+      "title": "Смелый пастух протягивать отражение район трубка",
+      "created_by": {
+        "id": 139,
+        "username": "uljan1998",
+        "first_name": "Joseph",
+        "last_name": "Киселева",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "11677500.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/6984bd168a4d40fa85a2ae09b5dd87b7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e757f8e4fd8393fa9b0154539099a514e3ae56c6900e700da99f44aa6df4dbfe",
+      "created_at": "2026-05-06T18:41:03.719234+05:00"
+    },
+    {
+      "id": 92,
+      "title": "Than after purpose house season",
+      "created_by": {
+        "id": 193,
+        "username": "pantelemon2006",
+        "first_name": "Daniel",
+        "last_name": "Jarvis",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "19908400.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/dbf24c9a895c4d9a81990ddcfa586547.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4391553a3e76b9bee8fdbcb11aeb4bbe4e0fb692a307c266903dd4e238d8e92c",
+      "created_at": "2026-05-06T18:41:03.697973+05:00"
+    },
+    {
+      "id": 15,
+      "title": "Natural effort information guess environmental",
+      "created_by": {
+        "id": 128,
+        "username": "fsavina",
+        "first_name": "Ashley",
+        "last_name": "Jennings",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "5821100.00",
+        "currency_display": "UZS"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/814630664c2440d9853c830ac15c578f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T134340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=682f18f85b58c7bf4694e1043e4bd8b15a90976487ea45f40f5e66ae2e432dd3",
+      "created_at": "2026-05-06T18:41:03.654053+05:00"
+    }
+  ]
+}

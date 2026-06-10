@@ -1,0 +1,105 @@
+RESPONSE
+STATUS: 200
+TIME: 798ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 10 Jun 2026 13:43:59 GMT
+  Content-Type: application/json
+  Content-Length: 868
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 1
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "name": "Andijon viloyati",
+    "id": 1,
+    "code": "UZ-AN",
+    "order": 1
+  },
+  {
+    "name": "Buxoro viloyati",
+    "id": 2,
+    "code": "UZ-BU",
+    "order": 1
+  },
+  {
+    "name": "Jizzax viloyati",
+    "id": 3,
+    "code": "UZ-JI",
+    "order": 1
+  },
+  {
+    "name": "Qashqadaryo viloyati",
+    "id": 4,
+    "code": "UZ-QA",
+    "order": 1
+  },
+  {
+    "name": "Navoiy viloyati",
+    "id": 5,
+    "code": "UZ-NW",
+    "order": 1
+  },
+  {
+    "name": "Namangan viloyati",
+    "id": 6,
+    "code": "UZ-NG",
+    "order": 1
+  },
+  {
+    "name": "Samarqand viloyati",
+    "id": 7,
+    "code": "UZ-SA",
+    "order": 1
+  },
+  {
+    "name": "Sirdaryo viloyati",
+    "id": 8,
+    "code": "UZ-SI",
+    "order": 1
+  },
+  {
+    "name": "Toshkent shahri",
+    "id": 9,
+    "code": "UZ-TK",
+    "order": 1
+  },
+  {
+    "name": "Toshkent viloyati",
+    "id": 10,
+    "code": "UZ-TO",
+    "order": 1
+  },
+  {
+    "name": "Farg'ona viloyati",
+    "id": 11,
+    "code": "UZ-FA",
+    "order": 1
+  },
+  {
+    "name": "Xorazm viloyati",
+    "id": 12,
+    "code": "UZ-XO",
+    "order": 1
+  },
+  {
+    "name": "Qoraqalpog'iston Respublikasi",
+    "id": 13,
+    "code": "UZ-QR",
+    "order": 1
+  },
+  {
+    "name": "Surxondaryo viloyati",
+    "id": 14,
+    "code": "UZ-SU",
+    "order": 1
+  }
+]

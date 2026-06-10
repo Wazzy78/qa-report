@@ -1,1 +1,0 @@
-ERROR    API_LOG:api_logger.py:38 [tests/announcement/report/test_report.py::TestReportCreate::test_create_report_requires_auth] [API] Create report for announcement - Exception: Invalid URL '/api/v1/announcement/report/101/': No scheme supplied. Perhaps you meant https:///api/v1/announcement/report/101/?
