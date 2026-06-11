@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 578ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 06:25:30 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 14,
+  "name": "autotest-akujdi",
+  "registration_id": "test-26f14215-e7e2-47a4-813f-34226cabc067",
+  "device_id": "c4e4aec5-3e92-4856-b4f2-d038240ebbcc",
+  "active": true,
+  "date_created": "2026-06-11T11:25:30.700263+05:00",
+  "type": "android"
+}

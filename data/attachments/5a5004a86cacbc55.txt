@@ -1,0 +1,2 @@
+ERROR    utils.validation_logger:validation_logger.py:22 [int_type] results → 1 → announcement: Input should be a valid integer
+ERROR    utils.validation_logger:validation_logger.py:22 [int_type] results → 2 → announcement: Input should be a valid integer

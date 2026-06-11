@@ -1,0 +1,76 @@
+RESPONSE
+STATUS: 200
+TIME: 236ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 06:25:15 GMT
+  Content-Type: application/json
+  Content-Length: 1671
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 5
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 66,
+      "message": "autotest message kwpgqy",
+      "is_read": false,
+      "announcement": null,
+      "created_at": "2026-06-11T11:25:12.933847+05:00",
+      "sender": {
+        "id": 210,
+        "avatar": null,
+        "phone": "+998888672005",
+        "first_name": "Test",
+        "last_name": "111"
+      }
+    },
+    {
+      "id": 65,
+      "message": "Test",
+      "is_read": false,
+      "announcement": {
+        "id": 232,
+        "title": "Fight serious pressure",
+        "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c04065ce414a402ca811c5772d0ed74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T062515Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=69517c404a63acf266d94bfa036f406037bd536cf27502ebd52a21bcd3157629"
+      },
+      "created_at": "2026-06-11T11:09:28.053259+05:00",
+      "sender": {
+        "id": 210,
+        "avatar": null,
+        "phone": "+998888672005",
+        "first_name": "Test",
+        "last_name": "111"
+      }
+    },
+    {
+      "id": 64,
+      "message": "Test",
+      "is_read": false,
+      "announcement": {
+        "id": 232,
+        "title": "Fight serious pressure",
+        "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c04065ce414a402ca811c5772d0ed74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T062515Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=69517c404a63acf266d94bfa036f406037bd536cf27502ebd52a21bcd3157629"
+      },
+      "created_at": "2026-06-11T11:09:26.529367+05:00",
+      "sender": {
+        "id": 210,
+        "avatar": null,
+        "phone": "+998888672005",
+        "first_name": "Test",
+        "last_name": "111"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+REQUEST
+METHOD: PATCH
+URL: https://api-v2-dev.joymee.uz/api/v1/announcement/232/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 14
+
+BODY:
+{
+  "title": "x"
+}

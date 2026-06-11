@@ -1,0 +1,14 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/chat/room/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 35
+
+BODY:
+{
+  "participant": 66,
+  "room_type": 2
+}

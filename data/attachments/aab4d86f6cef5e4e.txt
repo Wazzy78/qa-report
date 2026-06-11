@@ -1,0 +1,56 @@
+RESPONSE
+STATUS: 200
+TIME: 603ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 06:25:18 GMT
+  Content-Type: application/json
+  Content-Length: 495
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 5
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 32,
+      "room_type": 1,
+      "participants": [
+        {
+          "id": 66,
+          "avatar": null,
+          "phone": "+998906229731",
+          "first_name": "Ryan",
+          "last_name": "Юдина"
+        },
+        {
+          "id": 210,
+          "avatar": null,
+          "phone": "+998888672005",
+          "first_name": "Test",
+          "last_name": "111"
+        }
+      ],
+      "created_at": "2026-06-11T11:09:23.156671+05:00",
+      "last_message": {
+        "id": 66,
+        "message": "autotest message kwpgqy",
+        "is_read": false,
+        "announcement": null,
+        "created_at": "2026-06-11T11:25:12.933847+05:00",
+        "sender": 210
+      },
+      "unread_count": 0
+    }
+  ]
+}
