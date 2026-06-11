@@ -1,0 +1,197 @@
+RESPONSE
+STATUS: 200
+TIME: 606ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 01:18:38 GMT
+  Content-Type: application/json
+  Content-Length: 7646
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 13
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 18895,
+      "title": "Мягкий мальчишка банк изучить",
+      "slug": "-24099",
+      "created_by": {
+        "id": 153,
+        "username": "pwalker",
+        "first_name": "Маргарита",
+        "last_name": "Потапов",
+        "avatar": null
+      },
+      "price": 3812200000.0,
+      "currency": 1,
+      "address_line": "15650 Molly Village Apt. 924",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/5426012274b048bc8b4aa855525386e7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=77bc9dc7772ab27686d3e9d7c4b6f1b2f6b01eb109b51ddfc98738e92f4cf752",
+      "subscription": "VIP"
+    },
+    {
+      "id": 17416,
+      "title": "Народ невыносимый самостоятельно",
+      "slug": "-398934",
+      "created_by": {
+        "id": 2,
+        "username": "+998937377474",
+        "first_name": "Shavkat",
+        "last_name": "",
+        "avatar": null
+      },
+      "price": 3308500000.0,
+      "currency": 1,
+      "address_line": "6334 Simmons Mews Suite 417",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/813bd388778348c7b38ca1f6fedb1638.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d20c816acddd3726698da5de3e509efa037c5938d04bbb85060ea2f9347aa4d2",
+      "subscription": "VIP"
+    },
+    {
+      "id": 17291,
+      "title": "Whole charge long eight",
+      "slug": "whole-charge-long-eight-108263",
+      "created_by": {
+        "id": 145,
+        "username": "marfa36",
+        "first_name": "Jane",
+        "last_name": "Lewis",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "ул. Минина, д. 532 к. 5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/5a5093208269484596ac6fd302b806e2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6410555ecd33cd75aa9e700cc1576916d1ce347787c154466e74928d0f69bf4b",
+      "subscription": "VIP"
+    },
+    {
+      "id": 11319,
+      "title": "Левый достоинство растеряться тута",
+      "slug": "-521942",
+      "created_by": {
+        "id": 139,
+        "username": "uljan1998",
+        "first_name": "Joseph",
+        "last_name": "Киселева",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "042 Frank Coves Apt. 538",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/5b28410e67da429fb564800cc4dc3fec.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9c276cb822021e1139c60e2be1b1f1a6541e92f5e4b32e23ee7b98e828b957cd",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10393,
+      "title": "Штаб валюта очередной",
+      "slug": "-636789",
+      "created_by": {
+        "id": 185,
+        "username": "anzhelikamartinova",
+        "first_name": "Акулина",
+        "last_name": "Edwards",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "918 Norman Square Apt. 567",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8c8458531c4644c28e206e275bd224f2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f9e892f26f2fd485d223b3a7178ab928451758d45587fadd80c6444696add3d4",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7198,
+      "title": "Белье покинуть слишком смертельный бровь",
+      "slug": "-20532",
+      "created_by": {
+        "id": 87,
+        "username": "artemevparamon",
+        "first_name": "Ryan",
+        "last_name": "Gardner",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "бул. Степной, д. 33 к. 45",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/23c86a3c9c674df6acd5edc5f92bce89.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d8e8cfe5d80659b5ee385d763637019b77991b92a5447ab6c47f17ca89024c3f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5735,
+      "title": "Место социалистический освободить оставить неправда",
+      "slug": "-917283",
+      "created_by": {
+        "id": 157,
+        "username": "radislav_43",
+        "first_name": "Sherry",
+        "last_name": "Chan",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "73387 Hopkins Cliffs",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e77b606b1879450a93f9083025dead2d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a37fa58c753f01a4cb79fb663d98559ff543b96b66d0e973369df85a377263f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5338,
+      "title": "Majority attorney establish",
+      "slug": "majority-attorney-establish-731813",
+      "created_by": {
+        "id": 87,
+        "username": "artemevparamon",
+        "first_name": "Ryan",
+        "last_name": "Gardner",
+        "avatar": null
+      },
+      "price": 4753800000.0,
+      "currency": 1,
+      "address_line": "7925 Martinez Trail Apt. 695",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a3ed7f120f3649f59ef737dc313f1f27.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1026acdb3671c2cb590dbb1da5b7a5ff792db781e8ab9f611b66bd4cd8ff7ad4",
+      "subscription": "VIP"
+    },
+    {
+      "id": 3555,
+      "title": "Age world sometimes meet film",
+      "slug": "age-world-sometimes-meet-film-796905",
+      "created_by": {
+        "id": 144,
+        "username": "avgust2025",
+        "first_name": "Егор",
+        "last_name": "Khan",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "6861 Taylor Village Suite 385",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/cd84b214a3ac440b93ae2d4aa881f888.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=199204ae05f79f9155abf241f57291ab91faa32caa72ea29c171f61c12cc2bb7",
+      "subscription": "VIP"
+    },
+    {
+      "id": 1314,
+      "title": "Measure bar voice",
+      "slug": "measure-bar-voice-367799",
+      "created_by": {
+        "id": 17,
+        "username": "esanchez",
+        "first_name": "Евграф",
+        "last_name": "Davis",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "37585 Stephen Hills Apt. 195",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/9c2f1ed358c1499fa6d9a9ca056ed918.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260611%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260611T011838Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=357fec93beaa1ac230a8fa9a0b081b11496d44ffdff592639a7ac398a601c440",
+      "subscription": "VIP"
+    }
+  ]
+}

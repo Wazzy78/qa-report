@@ -1,0 +1,1 @@
+ERROR    utils.validation_logger:validation_logger.py:22 [string_type] pricing → price: Input should be a valid string

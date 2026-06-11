@@ -1,0 +1,27 @@
+RESPONSE
+STATUS: 400
+TIME: 568ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 01:18:32 GMT
+  Content-Type: application/json
+  Content-Length: 150
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "Ushbu maydon to'ldirilishi shart.",
+  "message_key": "invalid",
+  "errors": {
+    "verification_token": "re***"
+  },
+  "exception_class": "ValidationError"
+}

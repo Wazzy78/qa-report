@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 553ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 01:18:59 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 13,
+  "name": "autotest-nbsxzx",
+  "registration_id": "test-90433874-cad8-48b9-a7c9-8c23faa8fe81",
+  "device_id": "1799dfac-6726-4aec-8bd3-44d94ab8548a",
+  "active": true,
+  "date_created": "2026-06-11T06:18:59.233229+05:00",
+  "type": "android"
+}

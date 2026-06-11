@@ -1,0 +1,14 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/auth/verification/verify/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 66
+
+BODY:
+{
+  "security_code": "0***",
+  "verification_token": "inv***"
+}

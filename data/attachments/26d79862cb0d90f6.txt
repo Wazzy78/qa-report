@@ -1,0 +1,3 @@
+room_id: 30
+message: autotest message enccop
+receiver_id: 1

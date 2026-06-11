@@ -1,0 +1,81 @@
+RESPONSE
+STATUS: 200
+TIME: 664ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 01:18:30 GMT
+  Content-Type: application/json
+  Content-Length: 739
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "id": 42,
+    "username": "pelagejaorlova",
+    "avatar": null,
+    "announcement_count": 24
+  },
+  {
+    "id": 73,
+    "username": "anzhelapanfilova",
+    "avatar": null,
+    "announcement_count": 22
+  },
+  {
+    "id": 144,
+    "username": "avgust2025",
+    "avatar": null,
+    "announcement_count": 18
+  },
+  {
+    "id": 155,
+    "username": "amberfields",
+    "avatar": null,
+    "announcement_count": 18
+  },
+  {
+    "id": 37,
+    "username": "barbara66",
+    "avatar": null,
+    "announcement_count": 18
+  },
+  {
+    "id": 48,
+    "username": "aprildean",
+    "avatar": null,
+    "announcement_count": 18
+  },
+  {
+    "id": 185,
+    "username": "anzhelikamartinova",
+    "avatar": null,
+    "announcement_count": 17
+  },
+  {
+    "id": 60,
+    "username": "torrestravis",
+    "avatar": null,
+    "announcement_count": 17
+  },
+  {
+    "id": 96,
+    "username": "john14",
+    "avatar": null,
+    "announcement_count": 17
+  },
+  {
+    "id": 139,
+    "username": "uljan1998",
+    "avatar": null,
+    "announcement_count": 17
+  }
+]

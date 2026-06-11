@@ -1,0 +1,9 @@
+REQUEST
+METHOD: DELETE
+URL: https://api-v2-dev.joymee.uz/api/v1/chat/message/999999/delete/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Authorization: Bear***
+  Content-Length: 0
