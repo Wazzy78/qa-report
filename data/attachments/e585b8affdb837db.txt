@@ -1,3 +1,0 @@
-room_id: 32
-message: autotest message kwpgqy
-receiver_id: 66

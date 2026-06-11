@@ -1,0 +1,14 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/chat/message/7/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 57
+
+BODY:
+{
+  "message": "autotest message zjjvbu",
+  "receiver_id": 66
+}

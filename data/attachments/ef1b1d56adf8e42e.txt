@@ -1,0 +1,2 @@
+verification_token: 719c***
+security_code: 5***

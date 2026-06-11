@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 225ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 11 Jun 2026 06:46:07 GMT
+  Content-Type: application/json
+  Content-Length: 277
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 4
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 67,
+      "message": "autotest message dmimxz",
+      "is_read": false,
+      "announcement": null,
+      "created_at": "2026-06-11T11:46:05.125715+05:00",
+      "sender": {
+        "id": 210,
+        "avatar": null,
+        "phone": "+998888672005",
+        "first_name": "Test",
+        "last_name": "111"
+      }
+    }
+  ]
+}

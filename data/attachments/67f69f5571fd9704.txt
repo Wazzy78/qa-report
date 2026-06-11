@@ -1,0 +1,9 @@
+REQUEST
+METHOD: DELETE
+URL: https://api-v2-dev.joymee.uz/api/v1/chat/room/33/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Authorization: Bear***
+  Content-Length: 0
