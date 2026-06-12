@@ -1,0 +1,27 @@
+RESPONSE
+STATUS: 400
+TIME: 196ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:24 GMT
+  Content-Type: application/json
+  Content-Length: 129
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "This field may not be null.",
+  "message_key": "invalid",
+  "errors": {
+    "message": "null"
+  },
+  "exception_class": "ValidationError"
+}

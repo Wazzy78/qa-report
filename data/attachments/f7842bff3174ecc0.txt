@@ -1,0 +1,3 @@
+room_id: 36
+message: autotest message qpsbjj
+receiver_id: 66

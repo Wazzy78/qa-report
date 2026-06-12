@@ -1,0 +1,22 @@
+RESPONSE
+STATUS: 200
+TIME: 556ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:47 GMT
+  Content-Type: application/json
+  Content-Length: 11
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: PATCH, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 0
+}

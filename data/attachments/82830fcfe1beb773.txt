@@ -1,0 +1,197 @@
+RESPONSE
+STATUS: 200
+TIME: 607ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:19 GMT
+  Content-Type: application/json
+  Content-Length: 7836
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 17309,
+      "title": "Speech term board degree go",
+      "slug": "speech-term-board-degree-go-265286",
+      "created_by": {
+        "id": 24,
+        "username": "ninelzhdanova",
+        "first_name": "Феликс",
+        "last_name": "Rodriguez",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "бул. Коллективный, д. 3",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7405388c16cf443b89524a48a84ebe19.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2c164e8a3a4603aeff1a8940506d3c20bce8e3e434aa8519240da1ce8f8ee7cb",
+      "subscription": "VIP"
+    },
+    {
+      "id": 14563,
+      "title": "Тюрьма ответить салон",
+      "slug": "-486083",
+      "created_by": {
+        "id": 156,
+        "username": "christopher38",
+        "first_name": "Кира",
+        "last_name": "Фомичев",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "наб. Тополиная, д. 4 к. 4",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3bba045022484e37986cc7922499ebbc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0b9187899f62fbf22ec3bf39d7352ae462b7d70016732116b24fb0cc35ebf8aa",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10569,
+      "title": "Expert development fire six window",
+      "slug": "expert-development-fire-six-window-333726",
+      "created_by": {
+        "id": 2,
+        "username": "+998937377474",
+        "first_name": "Shavkat",
+        "last_name": "",
+        "avatar": null
+      },
+      "price": 1286900000.0,
+      "currency": 1,
+      "address_line": "ул. Мичурина, д. 25 стр. 83",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8e4165cc65474dfe987ca4ea4a834c55.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8d35ed9354b3da15dd76873e479cf2701436adfe57cff9d5689af191fcb447b",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6468,
+      "title": "Назначить стакан радость смертельный",
+      "slug": "-524669",
+      "created_by": {
+        "id": 97,
+        "username": "leon1998",
+        "first_name": "Sierra",
+        "last_name": "Пестова",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "ш. Прудное, д. 87 стр. 53",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/09ddd7333d604298a0025be3572eeb2b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=94f8b51cf94a759af3d1985ed2c43f7d1b58c2698fe4ee4785981e157e974cf2",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6151,
+      "title": "Serve report process group maybe",
+      "slug": "serve-report-process-group-maybe-272700",
+      "created_by": {
+        "id": 205,
+        "username": "kotovairina",
+        "first_name": "Владислав",
+        "last_name": "Silva",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "54962 Dean Ville",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/96e3f6a0b0834e23a2d029ea1d993049.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5a4cdc8067110428043d75bde9f416461ab1e4332864260e58c69d9fa6527cf3",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5677,
+      "title": "Under husband career establish few hold",
+      "slug": "under-husband-career-establish-few-hold-338727",
+      "created_by": {
+        "id": 185,
+        "username": "anzhelikamartinova",
+        "first_name": "Акулина",
+        "last_name": "Edwards",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "537 Fox Underpass Suite 747",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/915b66c3958d473289eada6916962b4e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=15c5dea85ab1b0f84270ae99a29c4ce4da41f8b6c56854b124d5066b2ac23881",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5303,
+      "title": "Пища привлекать рассуждение запустить полюбить",
+      "slug": "-58652",
+      "created_by": {
+        "id": 157,
+        "username": "radislav_43",
+        "first_name": "Sherry",
+        "last_name": "Chan",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "110 Edwards Camp Suite 430",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/69e6d96164c64dc39d308ff4e07e7706.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9b282547cab6f73cebf28ea3f606c8e035fb2937610b7de499774c75d47b011",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4057,
+      "title": "Порт металл близко рассуждение",
+      "slug": "-719768",
+      "created_by": {
+        "id": 66,
+        "username": "fjones",
+        "first_name": "Ryan",
+        "last_name": "Юдина",
+        "avatar": null
+      },
+      "price": 211000.0,
+      "currency": 2,
+      "address_line": "бул. Белорусский, д. 4/9",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/e68ab9b690254c01ac0f5d141d3defb7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=616faf2a5282409b3011646bfb014a7a6c2318de37a51593bde4aba6a1e7b239",
+      "subscription": "VIP"
+    },
+    {
+      "id": 2559,
+      "title": "Possible bill plan summer business specific",
+      "slug": "possible-bill-plan-summer-business-specific-248944",
+      "created_by": {
+        "id": 184,
+        "username": "voronovapollinari",
+        "first_name": "Thomas",
+        "last_name": "Mason",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "пер. Космический, д. 971 стр. 241",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/8809ea4f09ea41ad81405a66999f2c69.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a0e3c97b7f764cd6680e75219fd4c8a638c758d8fb1cd6080675091106c7fd40",
+      "subscription": "VIP"
+    },
+    {
+      "id": 1170,
+      "title": "Less different it easy current across",
+      "slug": "less-different-it-easy-current-across-963459",
+      "created_by": {
+        "id": 61,
+        "username": "cory58",
+        "first_name": "Аркадий",
+        "last_name": "Жданов",
+        "avatar": null
+      },
+      "price": 2526700000.0,
+      "currency": 1,
+      "address_line": "пр. Российский, д. 3/3 к. 8/5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/0ce7120b477c46c48133878931273f7f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T010819Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1343b197bd1b3694dfdc478282dcd07f1ecc5c08248acb90f0f11993bb08737f",
+      "subscription": "VIP"
+    }
+  ]
+}

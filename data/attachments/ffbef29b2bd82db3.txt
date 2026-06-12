@@ -1,3 +1,0 @@
-room_id: 33
-message: autotest message dmimxz
-receiver_id: 66

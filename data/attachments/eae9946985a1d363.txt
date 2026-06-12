@@ -1,0 +1,25 @@
+RESPONSE
+STATUS: 200
+TIME: 573ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:32 GMT
+  Content-Type: application/json
+  Content-Length: 58
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "status": "ok",
+  "db": "ok",
+  "cache": "ok",
+  "system_check": "ok"
+}

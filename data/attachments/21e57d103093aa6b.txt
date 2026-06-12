@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 577ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:24 GMT
+  Content-Type: application/json
+  Content-Length: 268
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 36,
+  "room_type": 1,
+  "participants": [
+    {
+      "id": 66,
+      "avatar": null,
+      "phone": "+998906229731",
+      "first_name": "Ryan",
+      "last_name": "Юдина"
+    },
+    {
+      "id": 210,
+      "avatar": null,
+      "phone": "+998888672005",
+      "first_name": "Test",
+      "last_name": "111"
+    }
+  ],
+  "created_at": "2026-06-12T06:08:22.699218+05:00"
+}

@@ -1,0 +1,26 @@
+RESPONSE
+STATUS: 401
+TIME: 540ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 12 Jun 2026 01:08:23 GMT
+  Content-Type: application/json
+  Content-Length: 142
+  Connection: keep-alive
+  WWW-Authenticate: Token
+  Vary: Accept, origin
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "Authentication credentials were not provided.",
+  "message_key": "not_authenticated",
+  "errors": {},
+  "exception_class": "NotAuthenticated"
+}
