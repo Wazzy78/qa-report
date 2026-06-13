@@ -1,0 +1,18 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/notification/device/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Authorization: Bear***
+  Content-Length: 179
+
+BODY:
+{
+  "registration_id": "test-c58147aa-135f-47af-b9a8-00fbbc7c64c7",
+  "type": "android",
+  "name": "autotest-lpaxon",
+  "device_id": "cbe1ec25-c81a-47b6-9bee-8f59abce7b30",
+  "active": true
+}

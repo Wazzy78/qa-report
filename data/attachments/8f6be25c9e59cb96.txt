@@ -1,0 +1,18 @@
+RESPONSE
+STATUS: 404
+TIME: 576ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 13 Jun 2026 01:08:32 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: DELETE, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:

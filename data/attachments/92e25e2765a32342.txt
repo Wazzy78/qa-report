@@ -1,0 +1,25 @@
+RESPONSE
+STATUS: 405
+TIME: 563ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 13 Jun 2026 01:08:30 GMT
+  Content-Type: application/json
+  Content-Length: 126
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 1
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "Method \"POST\" not allowed.",
+  "message_key": "method_not_allowed",
+  "errors": {},
+  "exception_class": "MethodNotAllowed"
+}
