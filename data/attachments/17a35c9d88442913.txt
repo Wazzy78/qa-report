@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-7e5be49c-fdb6-49eb-9d84-1cf8cb2ca5bf', 'type': 'android', 'name': 'autotest-ortwhi', 'device_id': 'f2a47a56-0953-48e3-af03-09a5b547d80e', 'active': True}

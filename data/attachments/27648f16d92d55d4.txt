@@ -1,0 +1,26 @@
+RESPONSE
+STATUS: 404
+TIME: 560ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 14 Jun 2026 01:08:59 GMT
+  Content-Type: application/json
+  Content-Length: 144
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 1
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "message": "the verification code is invalid",
+  "message_key": "verification_code_invalid",
+  "errors": {},
+  "exception_class": "ObjectNotFoundException"
+}

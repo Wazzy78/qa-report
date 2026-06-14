@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 400
+TIME: 564ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 14 Jun 2026 01:08:58 GMT
+  Content-Type: application/json
+  Content-Length: 131
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "message": "To'g'ri qiymatni kiriting.",
+  "message_key": "invalid",
+  "errors": {
+    "contact": "invalid"
+  },
+  "exception_class": "ValidationError"
+}

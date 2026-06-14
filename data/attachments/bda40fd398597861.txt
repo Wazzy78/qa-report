@@ -1,0 +1,26 @@
+RESPONSE
+STATUS: 200
+TIME: 206ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 14 Jun 2026 01:08:17 GMT
+  Content-Type: application/json
+  Content-Length: 556
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 4
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "verification_token": "e3ef***",
+  "tokens": {
+    "access": "eyJh***",
+    "refresh": "eyJh***"
+  }
+}

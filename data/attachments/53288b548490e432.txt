@@ -1,2 +1,0 @@
-verification_token: 406c***
-security_code: 5***
