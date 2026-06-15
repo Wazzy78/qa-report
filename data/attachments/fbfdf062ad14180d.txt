@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 631ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 15 Jun 2026 01:09:16 GMT
+  Content-Type: application/json
+  Content-Length: 7864
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 13
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 15237,
+      "title": "Data federal up",
+      "slug": "data-federal-up-658070",
+      "created_by": {
+        "id": 70,
+        "username": "ermola81",
+        "first_name": "Петр",
+        "last_name": "Campbell",
+        "full_name": "Campbell Петр",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "алл. 50 лет Октября, д. 1/9 стр. 77",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/042736f1c91c46c0887f272ce81ee6ca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=23192ec6505e88c394d48798edc190783714224eb2e8016314a0b3caa22beb07",
+      "subscription": "VIP"
+    },
+    {
+      "id": 15204,
+      "title": "Among commercial news job much fly",
+      "slug": "among-commercial-news-job-much-fly-737923",
+      "created_by": {
+        "id": 120,
+        "username": "gerasim35",
+        "first_name": "Noah",
+        "last_name": "Porter",
+        "full_name": "Porter Noah",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "8940 Jerry Field Suite 816",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/f5b02ea3e63c442a890a818a9c5c50a5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7b02be212e9386d4488877b6e7d5cdde526f9b9ddbe35226228d380a017e0584",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12819,
+      "title": "Поговорить висеть социалистический мгновение",
+      "slug": "-27157",
+      "created_by": {
+        "id": 134,
+        "username": "elise1999",
+        "first_name": "Савелий",
+        "last_name": "Kim",
+        "full_name": "Kim Савелий",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "2923 Robinson Overpass Apt. 455",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/94d1d0d0938048acb594b74d991818a7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=41a5f5e960c884f3a4f684c267900530185ac4860b07eceb4bc4d6860e610389",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10899,
+      "title": "Спорт инфекция бочок",
+      "slug": "-371323",
+      "created_by": {
+        "id": 109,
+        "username": "osipovamaja",
+        "first_name": "Bryan",
+        "last_name": "Marshall",
+        "full_name": "Marshall Bryan",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "28678 Vazquez Throughway",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b337ddf75b0147809aa00209ccfd869c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e79da1af1d47fe3139b067cff547429dc2a8d76955a1b49428cf6ab857fda046",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10393,
+      "title": "Штаб валюта очередной",
+      "slug": "-636789",
+      "created_by": {
+        "id": 185,
+        "username": "anzhelikamartinova",
+        "first_name": "Акулина",
+        "last_name": "Edwards",
+        "full_name": "Edwards Акулина",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "918 Norman Square Apt. 567",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8c8458531c4644c28e206e275bd224f2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3a2524fb978ea518909379d80dde2bbc37a29bcce1b4a82d7b25d078841f4531",
+      "subscription": "VIP"
+    },
+    {
+      "id": 9254,
+      "title": "Fast religious every successful computer",
+      "slug": "fast-religious-every-successful-computer-529458",
+      "created_by": {
+        "id": 25,
+        "username": "orest_2024",
+        "first_name": "Sara",
+        "last_name": "Hancock",
+        "full_name": "Hancock Sara",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "1577 Wu Motorway",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/98492433dfa0449a9894fdb3fcbec60b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f03e91d85db9cfe5219d81fa6ceecdda5d0ea5bdf3f68accfc7b2f33a602d3b0",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5999,
+      "title": "Лапа разуметься бровь",
+      "slug": "-327476",
+      "created_by": {
+        "id": 29,
+        "username": "akovaleva",
+        "first_name": "Конон",
+        "last_name": "Jordan",
+        "full_name": "Jordan Конон",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "алл. Ангарская, д. 7/6",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c1690b141c1648ad8a7a34d7ff2953fa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8532232a02d153ef318d966a8834d96e7f0231d23cb80c691ef67fd46aeb8338",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4885,
+      "title": "Economic throughout tough kitchen suddenly",
+      "slug": "economic-throughout-tough-kitchen-suddenly-137958",
+      "created_by": {
+        "id": 139,
+        "username": "uljan1998",
+        "first_name": "Joseph",
+        "last_name": "Киселева",
+        "full_name": "Киселева Joseph",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "7393 Lopez Lodge Suite 972",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/49fc0fcd70354877949b59c9b4ac5f0d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=15404d196a9b27dc49a9743c610c5ade07c8b2dd81b199fc340b83128edaa66f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4647,
+      "title": "Job heart seat",
+      "slug": "job-heart-seat-72557",
+      "created_by": {
+        "id": 55,
+        "username": "llandry",
+        "first_name": "Алла",
+        "last_name": "Маслова",
+        "full_name": "Маслова Алла",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "192 Decker Shores",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/2d6b54e2aecf47c48eb90d0061e8d3da.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4cffeaf9f6e6bd6ac7719daf72ce69c5dc3928dc5c1f40f7cd87ebf5badf0cff",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4473,
+      "title": "Райком дружно вряд",
+      "slug": "-704957",
+      "created_by": {
+        "id": 33,
+        "username": "perrymark",
+        "first_name": "Павел",
+        "last_name": "Clark",
+        "full_name": "Clark Павел",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "329 Sparks Skyway",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3ef5b5d62dcf4d88b31efce6cd3376be.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260615%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260615T010916Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=92152b6a76608d9ebdc463a0fb106bb1d4ff1f25aedd2c0247c3b88d859e0ae1",
+      "subscription": "VIP"
+    }
+  ]
+}

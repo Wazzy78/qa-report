@@ -1,0 +1,39 @@
+RESPONSE
+STATUS: 200
+TIME: 3649ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 15 Jun 2026 01:09:32 GMT
+  Content-Type: application/json
+  Content-Length: 213
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "celery": {
+    "status": "ok",
+    "workers": {
+      "general_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      },
+      "messaging_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      },
+      "announcement_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      }
+    }
+  }
+}
