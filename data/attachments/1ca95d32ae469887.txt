@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-92477f86-e672-407f-81f6-ea4b213d2fba', 'type': 'android', 'name': 'autotest-cbwwdw', 'device_id': '7055dd7d-896c-415c-95b3-b71f1c9a0b37', 'active': True}
