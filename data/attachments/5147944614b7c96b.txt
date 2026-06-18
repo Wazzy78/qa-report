@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 578ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 18 Jun 2026 01:08:57 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 25,
+  "name": "autotest-zocdph",
+  "registration_id": "test-2c89645f-ffca-4760-950e-93250e527dde",
+  "device_id": "47a156b5-c807-4775-afc4-984dd97e2555",
+  "active": true,
+  "date_created": "2026-06-18T06:08:57.224744+05:00",
+  "type": "android"
+}
