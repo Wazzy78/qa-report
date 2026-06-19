@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 635ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 19 Jun 2026 01:08:31 GMT
+  Content-Type: application/json
+  Content-Length: 7950
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 13753,
+      "title": "Приятель выражаться трясти волк беспомощный труп",
+      "slug": "-3488",
+      "created_by": {
+        "id": 100,
+        "username": "sarah52",
+        "first_name": "Яков",
+        "last_name": "Никитина",
+        "full_name": "Никитина Яков",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "013 Wright Glen",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6aea6a136ec94b21b32d65374305ecf9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=435ac52fff675a869f0ff0483a7b316119a86f3fc35ae07f80a2a478de418c48",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12833,
+      "title": "Засунуть банк совещание",
+      "slug": "-431460",
+      "created_by": {
+        "id": 137,
+        "username": "lawrenceallen",
+        "first_name": "Isaac",
+        "last_name": "Dixon",
+        "full_name": "Dixon Isaac",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "ул. Черняховского, д. 9/1 стр. 685",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a93dcc496dbc4016ade82463caaf1e2f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=de7ad04c201c261ffbd68625002140559e8810686678648f4819ce1981907302",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12758,
+      "title": "Add mention citizen close",
+      "slug": "add-mention-citizen-close-160018",
+      "created_by": {
+        "id": 205,
+        "username": "kotovairina",
+        "first_name": "Владислав",
+        "last_name": "Silva",
+        "full_name": "Silva Владислав",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "63243 Theresa Street",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/44a30a87fdf44d2786a76b9c6d9d4ffe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ad3025bd99efc9bceed51c77b3a4107ae2c16d78e715d7dae94c10798b3b7463",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12563,
+      "title": "Fish next along",
+      "slug": "fish-next-along-591579",
+      "created_by": {
+        "id": 99,
+        "username": "vbrooks",
+        "first_name": "Раиса",
+        "last_name": "Gonzalez",
+        "full_name": "Gonzalez Раиса",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "1526 Scott Shore Suite 661",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/beeae7faf1a34951a87132978fdbe569.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=08a51e88b5f66c4604df146eacd820826cd2b24ab987e54096fb6b14b6d201fe",
+      "subscription": "VIP"
+    },
+    {
+      "id": 11423,
+      "title": "Understand green car bank when project",
+      "slug": "understand-green-car-bank-when-project-444278",
+      "created_by": {
+        "id": 64,
+        "username": "stephen00",
+        "first_name": "Олег",
+        "last_name": "Афанасьева",
+        "full_name": "Афанасьева Олег",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "03093 Carter Underpass",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/65842250240940a589485e314c3f735a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0df9b3d2f0b21e77ace068274facac4e044ff1c133eaa451b875303e8ea5ca83",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10059,
+      "title": "Lose medical idea",
+      "slug": "lose-medical-idea-535108",
+      "created_by": {
+        "id": 28,
+        "username": "ryan59",
+        "first_name": "Вероника",
+        "last_name": "Cortez",
+        "full_name": "Cortez Вероника",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "09103 Krystal Land",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/9f159162d1d6496bbdcba891364b0247.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=558f5c66ee64279b0c7fb543dcf3f8dba2add539b763544040ef3c53d3c4128f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7135,
+      "title": "Measure too human despite item visit",
+      "slug": "measure-too-human-despite-item-visit-617706",
+      "created_by": {
+        "id": 144,
+        "username": "avgust2025",
+        "first_name": "Егор",
+        "last_name": "Khan",
+        "full_name": "Khan Егор",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "358 Jonathon Summit",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/acf74045067a4f59bd6b3a6c362699d6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=95c7e38a380fc0cd1fd232f2837f742ea291cb9a5a0d3473e2bb4ce694eda78c",
+      "subscription": "VIP"
+    },
+    {
+      "id": 3338,
+      "title": "Степь еврейский сходить нож направо народ",
+      "slug": "-653821",
+      "created_by": {
+        "id": 21,
+        "username": "elizar53",
+        "first_name": "Николай",
+        "last_name": "Powers",
+        "full_name": "Powers Николай",
+        "avatar": null
+      },
+      "price": 1516700000.0,
+      "currency": 1,
+      "address_line": "ул. 50 лет Победы, д. 73 к. 1",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/db2d3ee0a6714a01b5bd1dc2c03f9c47.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e91e505beea8661a3296020e3b646a2a2db05ae5b82ebeff8dd6b9b72aa39617",
+      "subscription": "VIP"
+    },
+    {
+      "id": 3329,
+      "title": "Floor hundred hair recently",
+      "slug": "floor-hundred-hair-recently-12444",
+      "created_by": {
+        "id": 129,
+        "username": "mwheeler",
+        "first_name": "Вацлав",
+        "last_name": "Torres",
+        "full_name": "Torres Вацлав",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "4739 Amanda Spur Apt. 733",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3741d55f831e4f6a8c6aa545ba2f1ef4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9a305ef9afb68f0d3209e38d49a2c60260bc8b1740d900ef03239f60d4ba820",
+      "subscription": "VIP"
+    },
+    {
+      "id": 1060,
+      "title": "Thing employee energy",
+      "slug": "thing-employee-energy-940708",
+      "created_by": {
+        "id": 147,
+        "username": "pahom_52",
+        "first_name": "Joshua",
+        "last_name": "Wright",
+        "full_name": "Wright Joshua",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "685 Sierra Dale Suite 017",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/ddafb8244b4b495b820ecdf6dc275c8d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260619%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260619T010831Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=19303b962917e47b08678bf42d7dd33946d9ae3048932ac512dfb6b72631206f",
+      "subscription": "VIP"
+    }
+  ]
+}

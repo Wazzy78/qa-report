@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-32e5fd26-372b-4eeb-95da-09829a49d20a', 'type': 'android', 'name': 'autotest-mpuqze', 'device_id': 'cf05b6d5-167b-411b-aafb-c15c02bc1d27', 'active': True}

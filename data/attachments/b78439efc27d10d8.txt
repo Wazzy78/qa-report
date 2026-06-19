@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 585ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 19 Jun 2026 01:08:52 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 35,
+  "name": "autotest-mpuqze",
+  "registration_id": "test-32e5fd26-372b-4eeb-95da-09829a49d20a",
+  "device_id": "cf05b6d5-167b-411b-aafb-c15c02bc1d27",
+  "active": true,
+  "date_created": "2026-06-19T06:08:52.052389+05:00",
+  "type": "android"
+}

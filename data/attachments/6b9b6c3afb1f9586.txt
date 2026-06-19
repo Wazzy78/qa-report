@@ -1,2 +1,0 @@
-verification_token: 78f4***
-security_code: 5***
