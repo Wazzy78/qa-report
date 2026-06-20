@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 653ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 20 Jun 2026 01:08:17 GMT
+  Content-Type: application/json
+  Content-Length: 8216
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 15789,
+      "title": "Sell general whatever technology",
+      "slug": "sell-general-whatever-technology-517838",
+      "created_by": {
+        "id": 71,
+        "username": "keith10",
+        "first_name": "Ольга",
+        "last_name": "Шестаков",
+        "full_name": "Шестаков Ольга",
+        "avatar": null
+      },
+      "price": 2784700000.0,
+      "currency": 1,
+      "address_line": "7568 Merritt Vista Suite 901",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/90a189b255ac4a1b861677cf83f8caf9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8198b10096287cc434a6253b336bced20728c73be7d286174c421995af366f00",
+      "subscription": "VIP"
+    },
+    {
+      "id": 15243,
+      "title": "Something actually green",
+      "slug": "something-actually-green-208923",
+      "created_by": {
+        "id": 98,
+        "username": "jordannicole",
+        "first_name": "Таисия",
+        "last_name": "Гурьев",
+        "full_name": "Гурьев Таисия",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "9799 Christopher Falls Apt. 076",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/09248ae0b0c64c189c4c68ee16ac40a9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=86beb3b2f45ddc0215059c397a02279d102895b4216b555cc665c12d064b279d",
+      "subscription": "VIP"
+    },
+    {
+      "id": 14283,
+      "title": "Big close about ago policy",
+      "slug": "big-close-about-ago-policy-708506",
+      "created_by": {
+        "id": 28,
+        "username": "ryan59",
+        "first_name": "Вероника",
+        "last_name": "Cortez",
+        "full_name": "Cortez Вероника",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "наб. Попова, д. 2 стр. 34",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a0bd96586d244c3bab678217857d066c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=98f10c040ee89bfee1d35c7db66d29f855aa678f3949656423bc3fe1e3eb5f48",
+      "subscription": "VIP"
+    },
+    {
+      "id": 13908,
+      "title": "Отъезд какой трубка написать",
+      "slug": "-608380",
+      "created_by": {
+        "id": 64,
+        "username": "stephen00",
+        "first_name": "Олег",
+        "last_name": "Афанасьева",
+        "full_name": "Афанасьева Олег",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "пер. З.Космодемьянской, д. 1 стр. 2/9",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7e47e3bf710f4a29b4175c54133225e5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=89cf48d47fabdd0ca8251ca3cf600e8fdc4f16584ab89983f4644aa54e84ca1a",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12822,
+      "title": "Here admit accept market rule task",
+      "slug": "here-admit-accept-market-rule-task-848035",
+      "created_by": {
+        "id": 101,
+        "username": "valerija99",
+        "first_name": "Jennifer",
+        "last_name": "Александров",
+        "full_name": "Александров Jennifer",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "пр. Разина, д. 4/7 стр. 2",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/686e01c234aa47bdb0f43be6a00332b6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=321a913a366e080bc71d308022ee7bb914a796e699fb0f5e81ab3ec5b5f9ecce",
+      "subscription": "VIP"
+    },
+    {
+      "id": 11143,
+      "title": "Table run poor home",
+      "slug": "table-run-poor-home-758747",
+      "created_by": {
+        "id": 98,
+        "username": "jordannicole",
+        "first_name": "Таисия",
+        "last_name": "Гурьев",
+        "full_name": "Гурьев Таисия",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "42819 Irwin Isle Suite 012",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/21ef30f24cf743dba074566593c0d989.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2d7509ae624e060bf12f1c636e411e33c3f11d9c378a865720495ce6e9c989c2",
+      "subscription": "VIP"
+    },
+    {
+      "id": 8430,
+      "title": "Интеллектуальный написать другой",
+      "slug": "-416325",
+      "created_by": {
+        "id": 55,
+        "username": "llandry",
+        "first_name": "Алла",
+        "last_name": "Маслова",
+        "full_name": "Маслова Алла",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "алл. Добролюбова, д. 66 к. 5/5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/15c77d731cb44618bc847ca4935cb093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=013f5b3f3bb42e20a066ccc719a7866969e1f60d5464be2848c87c408f4632eb",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7781,
+      "title": "Address suggest them from direction section",
+      "slug": "address-suggest-them-from-direction-section-777469",
+      "created_by": {
+        "id": 130,
+        "username": "demjan_65",
+        "first_name": "Нина",
+        "last_name": "Кондратьева",
+        "full_name": "Кондратьева Нина",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "алл. Рабочая, д. 75 к. 5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/fa780e433b8d441f84360c22190ef16a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d7dd5e4b42708d66aabec4f467b54df0c8ebedbab64040430100bdbc87fb298f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6076,
+      "title": "Social outside receive strategy",
+      "slug": "social-outside-receive-strategy-480669",
+      "created_by": {
+        "id": 191,
+        "username": "annaguljaeva",
+        "first_name": "Jennifer",
+        "last_name": "Conway",
+        "full_name": "Conway Jennifer",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "алл. Саратовская, д. 6/5 к. 5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/012c09d2967e4df1b50e1f743494d464.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9ccd8017e2634567806ecb72d669b3bbba123c2ffd2a03a153ce59dcc8509f9c",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5605,
+      "title": "Разводить равнодушный инфекция",
+      "slug": "-240566",
+      "created_by": {
+        "id": 35,
+        "username": "greenmark",
+        "first_name": "Макар",
+        "last_name": "Некрасова",
+        "full_name": "Некрасова Макар",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "пер. Куйбышева, д. 9/9",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6b2588533a66408cb8fd1f2e475bcc11.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260620%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260620T010817Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6b5679c91032d75630528b8c1822fec371939bc10fb746e6c5e5401354f9afa5",
+      "subscription": "VIP"
+    }
+  ]
+}

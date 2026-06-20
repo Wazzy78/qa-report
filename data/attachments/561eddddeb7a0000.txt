@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 566ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 20 Jun 2026 01:08:37 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 37,
+  "name": "autotest-kuccoa",
+  "registration_id": "test-49e20d70-f9c8-4cf8-85b0-41135b1a10d0",
+  "device_id": "c505ca06-d32f-44d0-b6d7-1287107f6e5a",
+  "active": true,
+  "date_created": "2026-06-20T06:08:37.480013+05:00",
+  "type": "android"
+}
