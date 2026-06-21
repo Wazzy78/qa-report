@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-771c665c-286b-4eeb-8b67-3293f0b38944', 'type': 'android', 'name': 'autotest-dvdwwq', 'device_id': '295dd833-e6eb-434e-aa92-897daf2d8409', 'active': True}

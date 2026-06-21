@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 559ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 21 Jun 2026 01:14:47 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 41,
+  "name": "autotest-dvdwwq",
+  "registration_id": "test-771c665c-286b-4eeb-8b67-3293f0b38944",
+  "device_id": "295dd833-e6eb-434e-aa92-897daf2d8409",
+  "active": true,
+  "date_created": "2026-06-21T06:14:47.355273+05:00",
+  "type": "android"
+}
