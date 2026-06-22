@@ -1,0 +1,17 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/notification/device/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 179
+
+BODY:
+{
+  "registration_id": "test-b5d611d9-ed7e-4793-a827-c496ffbf7443",
+  "type": "android",
+  "name": "autotest-rypkdy",
+  "device_id": "0c5696d2-e4a7-4b85-86ca-70dc53f21593",
+  "active": true
+}

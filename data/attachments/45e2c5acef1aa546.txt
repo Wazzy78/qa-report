@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 591ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 22 Jun 2026 01:19:02 GMT
+  Content-Type: application/json
+  Content-Length: 272
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 210,
+  "first_name": "Test 111",
+  "last_name": "111",
+  "avatar": null,
+  "username": "test45",
+  "bio": "string.",
+  "phone": "+998888672005",
+  "balance": 999998997,
+  "show_phone": true,
+  "is_rieltor": true,
+  "status": "active",
+  "stats": {
+    "total": 5,
+    "deleted": 0,
+    "sold": 0,
+    "views": 2,
+    "calls": 0,
+    "shares": 0
+  }
+}
