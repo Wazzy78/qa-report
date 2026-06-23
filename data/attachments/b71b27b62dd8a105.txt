@@ -1,0 +1,106 @@
+RESPONSE
+STATUS: 200
+TIME: 745ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 23 Jun 2026 01:08:00 GMT
+  Content-Type: application/json
+  Content-Length: 1299
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 205,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/account/seller/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 6,
+      "username": "+998915506316",
+      "full_name": "Ravshan",
+      "avatar": null,
+      "announcement_count": 29,
+      "is_top": true
+    },
+    {
+      "id": 42,
+      "username": "pelagejaorlova",
+      "full_name": "Кондратьев Audrey",
+      "avatar": null,
+      "announcement_count": 24,
+      "is_top": true
+    },
+    {
+      "id": 2,
+      "username": "+998937377474",
+      "full_name": "Shavkat",
+      "avatar": null,
+      "announcement_count": 23,
+      "is_top": true
+    },
+    {
+      "id": 73,
+      "username": "anzhelapanfilova",
+      "full_name": "Bullock Alyssa",
+      "avatar": null,
+      "announcement_count": 22,
+      "is_top": true
+    },
+    {
+      "id": 37,
+      "username": "barbara66",
+      "full_name": "Garcia Charles",
+      "avatar": null,
+      "announcement_count": 18,
+      "is_top": true
+    },
+    {
+      "id": 155,
+      "username": "amberfields",
+      "full_name": "Blake Stephanie",
+      "avatar": null,
+      "announcement_count": 18,
+      "is_top": true
+    },
+    {
+      "id": 48,
+      "username": "aprildean",
+      "full_name": "Некрасова Ярослав",
+      "avatar": null,
+      "announcement_count": 18,
+      "is_top": true
+    },
+    {
+      "id": 144,
+      "username": "avgust2025",
+      "full_name": "Khan Егор",
+      "avatar": null,
+      "announcement_count": 18,
+      "is_top": true
+    },
+    {
+      "id": 60,
+      "username": "torrestravis",
+      "full_name": "Price Jimmy",
+      "avatar": null,
+      "announcement_count": 17,
+      "is_top": true
+    },
+    {
+      "id": 139,
+      "username": "uljan1998",
+      "full_name": "Киселева Joseph",
+      "avatar": null,
+      "announcement_count": 17,
+      "is_top": true
+    }
+  ]
+}

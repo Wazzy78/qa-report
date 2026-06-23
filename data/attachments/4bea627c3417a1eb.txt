@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 643ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 23 Jun 2026 01:08:09 GMT
+  Content-Type: application/json
+  Content-Length: 8282
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 19742,
+      "title": "So skill church behavior rest my",
+      "slug": "so-skill-church-behavior-rest-my-333327",
+      "created_by": {
+        "id": 122,
+        "username": "amanda40",
+        "first_name": "Денис",
+        "last_name": "Hull",
+        "full_name": "Hull Денис",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "наб. Зеленая, д. 6/8 к. 3/7",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8ef24cb005684640bae51b4e2002be44.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fe7c6fccef502d7282455ac8f920a23d5337f8e1da38c4202fc9ed05cf2f8945",
+      "subscription": "VIP"
+    },
+    {
+      "id": 16501,
+      "title": "Woman do would test entire reach",
+      "slug": "woman-do-would-test-entire-reach-49123",
+      "created_by": {
+        "id": 143,
+        "username": "troymorris",
+        "first_name": "Мартын",
+        "last_name": "Knight",
+        "full_name": "Knight Мартын",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "пер. Калинина, д. 3/3 стр. 2",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/44740eb79b8544da83390251cbe570ce.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1f22824cd659cb32965046b31d22ee9041b949cda21f9dbd3fea4d5a83cfe261",
+      "subscription": "VIP"
+    },
+    {
+      "id": 13890,
+      "title": "Головка еврейский второй расстройство вскакивать низкий",
+      "slug": "-546435",
+      "created_by": {
+        "id": 123,
+        "username": "davisnicholas",
+        "first_name": "Аполлон",
+        "last_name": "Warner",
+        "full_name": "Warner Аполлон",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "674 Mark Plains Apt. 237",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c256a3acffbd465ea4f38b51f5321ee7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ba69e2cfd3a41848efb420279d4885bf21984926c823502840fac4f8f8278424",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10988,
+      "title": "Table attention type difference believe",
+      "slug": "table-attention-type-difference-believe-325420",
+      "created_by": {
+        "id": 160,
+        "username": "dunlapbrent",
+        "first_name": "Мария",
+        "last_name": "Соколова",
+        "full_name": "Соколова Мария",
+        "avatar": null
+      },
+      "price": 3939700000.0,
+      "currency": 1,
+      "address_line": "757 Cochran Road Suite 271",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/066ee249a70f446d9079fd26a7a213d5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e9cd84bc9b1fc09c5584f2691a268bd4146e2e9c6e96ce6d9bb7bccd7b4b3096",
+      "subscription": "VIP"
+    },
+    {
+      "id": 9306,
+      "title": "Кидать разуметься предоставить плод",
+      "slug": "-633045",
+      "created_by": {
+        "id": 13,
+        "username": "blinovnaum",
+        "first_name": "Стоян",
+        "last_name": "Меркушева",
+        "full_name": "Меркушева Стоян",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "наб. Высоцкого, д. 7 к. 5/1",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/0f77399f5cf54b43943810de5566fd78.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d2020477e55a0f8d73c3bdcea4f62608a48b2b2671fb1371e92cda4060375eeb",
+      "subscription": "VIP"
+    },
+    {
+      "id": 8908,
+      "title": "Выгнать тесно скрытый способ скользить протягивать",
+      "slug": "-656064",
+      "created_by": {
+        "id": 117,
+        "username": "jfaulkner",
+        "first_name": "Paul",
+        "last_name": "Исаков",
+        "full_name": "Исаков Paul",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "наб. Шолохова, д. 3/7 к. 86",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/0f8c8999240046cdb1cfc21484e575bb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4cbffb686d108e0268f898f233e2d93df6b7a0d079f6387f72a0b7a686dcf233",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7592,
+      "title": "Market year anyone country cause civil",
+      "slug": "market-year-anyone-country-cause-civil-957051",
+      "created_by": {
+        "id": 58,
+        "username": "robin74",
+        "first_name": "Викентий",
+        "last_name": "Селиверстова",
+        "full_name": "Селиверстова Викентий",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "96332 Sanders Springs Apt. 447",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a8d2511bb6e445fb845f0a608eca805c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8ce0dd2dc10e8898a1fb0c00ca58c91e7170889464e55b3ab7608a2fe773ec8c",
+      "subscription": "VIP"
+    },
+    {
+      "id": 5464,
+      "title": "Message respond of agency company each",
+      "slug": "message-respond-of-agency-company-each-483572",
+      "created_by": {
+        "id": 46,
+        "username": "aleksandr13",
+        "first_name": "Yvonne",
+        "last_name": "Борисова",
+        "full_name": "Борисова Yvonne",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "ш. Плеханова, д. 7",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7a450887166b47ac87f49ed73cecf56f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0164bd14d9380a288d8b913d0ec55281dda9fd7cdc322bfb693753ea0d388e48",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4898,
+      "title": "Другой наслаждение карандаш",
+      "slug": "-593306",
+      "created_by": {
+        "id": 192,
+        "username": "yorkpamela",
+        "first_name": "Melissa",
+        "last_name": "Murphy",
+        "full_name": "Murphy Melissa",
+        "avatar": null
+      },
+      "price": 573600000.0,
+      "currency": 1,
+      "address_line": "алл. Интернациональная, д. 54",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/0ef038c7c6b6425e9961329a4b14c644.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=db38147a3a9cbc86a7ba6aa4a4b899b09337cea052f05de8fd06879fe3be577c",
+      "subscription": "VIP"
+    },
+    {
+      "id": 3539,
+      "title": "Together government none",
+      "slug": "together-government-none-970426",
+      "created_by": {
+        "id": 143,
+        "username": "troymorris",
+        "first_name": "Мартын",
+        "last_name": "Knight",
+        "full_name": "Knight Мартын",
+        "avatar": null
+      },
+      "price": 310000.0,
+      "currency": 2,
+      "address_line": "наб. Шмидта, д. 8 к. 10",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3cd285fdf9ca476a8cd8b9f3b14f17bf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260623%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260623T010809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8fc8947d77655fce87a947f228db36cd1088f372231a9de3281537e58e742999",
+      "subscription": "VIP"
+    }
+  ]
+}

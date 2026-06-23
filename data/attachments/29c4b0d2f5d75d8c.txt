@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-522eb94f-b106-4fec-b480-1253cac3c895', 'type': 'android', 'name': 'autotest-acyigo', 'device_id': '35d860d5-7117-4c1c-a9ad-c024c3c843e5', 'active': True}
