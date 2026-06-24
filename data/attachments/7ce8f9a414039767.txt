@@ -1,2 +1,0 @@
-verification_token: e611***
-security_code: 5***

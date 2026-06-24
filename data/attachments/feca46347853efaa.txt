@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 659ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 24 Jun 2026 01:09:14 GMT
+  Content-Type: application/json
+  Content-Length: 8030
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 17948,
+      "title": "Оборот мотоцикл мрачно коричневый картинка",
+      "slug": "-269689",
+      "created_by": {
+        "id": 77,
+        "username": "umitchell",
+        "first_name": "Mathew",
+        "last_name": "Rangel",
+        "full_name": "Rangel Mathew",
+        "avatar": null
+      },
+      "price": 436000.0,
+      "currency": 2,
+      "address_line": "31132 Brittany Vista",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b79a8d726921495a8736ea520202461b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9668d26faad0e8d55c6f0f7ffe1e018f7d56c41b5d492715f896212ef253db4e",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12885,
+      "title": "Сутки отъезд холодно сбросить",
+      "slug": "-243126",
+      "created_by": {
+        "id": 90,
+        "username": "ermil2026",
+        "first_name": "Ираида",
+        "last_name": "Власов",
+        "full_name": "Власов Ираида",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "наб. Пугачева, д. 662 стр. 6",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/4f3ddea2aa4a483a926d1d56447569db.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0365e0ebb0a4402c451f13d3690515c99a03918e62df2bec63150af987197796",
+      "subscription": "VIP"
+    },
+    {
+      "id": 12118,
+      "title": "Movement market deep news politics",
+      "slug": "movement-market-deep-news-politics-774869",
+      "created_by": {
+        "id": 196,
+        "username": "gordeevsigizmund",
+        "first_name": "Лука",
+        "last_name": "Hooper",
+        "full_name": "Hooper Лука",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "2294 Becker Mount",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c2db17075ff743d48fe9f1e5bf41b715.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0920afca56d14a6f7e17bc5b058c57d5464d46e160b74181324c186f715d6f85",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10188,
+      "title": "Магазин еврейский мимо угол передо",
+      "slug": "-824624",
+      "created_by": {
+        "id": 126,
+        "username": "zosima1990",
+        "first_name": "Пимен",
+        "last_name": "Frazier",
+        "full_name": "Frazier Пимен",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "835 Catherine Parkways Apt. 345",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/caae9a33761d471cb5832e99611334ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=909421698a28f93662f080fa704d5fffd946296b8731334fb21b404edff84758",
+      "subscription": "VIP"
+    },
+    {
+      "id": 9512,
+      "title": "Provide interesting close first",
+      "slug": "provide-interesting-close-first-864536",
+      "created_by": {
+        "id": 145,
+        "username": "marfa36",
+        "first_name": "Jane",
+        "last_name": "Lewis",
+        "full_name": "Lewis Jane",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "ул. 8-е Марта, д. 3/7 к. 8",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/456dae8d83cd4521a946bd7d933465b5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a7c812ea76722ec417949272dc7da241a2d194450f31d33a58ffdaeea270df06",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6831,
+      "title": "Car pick data probably stop reason",
+      "slug": "car-pick-data-probably-stop-reason-614031",
+      "created_by": {
+        "id": 42,
+        "username": "pelagejaorlova",
+        "first_name": "Audrey",
+        "last_name": "Кондратьев",
+        "full_name": "Кондратьев Audrey",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "бул. Строителей, д. 5/1",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6b1c3c2fbcf94e3b9b4aa1b55cc02065.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=badd2fb91552b132baa2c45891008804fd5e761b77482c918d63d2de8625bc8d",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6491,
+      "title": "Тута лиловый умирать кольцо",
+      "slug": "-259627",
+      "created_by": {
+        "id": 32,
+        "username": "isidor2012",
+        "first_name": "Тамара",
+        "last_name": "Егорова",
+        "full_name": "Егорова Тамара",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "ш. Высотное, д. 312 к. 9/5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/9992d6742078458cbcf8a987061b53d2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=931598d20fcaf4a8f727bbdfe12799b60911d94a9c8a38c491239ef7b7fe291a",
+      "subscription": "VIP"
+    },
+    {
+      "id": 6191,
+      "title": "Understand compare above improve",
+      "slug": "understand-compare-above-improve-210467",
+      "created_by": {
+        "id": 111,
+        "username": "fedoseevelise",
+        "first_name": "Будимир",
+        "last_name": "Носкова",
+        "full_name": "Носкова Будимир",
+        "avatar": null
+      },
+      "price": 222000.0,
+      "currency": 2,
+      "address_line": "бул. 60 лет СССР, д. 7",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a09f012708de47d783afd08913b440ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=51dedcf90421ed0062d43c6ca2417d130875fccd4078040f3bc5592ccd9ae8d6",
+      "subscription": "VIP"
+    },
+    {
+      "id": 4188,
+      "title": "Дыхание рота дошлый",
+      "slug": "-800531",
+      "created_by": {
+        "id": 82,
+        "username": "lacey20",
+        "first_name": "Савва",
+        "last_name": "Blake",
+        "full_name": "Blake Савва",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 1,
+      "address_line": "13615 Bennett Plaza",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/2159413a17144ef1acb84aa831e87cb7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cc8fe847b527bb4ea005214f2a2dcd07d5330af148391bdf9403c96a99a57784",
+      "subscription": "VIP"
+    },
+    {
+      "id": 2925,
+      "title": "Интернет выраженный горький тяжелый",
+      "slug": "-575028",
+      "created_by": {
+        "id": 149,
+        "username": "matthewsalexander",
+        "first_name": "Bill",
+        "last_name": "Fry",
+        "full_name": "Fry Bill",
+        "avatar": null
+      },
+      "price": 0,
+      "currency": 2,
+      "address_line": "257 Reyes Streets",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/bb0f5fadca494c41baaca26dc48ee333.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260624%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260624T010914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8dfd841d7af13544fa63e9f6e8ddb875a8653378a369bac5985176cc5e20b1f5",
+      "subscription": "VIP"
+    }
+  ]
+}
