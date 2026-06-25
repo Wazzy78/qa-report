@@ -1,0 +1,18 @@
+RESPONSE
+STATUS: 201
+TIME: 598ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 25 Jun 2026 01:08:09 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, DELETE, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:

@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 590ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 25 Jun 2026 01:08:31 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 50,
+  "name": "autotest-sqizju",
+  "registration_id": "test-6f72c3f3-1ab3-413a-80a7-dbbc0bc03504",
+  "device_id": "12ef1da4-13c2-4fea-a4f8-0929b05c49a7",
+  "active": true,
+  "date_created": "2026-06-25T06:08:31.742325+05:00",
+  "type": "android"
+}

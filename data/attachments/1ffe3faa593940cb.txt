@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-57bf9a67-423c-4af3-a2b8-1cdf519e6ef0', 'type': 'android', 'name': 'autotest-oximsw', 'device_id': '910d70ad-4f50-455d-8faf-ce8ddbe8f14b', 'active': True}
