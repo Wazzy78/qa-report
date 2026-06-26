@@ -1,0 +1,99 @@
+RESPONSE
+STATUS: 200
+TIME: 1039ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 26 Jun 2026 01:10:15 GMT
+  Content-Type: application/json
+  Content-Length: 3141
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, PATCH, DELETE, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 9
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "id": 232,
+  "title": "Fight serious pressure",
+  "slug": "fight-serious-pressure-480133",
+  "deal_type": 2,
+  "property_type": 5,
+  "category": 7,
+  "advertiser_type": 2,
+  "description": "Опасность банк ставить беспомощный сынок. Палец угол лапа ложиться. Танцевать мотоцикл выкинуть подробность вывести близко.",
+  "address_line": "ш. Ясное, д. 739 к. 204",
+  "phone_number": "+998906080554",
+  "location": {
+    "latitude": 41.35248665153595,
+    "longitude": 69.22612580559954
+  },
+  "status": 1,
+  "is_liked": false,
+  "audio": null,
+  "district": {
+    "id": 8,
+    "name": "Ulug'nor tumani"
+  },
+  "region": {
+    "id": 1,
+    "name": "Andijon viloyati"
+  },
+  "country": {
+    "id": 15,
+    "name": "Uzbekistan"
+  },
+  "mortgage_available": false,
+  "media": [
+    {
+      "file": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c04065ce414a402ca811c5772d0ed74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260626%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260626T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ee5638de0d5ff1cabf87618cec09c605d2c3f57565e05938e4c10025c3054c82",
+      "order": 0,
+      "is_cover": true
+    },
+    {
+      "file": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/11ce5185d3b44a0cb7200ab14d1147b6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260626%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260626T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1f09525999954a561ae16f8620db7c7ee411942e97d6634b950cce48619b9c20",
+      "order": 1,
+      "is_cover": false
+    },
+    {
+      "file": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c13d0faff5db46c9afb781985f9477ab.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260626%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260626T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cc1adaf7b52a69c5c0c2f2206495009c7c4fa3970aca06740aba8b380ca9ee2c",
+      "order": 2,
+      "is_cover": false
+    },
+    {
+      "file": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c4a071654e4949b5975d14ca082f5133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260626%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260626T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b634ab538af0b61666c9ade6d66ad3ab3e22c86c5d5a4e9786f3d1a71cefe93f",
+      "order": 3,
+      "is_cover": false
+    }
+  ],
+  "pricing": {
+    "currency": 2,
+    "price": null,
+    "price_from": "940.00",
+    "price_to": "2400.00",
+    "currency_display": "y.e"
+  },
+  "seller": {
+    "id": 66,
+    "first_name": "Ryan",
+    "last_name": "Юдина",
+    "avatar": null,
+    "bio": "Обида способ исполнять князь видимо мелькнуть.",
+    "username": "fjones",
+    "announcement_statistics": {
+      "count": 12,
+      "calls": 0
+    }
+  },
+  "detail": {
+    "area_m2": "3753.00",
+    "cadastral_code": "7306920619",
+    "is_documented": true
+  },
+  "ads_at": "2026-06-07T16:38:45.158627+05:00"
+}

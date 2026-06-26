@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 579ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 26 Jun 2026 01:10:39 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 53,
+  "name": "autotest-yvnlzp",
+  "registration_id": "test-ff3a62d8-ca1d-4165-8268-4a5f5767af2d",
+  "device_id": "8eb908d9-410e-47ca-a030-709a0a703824",
+  "active": true,
+  "date_created": "2026-06-26T06:10:39.953122+05:00",
+  "type": "android"
+}
