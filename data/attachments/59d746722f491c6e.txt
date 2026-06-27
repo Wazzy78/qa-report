@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-f541feef-7291-46ff-8407-5257df4fbdea', 'type': 'android', 'name': 'autotest-yakpme', 'device_id': '338b002f-5dc6-4e26-a7df-9d50b03832b1', 'active': True}

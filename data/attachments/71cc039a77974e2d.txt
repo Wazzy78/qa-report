@@ -1,0 +1,68 @@
+RESPONSE
+STATUS: 200
+TIME: 601ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 27 Jun 2026 01:08:01 GMT
+  Content-Type: application/json
+  Content-Length: 2086
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 4
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 26,
+      "announcement": {
+        "id": 10633,
+        "title": "Порог князь валюта",
+        "price": 210.0,
+        "currency": 2,
+        "status": 1,
+        "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e5bc251686fc4f9dbf4e96d95cc7abbd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260627%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260627T010801Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=228d4049bb361de7858ba7d12d5282cca936dd9f389c9949474c6d0dddfc493e"
+      },
+      "created_at": "2026-06-26T01:15:37.627203+05:00",
+      "reason": 3,
+      "text": "Gc dsg"
+    },
+    {
+      "id": 19,
+      "announcement": {
+        "id": 834,
+        "title": "Мальчишка порядок миг полюбить",
+        "price": 4314100000.0,
+        "currency": 1,
+        "status": 1,
+        "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3ee0071b5e964882a9037ff3024f38d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260627%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260627T010801Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c4812e9687a6cd580281d64500c6f6bbb4f7863086b01aca5dfdf0c43132dfc5"
+      },
+      "created_at": "2026-06-20T22:18:41.321125+05:00",
+      "reason": 3,
+      "text": "Hg f tcrc"
+    },
+    {
+      "id": 17,
+      "announcement": {
+        "id": 170,
+        "title": "Банк сбросить механический сопровождаться что князь",
+        "price": 349000.0,
+        "currency": 2,
+        "status": 1,
+        "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/f5d253ae61e542b580eb3ed02d2a6284.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260627%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260627T010801Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0db6174fc0dc10a503eb4780489a4b103675cc6c05d5d7b82d7dcd489f9f9870"
+      },
+      "created_at": "2026-06-20T22:17:58.221547+05:00",
+      "reason": 3,
+      "text": "Ugcy."
+    }
+  ]
+}

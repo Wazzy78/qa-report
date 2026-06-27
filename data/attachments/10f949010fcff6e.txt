@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 600ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 27 Jun 2026 01:07:52 GMT
+  Content-Type: application/json
+  Content-Length: 711
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 4
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 210,
+  "first_name": "Test 111",
+  "last_name": "111",
+  "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/25/19/image_3212BE8F-B08D-42C8-8141-44DE2452FD52.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260627%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260627T010752Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3e97f2b7de54286e360af831a8b3eebbd0774f2dda6800317dfd1415167474f6",
+  "username": "test45",
+  "bio": "string.",
+  "phone": "+998888672005",
+  "balance": 999998997,
+  "show_phone": false,
+  "is_rieltor": true,
+  "status": "active",
+  "stats": {
+    "total": 6,
+    "deleted": 0,
+    "sold": 0,
+    "views": 13,
+    "calls": 0,
+    "shares": 0
+  }
+}
