@@ -1,2 +1,0 @@
-verification_token: ccb5***
-security_code: 5***
