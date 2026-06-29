@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 649ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 29 Jun 2026 01:08:47 GMT
+  Content-Type: application/json
+  Content-Length: 8017
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 67,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 17532,
+      "title": "Size run policy",
+      "slug": "size-run-policy-28754",
+      "created_by": {
+        "id": 105,
+        "username": "briangutierrez",
+        "first_name": "Варлаам",
+        "last_name": "Smith",
+        "full_name": "Smith Варлаам",
+        "avatar": null
+      },
+      "price": 18200000.0,
+      "currency": 1,
+      "address_line": "522 Horton Viaduct Suite 707",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d17714f9d9e8415f867f4892330dea5e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1027366816b0a539afeb3c886e693a7d3ba595a79865400fa3603fefe2c1ce35",
+      "subscription": "VIP"
+    },
+    {
+      "id": 16494,
+      "title": "Analysis property deep",
+      "slug": "analysis-property-deep-444658",
+      "created_by": {
+        "id": 52,
+        "username": "dgarcia",
+        "first_name": "Jennifer",
+        "last_name": "Фадеева",
+        "full_name": "Фадеева Jennifer",
+        "avatar": null
+      },
+      "price": 1700.0,
+      "currency": 2,
+      "address_line": "наб. Жуковского, д. 10",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/db19a039a48d4edeb05528453988cf4f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fc57ae631f9a7b6dd195645957102d52d0dfa45451dee10d285cfea4e071106f",
+      "subscription": "VIP"
+    },
+    {
+      "id": 15463,
+      "title": "Feeling campaign former",
+      "slug": "feeling-campaign-former-753691",
+      "created_by": {
+        "id": 120,
+        "username": "gerasim35",
+        "first_name": "Noah",
+        "last_name": "Porter",
+        "full_name": "Porter Noah",
+        "avatar": null
+      },
+      "price": 218000.0,
+      "currency": 2,
+      "address_line": "1347 Mccullough Station",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/25a911ce060e4f3c8f644bfcced91015.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9c1568d4dd7b3d3cdc05174ddbc5d8d116e32977765ccd45003cd6dd36e531b4",
+      "subscription": "VIP"
+    },
+    {
+      "id": 13222,
+      "title": "Ground the leg",
+      "slug": "ground-the-leg-435913",
+      "created_by": {
+        "id": 32,
+        "username": "isidor2012",
+        "first_name": "Тамара",
+        "last_name": "Егорова",
+        "full_name": "Егорова Тамара",
+        "avatar": null
+      },
+      "price": 49000.0,
+      "currency": 2,
+      "address_line": "ул. Прудовая, д. 32",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8456c778eca248619a825bcc121c6fb9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f4deb33c3ccedd4fe2e3db2766e1a41e05c02a35073d56839dd35b39c9e6989",
+      "subscription": "VIP"
+    },
+    {
+      "id": 10633,
+      "title": "Порог князь валюта",
+      "slug": "-126141",
+      "created_by": {
+        "id": 170,
+        "username": "lavrenti31",
+        "first_name": "Philip",
+        "last_name": "Тимофеев",
+        "full_name": "Тимофеев Philip",
+        "avatar": null
+      },
+      "price": 210.0,
+      "currency": 2,
+      "address_line": "03184 Brown Neck Apt. 959",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e5bc251686fc4f9dbf4e96d95cc7abbd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1affc2453b7520fef441d76bf043c3067df6224cf20d4af36e1ebffe07e52a89",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7435,
+      "title": "Терапия бегать затянуться банда банда",
+      "slug": "-257498",
+      "created_by": {
+        "id": 35,
+        "username": "greenmark",
+        "first_name": "Макар",
+        "last_name": "Некрасова",
+        "full_name": "Некрасова Макар",
+        "avatar": null
+      },
+      "price": 6700000.0,
+      "currency": 1,
+      "address_line": "алл. Трактовая, д. 600 стр. 1",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d5ce902255d64da4ad1560a30a184024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=89ab380203654fca218efdacc897ea18e71f63143d5b8f56fe49669a5cbab627",
+      "subscription": "VIP"
+    },
+    {
+      "id": 2438,
+      "title": "Several strong expect American",
+      "slug": "several-strong-expect-american-500537",
+      "created_by": {
+        "id": 15,
+        "username": "allenashley",
+        "first_name": "Christopher",
+        "last_name": "Лапина",
+        "full_name": "Лапина Christopher",
+        "avatar": null
+      },
+      "price": 1500.0,
+      "currency": 2,
+      "address_line": "897 Alvarez Parks",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/d78dd8a1320240a39f7dbcf7ae8c182e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8a125e32234b0956dc7ca5ae69445e3c276b036547e747986cd889de2eef6ade",
+      "subscription": "VIP"
+    },
+    {
+      "id": 2352,
+      "title": "Командир рай вряд изображать",
+      "slug": "-448497",
+      "created_by": {
+        "id": 51,
+        "username": "ashleyhall",
+        "first_name": "Аникей",
+        "last_name": "Копылова",
+        "full_name": "Копылова Аникей",
+        "avatar": null
+      },
+      "price": 262000.0,
+      "currency": 2,
+      "address_line": "пер. Черняховского, д. 2 стр. 4",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/9c898ae4b08d488cba5927cb90291973.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d12d767d0c40bf7c65deca6534f69389bf535e85b39eb46cfcf8d91807fd2b55",
+      "subscription": "VIP"
+    },
+    {
+      "id": 1470,
+      "title": "Real turn plant owner yourself",
+      "slug": "real-turn-plant-owner-yourself-126515",
+      "created_by": {
+        "id": 76,
+        "username": "vgarcia",
+        "first_name": "William",
+        "last_name": "Williams",
+        "full_name": "Williams William",
+        "avatar": null
+      },
+      "price": 20.0,
+      "currency": 2,
+      "address_line": "пер. Макаренко, д. 84 стр. 9/9",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/dfd2922f22d84d03b46b8ad114dba627.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6e1747760b353529ae731b68676625cf5555005e90dda1f15c4e3913dd956d4a",
+      "subscription": "VIP"
+    },
+    {
+      "id": 242,
+      "title": "Draw end better large fire rich",
+      "slug": "draw-end-better-large-fire-rich-225912",
+      "created_by": {
+        "id": 137,
+        "username": "lawrenceallen",
+        "first_name": "Isaac",
+        "last_name": "Dixon",
+        "full_name": "Dixon Isaac",
+        "avatar": null
+      },
+      "price": 299000.0,
+      "currency": 1,
+      "address_line": "1423 Williams Meadows",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/f75979411bd24bfdbda797b6e69ece73.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260629%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260629T010847Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=33da7304433cc3133baba63f3cb9cac6060f3925cc75ffd4088b603c3e9e13dc",
+      "subscription": "VIP"
+    }
+  ]
+}

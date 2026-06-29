@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 592ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 29 Jun 2026 01:09:08 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 66,
+  "name": "autotest-hvryrs",
+  "registration_id": "test-7385f543-99bb-4862-a4a4-32f5684c2f97",
+  "device_id": "773a7e9a-84c3-4164-9782-24074a1e34f6",
+  "active": true,
+  "date_created": "2026-06-29T06:09:08.158588+05:00",
+  "type": "android"
+}
