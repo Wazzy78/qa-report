@@ -1,0 +1,30 @@
+RESPONSE
+STATUS: 401
+TIME: 591ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 30 Jun 2026 01:08:38 GMT
+  Content-Type: application/json
+  Content-Length: 170
+  Connection: keep-alive
+  WWW-Authenticate: Bearer realm="api"
+  Vary: Accept, origin, Cookie
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "message": "Token is invalid or expired.",
+  "message_key": "token_not_valid",
+  "errors": {
+    "detail": "token_not_valid",
+    "code": "token_not_valid"
+  },
+  "exception_class": "InvalidToken"
+}

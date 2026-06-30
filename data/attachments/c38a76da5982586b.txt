@@ -1,0 +1,208 @@
+RESPONSE
+STATUS: 200
+TIME: 651ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 30 Jun 2026 01:08:10 GMT
+  Content-Type: application/json
+  Content-Length: 8058
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 50,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 19466,
+      "title": "Between would green",
+      "slug": "between-would-green-112767",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "price": 1400000.0,
+      "currency": 1,
+      "address_line": "ул. Красина, д. 1 стр. 88",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/df1c8d507fed451bb184f2bde0385f02.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=429fa6a467501817e5a6f091c45d331e3b5cabb92b62fa9fd857ed90ac7cb238",
+      "subscription": "VIP"
+    },
+    {
+      "id": 18638,
+      "title": "Never thank thus once level sea",
+      "slug": "never-thank-thus-once-level-sea-744512",
+      "created_by": {
+        "id": 84,
+        "username": "carlos88",
+        "first_name": "Peter",
+        "last_name": "Беляев",
+        "full_name": "Беляев Peter",
+        "avatar": null
+      },
+      "price": 4892600000.0,
+      "currency": 1,
+      "address_line": "бул. Чапаева, д. 7",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3b8e6640023e411a94f2bdd989d9369a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cbacfd2b4986035aefe92de59f1bb99f2e9f8061e161d831a76dffdd790f3937",
+      "subscription": "VIP"
+    },
+    {
+      "id": 18179,
+      "title": "Полоска правление намерение триста сбросить",
+      "slug": "-270148",
+      "created_by": {
+        "id": 125,
+        "username": "vlukina",
+        "first_name": "Krystal",
+        "last_name": "Mason",
+        "full_name": "Mason Krystal",
+        "avatar": null
+      },
+      "price": 23000000.0,
+      "currency": 1,
+      "address_line": "пр. Сурикова, д. 2 к. 1/4",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d47acd9bd6154bb9b714eceffb0e074a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8216fa4ed312ab014bacf44aed557c1908a2985262454cc85ebd2e5571f225a9",
+      "subscription": "VIP"
+    },
+    {
+      "id": 15828,
+      "title": "Боец прежде пол райком",
+      "slug": "-36146",
+      "created_by": {
+        "id": 94,
+        "username": "georgeweber",
+        "first_name": "Феоктист",
+        "last_name": "Bryan",
+        "full_name": "Bryan Феоктист",
+        "avatar": null
+      },
+      "price": 390.0,
+      "currency": 2,
+      "address_line": "бул. Лазурный, д. 1",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d3eebf44a5684bc69597277d73ca5311.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7bb1857bdacaa4888f0e145f4ee5efc085fd9165df63f36681a9f21a4921a510",
+      "subscription": "VIP"
+    },
+    {
+      "id": 15411,
+      "title": "Eye remain and",
+      "slug": "eye-remain-and-485464",
+      "created_by": {
+        "id": 92,
+        "username": "ostap_2013",
+        "first_name": "David",
+        "last_name": "Тимофеева",
+        "full_name": "Тимофеева David",
+        "avatar": null
+      },
+      "price": 381000.0,
+      "currency": 1,
+      "address_line": "пр. Щетинкина, д. 6 к. 7",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/ffa0cbd1be3d46d2a14babd7eba778dc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=558fec1e3282cd414afa2822fcfb935778687b8ea0cc6e2d17f130b88b23734b",
+      "subscription": "VIP"
+    },
+    {
+      "id": 13920,
+      "title": "Соответствие изба пространство триста деловой рота",
+      "slug": "-982355",
+      "created_by": {
+        "id": 142,
+        "username": "csitnikov",
+        "first_name": "Cynthia",
+        "last_name": "Powell",
+        "full_name": "Powell Cynthia",
+        "avatar": null
+      },
+      "price": 50.0,
+      "currency": 2,
+      "address_line": "507 White Lake",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/dcd44596e29c44c8b2de411bfcb5438e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=259de1a96944e95aeae0a2e2214310e351c9fd9a8b66f5aa4c3b0d2e46372a41",
+      "subscription": "VIP"
+    },
+    {
+      "id": 13578,
+      "title": "Природа монета аллея вздрагивать бегать",
+      "slug": "-36735",
+      "created_by": {
+        "id": 23,
+        "username": "juan35",
+        "first_name": "Grace",
+        "last_name": "Морозова",
+        "full_name": "Морозова Grace",
+        "avatar": null
+      },
+      "price": 417000.0,
+      "currency": 1,
+      "address_line": "наб. Иркутская, д. 79 к. 22",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/989103ceb2a24f87980dbbd8a2186640.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=191e536c06e958d7059840061d963e2b4b174c7c9a347951104a600190fa1f4e",
+      "subscription": "VIP"
+    },
+    {
+      "id": 11849,
+      "title": "Raise before maybe",
+      "slug": "raise-before-maybe-692252",
+      "created_by": {
+        "id": 155,
+        "username": "amberfields",
+        "first_name": "Stephanie",
+        "last_name": "Blake",
+        "full_name": "Blake Stephanie",
+        "avatar": null
+      },
+      "price": 5700000.0,
+      "currency": 1,
+      "address_line": "55324 Peter River",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7ba4a800b8964357ac8b45cc72ac798b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5b94bb6e9ba538c61ae9ceae4262af66bfc1a721550f36fa0600c40b5e9b529a",
+      "subscription": "VIP"
+    },
+    {
+      "id": 7188,
+      "title": "Свежий невыносимый присесть спалить падаль",
+      "slug": "-793334",
+      "created_by": {
+        "id": 118,
+        "username": "vclark",
+        "first_name": "Агафон",
+        "last_name": "Giles",
+        "full_name": "Giles Агафон",
+        "avatar": null
+      },
+      "price": 140.0,
+      "currency": 2,
+      "address_line": "6620 Elizabeth Forges Apt. 882",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/cc6bffebe00141e8b4e8bd0566462e21.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e44c14038a71d0bf1380720753d3837d43b725ba14de2f29d95ecfd62f027eb5",
+      "subscription": "VIP"
+    },
+    {
+      "id": 1074,
+      "title": "Himself fly wonder something big method",
+      "slug": "himself-fly-wonder-something-big-method-385166",
+      "created_by": {
+        "id": 147,
+        "username": "pahom_52",
+        "first_name": "Joshua",
+        "last_name": "Wright",
+        "full_name": "Wright Joshua",
+        "avatar": null
+      },
+      "price": 300.0,
+      "currency": 2,
+      "address_line": "ул. Олимпийская, д. 192",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/8188b8c512f94e36b82af2e7bac6a564.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260630%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260630T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0e345a65e311f7da38aad97f6a45f6477ad74445b839d289db353e128684c12c",
+      "subscription": "VIP"
+    }
+  ]
+}

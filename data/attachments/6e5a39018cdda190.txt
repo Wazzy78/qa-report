@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 586ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 30 Jun 2026 01:08:30 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 68,
+  "name": "autotest-levsnl",
+  "registration_id": "test-28868b96-dac8-4059-b34f-ad1d8389c880",
+  "device_id": "06405d14-4833-46b2-afee-835fea8102a9",
+  "active": true,
+  "date_created": "2026-06-30T06:08:30.912808+05:00",
+  "type": "android"
+}

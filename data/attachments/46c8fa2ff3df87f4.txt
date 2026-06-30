@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-7385f543-99bb-4862-a4a4-32f5684c2f97', 'type': 'android', 'name': 'autotest-hvryrs', 'device_id': '773a7e9a-84c3-4164-9782-24074a1e34f6', 'active': True}
