@@ -1,0 +1,218 @@
+RESPONSE
+STATUS: 200
+TIME: 645ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 01 Jul 2026 01:08:51 GMT
+  Content-Type: application/json
+  Content-Length: 8364
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 2
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 50,
+  "next": "http://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 16424,
+      "title": "Манера социалистический выдержать мрачно поезд",
+      "slug": "-689361",
+      "created_by": {
+        "id": 124,
+        "username": "anikita14",
+        "first_name": "Harry",
+        "last_name": "Морозов",
+        "full_name": "Морозов Harry",
+        "avatar": null
+      },
+      "price": 40.0,
+      "currency": 2,
+      "address_line": "671 Ortiz Rue Apt. 568",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/ec41508add334a6f966a3d7a22f14836.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=69c0fdf35b4b074587b35a2a84ead6c399564c1be81cebbcf17861bc3ff2ad78",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 16370,
+      "title": "Плясать провал дурацкий необычный кузнец",
+      "slug": "-747118",
+      "created_by": {
+        "id": 36,
+        "username": "herringjames",
+        "first_name": "Christine",
+        "last_name": "Martinez",
+        "full_name": "Martinez Christine",
+        "avatar": null
+      },
+      "price": 60.0,
+      "currency": 2,
+      "address_line": "071 James Forest Apt. 616",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/9c2cde10bb9249d099aaf73cbf168d37.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f9f9bb60c846b52c09392a4c4f6ada5305e7defd17009d17fee9becb3948972f",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 14563,
+      "title": "Тюрьма ответить салон",
+      "slug": "-486083",
+      "created_by": {
+        "id": 156,
+        "username": "christopher38",
+        "first_name": "Кира",
+        "last_name": "Фомичев",
+        "full_name": "Фомичев Кира",
+        "avatar": null
+      },
+      "price": 8300000.0,
+      "currency": 1,
+      "address_line": "наб. Тополиная, д. 4 к. 4",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3bba045022484e37986cc7922499ebbc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=81655ea61c5f361e116a10c245660c18405f765ba8d3c4eee20536839ae0feaa",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 12215,
+      "title": "Write traditional make mouth president statement",
+      "slug": "write-traditional-make-mouth-president-statement-276446",
+      "created_by": {
+        "id": 46,
+        "username": "aleksandr13",
+        "first_name": "Yvonne",
+        "last_name": "Борисова",
+        "full_name": "Борисова Yvonne",
+        "avatar": null
+      },
+      "price": 4600000.0,
+      "currency": 1,
+      "address_line": "322 Vargas Falls",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6f3dca3f73704da2aa8711cd1e60b434.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0045f30d88300ab0b371205b901c16f0e375f4bbd981492bf20496c608db9da8",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 12117,
+      "title": "Услать присесть коммунизм оборот гулять",
+      "slug": "-590432",
+      "created_by": {
+        "id": 20,
+        "username": "adkinsbrian",
+        "first_name": "Сила",
+        "last_name": "Brown",
+        "full_name": "Brown Сила",
+        "avatar": null
+      },
+      "price": 231000.0,
+      "currency": 1,
+      "address_line": "бул. Космический, д. 3/6",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c585589746014c96b1d48bcb8fe845d9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f446aadd47e7d25a09f4e38dde6674e8762db94797029fc07674659df3459aad",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 10889,
+      "title": "Affect similar this notice morning matter",
+      "slug": "affect-similar-this-notice-morning-matter-571426",
+      "created_by": {
+        "id": 26,
+        "username": "valentinashcherbakov",
+        "first_name": "Michele",
+        "last_name": "Gonzalez",
+        "full_name": "Gonzalez Michele",
+        "avatar": null
+      },
+      "price": 5000000.0,
+      "currency": 1,
+      "address_line": "ш. Жукова, д. 5",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a1004c1cc73442bdbeec5e00e80ef394.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=166291f6668ff8ba0545faeec6569479634d302ba8e7ff6db6547f182edade6c",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 8699,
+      "title": "Stop put live apply",
+      "slug": "stop-put-live-apply-5594",
+      "created_by": {
+        "id": 55,
+        "username": "llandry",
+        "first_name": "Алла",
+        "last_name": "Маслова",
+        "full_name": "Маслова Алла",
+        "avatar": null
+      },
+      "price": 1600.0,
+      "currency": 2,
+      "address_line": "083 Davis Tunnel",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/26d76ebe77704cfd9e0ba2609eba9ceb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=af6f7484d3b1f846b7804041c20d7798477ed1f2885aa4544886ec25c5edbfa2",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 8165,
+      "title": "Что горький проход скользить мера тысяча",
+      "slug": "-847287",
+      "created_by": {
+        "id": 60,
+        "username": "torrestravis",
+        "first_name": "Jimmy",
+        "last_name": "Price",
+        "full_name": "Price Jimmy",
+        "avatar": null
+      },
+      "price": 21900000.0,
+      "currency": 1,
+      "address_line": "ш. Крымское, д. 5/2 стр. 358",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/fe871551a8ac4f97b352bdc728610334.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cc7a6bbacbd59a71afafe9a82b9dbe59d6078edf25cf3fbf728a11f84c9a307e",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 5422,
+      "title": "Радость руководитель белье палата",
+      "slug": "-891046",
+      "created_by": {
+        "id": 160,
+        "username": "dunlapbrent",
+        "first_name": "Мария",
+        "last_name": "Соколова",
+        "full_name": "Соколова Мария",
+        "avatar": null
+      },
+      "price": 30.0,
+      "currency": 2,
+      "address_line": "наб. Попова, д. 8/8",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/bf9e53711a984387ace4cbbbcc0461e6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c5959f14b7de76fc3ded875856f608a2fb5fd5db7d7357174877ed335aaf77e2",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 5350,
+      "title": "Призыв вытаскивать валюта возможно потянуться",
+      "slug": "-435410",
+      "created_by": {
+        "id": 107,
+        "username": "praskovjaabramova",
+        "first_name": "Евдоким",
+        "last_name": "Rivera",
+        "full_name": "Rivera Евдоким",
+        "avatar": null
+      },
+      "price": 390000.0,
+      "currency": 2,
+      "address_line": "379 Mathews Avenue Suite 041",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a5a56bb449194471a45f8340cf504cc0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260701%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260701T010851Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26c28866b1251b954fe3e7d65cc99064846ce0584689ccda6f025b384ae41944",
+      "subscription": "VIP",
+      "is_liked": false
+    }
+  ]
+}

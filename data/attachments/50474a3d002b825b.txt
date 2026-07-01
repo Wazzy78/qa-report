@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 591ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 01 Jul 2026 01:09:11 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 71,
+  "name": "autotest-jghohi",
+  "registration_id": "test-4d3235bd-ecdd-4b90-b6af-b81a83b1fe50",
+  "device_id": "dc04364a-2fbf-4c3e-9a5a-2fb2a7863221",
+  "active": true,
+  "date_created": "2026-07-01T06:09:11.768842+05:00",
+  "type": "android"
+}
