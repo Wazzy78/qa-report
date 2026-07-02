@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 201
+TIME: 579ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 02 Jul 2026 01:08:41 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 74,
+  "name": "autotest-nuyrhx",
+  "registration_id": "test-ba017b4c-1016-4f32-8c07-34910047ef2e",
+  "device_id": "8d7d435d-9a24-466d-b249-5b00c5aeace5",
+  "active": true,
+  "date_created": "2026-07-02T06:08:41.616258+05:00",
+  "type": "android"
+}
