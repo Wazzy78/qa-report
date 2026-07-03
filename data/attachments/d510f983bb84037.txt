@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-90dd2911-cfb2-4ded-8299-d2fc250a544d', 'type': 'android', 'name': 'autotest-udcilo', 'device_id': 'cf339921-d8f7-4114-bcda-a03a0d4bc5bd', 'active': True}

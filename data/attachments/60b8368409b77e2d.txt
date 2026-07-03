@@ -1,0 +1,218 @@
+RESPONSE
+STATUS: 200
+TIME: 650ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 03 Jul 2026 01:08:32 GMT
+  Content-Type: application/json
+  Content-Length: 8283
+  Connection: keep-alive
+  Vary: Accept, origin, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 50,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 19794,
+      "title": "His fast time weight manager attention",
+      "slug": "his-fast-time-weight-manager-attention-244490",
+      "created_by": {
+        "id": 11,
+        "username": "stevennelson",
+        "first_name": "Gabrielle",
+        "last_name": "Perez",
+        "full_name": "Perez Gabrielle",
+        "avatar": null
+      },
+      "price": 240.0,
+      "currency": 2,
+      "address_line": "60802 Hawkins Unions",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/f4ffa7c7494e4071800d81a757c0da6a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bacaa74e4b0923e2e4bfad462684b1bd27901cff2f547d0513ba26b74174f90",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 16340,
+      "title": "Himself race responsibility serve",
+      "slug": "himself-race-responsibility-serve-242907",
+      "created_by": {
+        "id": 36,
+        "username": "herringjames",
+        "first_name": "Christine",
+        "last_name": "Martinez",
+        "full_name": "Martinez Christine",
+        "avatar": null
+      },
+      "price": 240.0,
+      "currency": 2,
+      "address_line": "6951 Ward Neck",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/14131ea3a956461484666e7763c3e5e7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a7e1ad3c2dfe92d7ace8c9495e96c9c3fc84d05ceac2e7925a23df391d2c93ce",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 16241,
+      "title": "Five after generation capital floor",
+      "slug": "five-after-generation-capital-floor-954463",
+      "created_by": {
+        "id": 200,
+        "username": "msandoval",
+        "first_name": "Силантий",
+        "last_name": "Дьячков",
+        "full_name": "Дьячков Силантий",
+        "avatar": null
+      },
+      "price": 2200000.0,
+      "currency": 1,
+      "address_line": "наб. Добролюбова, д. 6 к. 5/8",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/970ac7381e584d5bb50341a9fb656d70.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d15f5355df7a117679e37c469d91778ae3fa3f5029a1a67523e837e13c84fefc",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 14452,
+      "title": "Засунуть невозможно опасность",
+      "slug": "-794512",
+      "created_by": {
+        "id": 148,
+        "username": "pcruz",
+        "first_name": "Алина",
+        "last_name": "Rice",
+        "full_name": "Rice Алина",
+        "avatar": null
+      },
+      "price": 2000.0,
+      "currency": 2,
+      "address_line": "91078 Maldonado Radial Suite 950",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/fb309d1a1a1a41f3ba2cf579edd58f6e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8269e0ae45c83ef2030f9b44a9f75a4634b63e619c78ae007de83940fa6cf4dc",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 11881,
+      "title": "Уронить место непривычный",
+      "slug": "-165135",
+      "created_by": {
+        "id": 96,
+        "username": "john14",
+        "first_name": "Иосиф",
+        "last_name": "Davis",
+        "full_name": "Davis Иосиф",
+        "avatar": null
+      },
+      "price": 246000.0,
+      "currency": 2,
+      "address_line": "4238 Nixon Isle",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a51fe46a55a449758c0265b591bcbca4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a110a77f5719c66acc4bbbb7dbc7101cb474bf711c75831de05daf9b70b5383f",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 11409,
+      "title": "Плод кожа невыносимый чем",
+      "slug": "-67845",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "price": 8100000.0,
+      "currency": 1,
+      "address_line": "585 Evan Spurs Suite 062",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6c521858023246b0bd4173b2832f0d57.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=87d57e101c6d621645b46832e0a175f19c79fe47dc6d724d556cfb73e1989e17",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 10988,
+      "title": "Table attention type difference believe",
+      "slug": "table-attention-type-difference-believe-325420",
+      "created_by": {
+        "id": 160,
+        "username": "dunlapbrent",
+        "first_name": "Мария",
+        "last_name": "Соколова",
+        "full_name": "Соколова Мария",
+        "avatar": null
+      },
+      "price": 3939700000.0,
+      "currency": 1,
+      "address_line": "757 Cochran Road Suite 271",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/066ee249a70f446d9079fd26a7a213d5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=169d787262a50611a3bc76377ecfa347349a235c1197ea6ab309d1c871f1c745",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 8641,
+      "title": "Смелый кожа пропасть",
+      "slug": "-776456",
+      "created_by": {
+        "id": 42,
+        "username": "pelagejaorlova",
+        "first_name": "Audrey",
+        "last_name": "Кондратьев",
+        "full_name": "Кондратьев Audrey",
+        "avatar": null
+      },
+      "price": 510.0,
+      "currency": 2,
+      "address_line": "ш. Коллективное, д. 7 к. 6",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d7393e7fa368473a83eff86a344e11f8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=743f27df71ba7ec3cd1843c819b29b032022031b2187ce35175492e1e058c2c8",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 5855,
+      "title": "Свежий забирать каюта руководитель приятель",
+      "slug": "-247676",
+      "created_by": {
+        "id": 81,
+        "username": "mitchellkathryn",
+        "first_name": "Радим",
+        "last_name": "Guerra",
+        "full_name": "Guerra Радим",
+        "avatar": null
+      },
+      "price": 10100000.0,
+      "currency": 1,
+      "address_line": "пер. Казачий, д. 6 к. 78",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/60a2f44f8eaf487c8dde87e84bb5680e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1f4afc65f0b770e8f029297ab93c0a57b2c83581e57590b16dfd27ed975eb0ea",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 2159,
+      "title": "Кпсс парень рот четко ленинград белье",
+      "slug": "-284047",
+      "created_by": {
+        "id": 147,
+        "username": "pahom_52",
+        "first_name": "Joshua",
+        "last_name": "Wright",
+        "full_name": "Wright Joshua",
+        "avatar": null
+      },
+      "price": 15500000.0,
+      "currency": 1,
+      "address_line": "пр. Лазурный, д. 5 к. 259",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/84a5ecb5d261428882087d428e57932d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260703%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260703T010832Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=874ea398339b4c4fe639d00c686d717e11e43d76fd9ad759854a5af285c4d758",
+      "subscription": "VIP",
+      "is_liked": false
+    }
+  ]
+}
