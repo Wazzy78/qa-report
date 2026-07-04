@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 577ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 04 Jul 2026 01:10:32 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 80,
+  "name": "autotest-mzezvr",
+  "registration_id": "test-4f23b4dd-8921-46c0-b758-2d112c29e2b9",
+  "device_id": "64c9659f-b6a3-4958-ac39-0adda2f85b34",
+  "active": true,
+  "date_created": "2026-07-04T06:10:32.857072+05:00",
+  "type": "android"
+}

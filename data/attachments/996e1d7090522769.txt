@@ -1,0 +1,5 @@
+ERROR    utils.validation_logger:validation_logger.py:22 [string_type] media → 0 → file: Input should be a valid string
+ERROR    utils.validation_logger:validation_logger.py:22 [string_type] media → 1 → file: Input should be a valid string
+ERROR    utils.validation_logger:validation_logger.py:22 [string_type] media → 2 → file: Input should be a valid string
+ERROR    utils.validation_logger:validation_logger.py:22 [string_type] media → 3 → file: Input should be a valid string
+ERROR    utils.validation_logger:validation_logger.py:22 [missing] created_at: Field required

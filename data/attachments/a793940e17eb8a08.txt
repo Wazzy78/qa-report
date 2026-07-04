@@ -1,1 +1,0 @@
-ERROR    utils.validation_logger:validation_logger.py:22 [missing] created_at: Field required
