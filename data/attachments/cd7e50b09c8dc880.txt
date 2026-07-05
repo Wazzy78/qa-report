@@ -1,0 +1,219 @@
+RESPONSE
+STATUS: 200
+TIME: 636ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 05 Jul 2026 01:10:15 GMT
+  Content-Type: application/json
+  Content-Length: 8329
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 50,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/vip/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 17087,
+      "title": "Off stand run",
+      "slug": "off-stand-run-757238",
+      "created_by": {
+        "id": 132,
+        "username": "anatoli_2014",
+        "first_name": "Клавдия",
+        "last_name": "Rodriguez",
+        "full_name": "Rodriguez Клавдия",
+        "avatar": null
+      },
+      "price": 450.0,
+      "currency": 2,
+      "address_line": "наб. Славянская, д. 1 к. 69",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6dbf1ed06c894c4081b69075aa78b146.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=29bb989436f38d5b5da57871d939b0e4a8ad8c99eaad8f3d08364fc406a9302c",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 15759,
+      "title": "Million sometimes no difference",
+      "slug": "million-sometimes-no-difference-336375",
+      "created_by": {
+        "id": 37,
+        "username": "barbara66",
+        "first_name": "Charles",
+        "last_name": "Garcia",
+        "full_name": "Garcia Charles",
+        "avatar": null
+      },
+      "price": 1600.0,
+      "currency": 2,
+      "address_line": "6626 Mark Flats Apt. 757",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/fb13103513f64ed5bd9b2e99a1f83fbc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3928f3aaea5cdd865d3a8065392a77901bf426fb66e1b552c64b922eee44a8db",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 15463,
+      "title": "Feeling campaign former",
+      "slug": "feeling-campaign-former-753691",
+      "created_by": {
+        "id": 120,
+        "username": "gerasim35",
+        "first_name": "Noah",
+        "last_name": "Porter",
+        "full_name": "Porter Noah",
+        "avatar": null
+      },
+      "price": 218000.0,
+      "currency": 2,
+      "address_line": "1347 Mccullough Station",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/25a911ce060e4f3c8f644bfcced91015.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=015fba0960cc4e3d4c6b9db13a7bae1fc23ed7d95c1e6b9ddd09215b0564499f",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 10276,
+      "title": "Набор какой дальний помолчать",
+      "slug": "-30724",
+      "created_by": {
+        "id": 130,
+        "username": "demjan_65",
+        "first_name": "Нина",
+        "last_name": "Кондратьева",
+        "full_name": "Кондратьева Нина",
+        "avatar": null
+      },
+      "price": 2200000.0,
+      "currency": 1,
+      "address_line": "158 Fowler Flats Apt. 098",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/dcc6302fb71f4170a6dd07761c2bb8bd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=01f706aee390c41db8146112999fc4cbae63676cc26050b4cfc72eb784bccea1",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 10120,
+      "title": "Задрать набор скользить монета хозяйка",
+      "slug": "-948639",
+      "created_by": {
+        "id": 149,
+        "username": "matthewsalexander",
+        "first_name": "Bill",
+        "last_name": "Fry",
+        "full_name": "Fry Bill",
+        "avatar": null
+      },
+      "price": 20600000.0,
+      "currency": 1,
+      "address_line": "741 Katelyn Corner",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/110200f622b5473fbefe1a15d4457d61.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b29650e1cea222960f4654c0b46b8a8fc1d86e3d51f087a5af7c02dafec762d6",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 8299,
+      "title": "Сбросить космос пропадать горький космос райком",
+      "slug": "-786117",
+      "created_by": {
+        "id": 69,
+        "username": "matve1978",
+        "first_name": "Марина",
+        "last_name": "Игнатьева",
+        "full_name": "Игнатьева Марина",
+        "avatar": null
+      },
+      "price": 4146500000.0,
+      "currency": 1,
+      "address_line": "ш. Щербакова, д. 471 к. 2/2",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/d170d8ecfe8447f4af4a8366444bfaca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f2639acede3d2c64a3e11b81afa1d955d33a8b0767771b90afd30a3a95db872",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 7650,
+      "title": "Page article wear",
+      "slug": "page-article-wear-261746",
+      "created_by": {
+        "id": 174,
+        "username": "hughesray",
+        "first_name": "Кирилл",
+        "last_name": "Гордеева",
+        "full_name": "Гордеева Кирилл",
+        "avatar": null
+      },
+      "price": 2255800000.0,
+      "currency": 1,
+      "address_line": "ул. Плеханова, д. 70 стр. 193",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8e400d24c80440f2ad4ab54ef6d43a3a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1c20f1f9395fac907b3944d12c6d762d5f9086a92a29465b9ce6e7bd2df15263",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 4938,
+      "title": "Скрытый природа зачем покидать реклама актриса",
+      "slug": "-240296",
+      "created_by": {
+        "id": 168,
+        "username": "trifon_61",
+        "first_name": "Флорентин",
+        "last_name": "Martin",
+        "full_name": "Martin Флорентин",
+        "avatar": null
+      },
+      "price": 1100.0,
+      "currency": 2,
+      "address_line": "72080 Sandra Mountain Apt. 747",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/8a886828d9da4581a71167da4ae158ce.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e27923bde3dfc762cc591b9e6bb953b3842fa6c6a18a37be3ef5a65df41859c8",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 3329,
+      "title": "Floor hundred hair recently",
+      "slug": "floor-hundred-hair-recently-12444",
+      "created_by": {
+        "id": 129,
+        "username": "mwheeler",
+        "first_name": "Вацлав",
+        "last_name": "Torres",
+        "full_name": "Torres Вацлав",
+        "avatar": null
+      },
+      "price": 180.0,
+      "currency": 2,
+      "address_line": "4739 Amanda Spur Apt. 733",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3741d55f831e4f6a8c6aa545ba2f1ef4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1280ec5e682c6ecce88f0fe61b44555018054fd53deaa5bd08debada3897cc3a",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 696,
+      "title": "Актриса налоговый народ художественный ведь ботинок",
+      "slug": "-911578",
+      "created_by": {
+        "id": 167,
+        "username": "annabirjukova",
+        "first_name": "Прокофий",
+        "last_name": "Baker",
+        "full_name": "Baker Прокофий",
+        "avatar": null
+      },
+      "price": 6100000.0,
+      "currency": 1,
+      "address_line": "ш. Прудное, д. 7/8 стр. 82",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/0da6ada8262c435d8e7cab6be15e8581.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260705%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260705T011015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=384204f936e811774777b7e7870be831c1ee793c2241a0af563bdb2c230d4200",
+      "subscription": "VIP",
+      "is_liked": false
+    }
+  ]
+}
