@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-089c58c4-e1cf-49a4-86fe-afaa90616540', 'type': 'android', 'name': 'autotest-hbpzra', 'device_id': 'bce1a9cf-8acf-427d-adc1-e8a02c80a724', 'active': True}

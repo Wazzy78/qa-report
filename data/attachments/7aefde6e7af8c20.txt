@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-2f64905e-0251-4722-aca2-cbee93a7c4ca', 'type': 'android', 'name': 'autotest-uaqnzc', 'device_id': '9919bd84-4954-498d-8c89-e73ec3781604', 'active': True}

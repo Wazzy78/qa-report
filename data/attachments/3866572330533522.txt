@@ -1,0 +1,31 @@
+RESPONSE
+STATUS: 401
+TIME: 557ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 06 Jul 2026 01:20:16 GMT
+  Content-Type: application/json
+  Content-Length: 179
+  Connection: keep-alive
+  WWW-Authenticate: Bearer realm="api"
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 0
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "message": "Token noto'g'ri yoki muddati tugagan.",
+  "message_key": "token_not_valid",
+  "errors": {
+    "detail": "token_not_valid",
+    "code": "token_not_valid"
+  },
+  "exception_class": "InvalidToken"
+}

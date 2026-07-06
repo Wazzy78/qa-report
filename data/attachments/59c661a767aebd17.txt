@@ -1,2 +1,0 @@
-verification_token: d2fe***
-security_code: 5***
