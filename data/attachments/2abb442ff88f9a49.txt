@@ -1,0 +1,199 @@
+RESPONSE
+STATUS: 200
+TIME: 789ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 08 Jul 2026 01:08:54 GMT
+  Content-Type: application/json
+  Content-Length: 7272
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 27
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1672,
+  "filtered_count": 1672,
+  "results": [
+    {
+      "id": 23061,
+      "title": "Sotuv kvartira test",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=adf8b9f005b0afe0be84d2fc0bca87954da8066be5197a55a6644806fd2e4f9a"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "50000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/05/image_97C577C4-519C-43DC-A84F-2AE59E5BCDAA.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6fd812e2fdd250c9dc9c0b87d96f408af2d9c15756dc8e27270bde5a71b9dc96",
+      "ads_at": "2026-07-06T10:53:39.855884+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 18082,
+      "title": "Court million future huge",
+      "created_by": {
+        "id": 206,
+        "username": "sharovlukjan",
+        "first_name": "Susan",
+        "last_name": "Hartman",
+        "full_name": "Hartman Susan",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1600.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/93ab75779fb54a97bc7f8946a3c65263.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b28a7c1e44cbe124b66e71414ff7be15beec72781482d6b3e7632ad24ade4ea1",
+      "ads_at": "2026-06-07T16:38:45+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 11408,
+      "title": "Вскакивать полоска подземный услать",
+      "created_by": {
+        "id": 128,
+        "username": "fsavina",
+        "first_name": "Ashley",
+        "last_name": "Jennings",
+        "full_name": "Jennings Ashley",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/db67bfe4f7a048178687c081ad363988.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a585cd3357ba46e894aba818065c5e9e343e026dd79cc8a15a7221e990c3d707",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 32,
+      "title": "More there manage right",
+      "created_by": {
+        "id": 104,
+        "username": "kiravolkova",
+        "first_name": "Любовь",
+        "last_name": "Reed",
+        "full_name": "Reed Любовь",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "184000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/689a74de90f34d7ca8bf851d1c09adaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=030613a87ad854d82f2a098b73c725b589075c015692d77aa8d1232731866a92",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 13183,
+      "title": "Door crime television",
+      "created_by": {
+        "id": 6,
+        "username": "+998915506316",
+        "first_name": "Ravshan",
+        "last_name": "Baxranov",
+        "full_name": "Baxranov Ravshan",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/29/11/photo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1fa4bda869a71bb26b071038ec180171eda689665afa32faa34c70cb8e40b5df"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/10d0895fdab7412da69a251c977caea7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1fe5162ec3a1c8e185c5d6f9741be8a76983f90e03e9a1e7aeeb816b386a97f0",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 15,
+      "title": "Natural effort information guess environmental",
+      "created_by": {
+        "id": 128,
+        "username": "fsavina",
+        "first_name": "Ashley",
+        "last_name": "Jennings",
+        "full_name": "Jennings Ashley",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "3100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/814630664c2440d9853c830ac15c578f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e782a8ba3b91638c9136111a235f863fc2351ae639c6af23dcc5a0a47a089a4c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 7340,
+      "title": "Палка бетонный хлеб бровь",
+      "created_by": {
+        "id": 6,
+        "username": "+998915506316",
+        "first_name": "Ravshan",
+        "last_name": "Baxranov",
+        "full_name": "Baxranov Ravshan",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/29/11/photo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1fa4bda869a71bb26b071038ec180171eda689665afa32faa34c70cb8e40b5df"
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "390000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a3ef74aa5e6a41a3850feb4871a44e9d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260708%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260708T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bd75b4432d8c139345dd0ed59205564eff0af903313f82b8ed1736ea38f68f4c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    }
+  ]
+}

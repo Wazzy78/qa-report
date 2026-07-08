@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-395a6b69-ad08-46ce-8eeb-bbe27da6999c', 'type': 'android', 'name': 'autotest-mxcupe', 'device_id': 'deedea04-eaac-4312-a406-71c9c3ab014c', 'active': True}
