@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-5210e7b1-a55c-4594-8b06-e7b8285d152e', 'type': 'android', 'name': 'autotest-bmxxqb', 'device_id': 'b7316aa2-234b-49e9-adaa-d503f6f37543', 'active': True}

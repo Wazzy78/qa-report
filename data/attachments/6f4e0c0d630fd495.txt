@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 574ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 09 Jul 2026 01:08:47 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 90,
+  "name": "autotest-qptlbd",
+  "registration_id": "test-ddcbbb32-8711-4aca-9270-97d00e502000",
+  "device_id": "63777242-0e75-4d87-be69-3f930877a0f0",
+  "active": true,
+  "date_created": "2026-07-09T06:08:47.231014+05:00",
+  "type": "android"
+}
