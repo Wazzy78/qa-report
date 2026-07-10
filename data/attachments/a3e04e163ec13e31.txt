@@ -1,0 +1,86 @@
+RESPONSE
+STATUS: 200
+TIME: 606ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 10 Jul 2026 01:08:25 GMT
+  Content-Type: application/json
+  Content-Length: 3239
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "slug": "",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260710%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260710T010825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0f2d2321be9c79d2cebb59a1787ab6df6efb2bdb735eb0ca97058c1f40f05e9c"
+      },
+      "price": 50000.0,
+      "currency": 2,
+      "address_line": "Tashkent City, Yunusobod District",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260710%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260710T010825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7af932b4797ff0859ae5eb64d3eb96c2e97cb1067c7e6607b453520664aec147",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 23064,
+      "title": "test soft blok",
+      "slug": "",
+      "created_by": {
+        "id": 238,
+        "username": "Uzb_",
+        "first_name": "Саддам",
+        "last_name": "Максудов",
+        "full_name": "Максудов Саддам",
+        "avatar": null
+      },
+      "price": 550000.0,
+      "currency": 2,
+      "address_line": "город Ташкент, Юнусабадский район",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/1000083992_zw8ze4P.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260710%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260710T010825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d3541296917473cb1dba5b1dfc01c9dbf644cc479896d716835916fca74770a4",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 23056,
+      "title": "Title",
+      "slug": "",
+      "created_by": {
+        "id": 210,
+        "username": "test45",
+        "first_name": "Test 111",
+        "last_name": "111",
+        "full_name": "111 Test 111",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/25/19/image_3212BE8F-B08D-42C8-8141-44DE2452FD52.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260710%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260710T010825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d28ba5d295124c1dc83e93169ee49c4b02c63dae0e3b84368a764e6e2e81c50"
+      },
+      "price": 1800.0,
+      "currency": 2,
+      "address_line": "город Ташкент, Юнусабадский район",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/03/04/image_27995DE1-CB3D-4945-9A25-FE46BD94BC43.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260710%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260710T010825Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6c312aae580b0e898e3b6c0c6c27e4450c0d5e6a7320750573746ac2cce73422",
+      "subscription": "VIP",
+      "is_liked": false
+    }
+  ]
+}

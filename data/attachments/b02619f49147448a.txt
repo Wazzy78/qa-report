@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-ddcbbb32-8711-4aca-9270-97d00e502000', 'type': 'android', 'name': 'autotest-qptlbd', 'device_id': '63777242-0e75-4d87-be69-3f930877a0f0', 'active': True}
