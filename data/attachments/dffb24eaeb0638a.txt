@@ -1,0 +1,113 @@
+RESPONSE
+STATUS: 200
+TIME: 721ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 11 Jul 2026 01:08:28 GMT
+  Content-Type: application/json
+  Content-Length: 3178
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, PATCH, DELETE, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 5
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "id": 232,
+  "title": "Fight serious pressure",
+  "slug": "fight-serious-pressure-480133",
+  "deal_type": 2,
+  "property_type": 5,
+  "category": 7,
+  "advertiser_type": 2,
+  "description": "Опасность банк ставить беспомощный сынок. Палец угол лапа ложиться. Танцевать мотоцикл выкинуть подробность вывести близко.",
+  "address_line": "ш. Ясное, д. 739 к. 204",
+  "phone_number": "+998906080554",
+  "location": {
+    "latitude": 41.35248665153595,
+    "longitude": 69.22612580559954
+  },
+  "status": 1,
+  "is_liked": false,
+  "audio": null,
+  "district": {
+    "id": 8,
+    "name": "Ulug'nor tumani"
+  },
+  "region": {
+    "id": 1,
+    "name": "Andijon viloyati"
+  },
+  "country": {
+    "id": 15,
+    "name": "Oʻzbekiston"
+  },
+  "mortgage_available": false,
+  "media": [
+    {
+      "file": {
+        "id": 15691,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c04065ce414a402ca811c5772d0ed74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260711%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260711T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9f3ef58b7316c928ce79ec87aaed300bd692d1241417df76ee1b54313b25dc97"
+      },
+      "order": 0,
+      "is_cover": true
+    },
+    {
+      "file": {
+        "id": 15705,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/11ce5185d3b44a0cb7200ab14d1147b6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260711%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260711T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9dbac936c6c28c2bfe883b21952564b129feb6a31eb7b9c21d443176bc586017"
+      },
+      "order": 1,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 15718,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c13d0faff5db46c9afb781985f9477ab.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260711%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260711T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d6d55c17f8045a771deefebd11211125a9614fc405a1d25e1dc763d60a474d6e"
+      },
+      "order": 2,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 15734,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/c4a071654e4949b5975d14ca082f5133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260711%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260711T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e923541871e7d22e76f54fcb07f72245812e70afad9c801a9783868c896cd5f9"
+      },
+      "order": 3,
+      "is_cover": false
+    }
+  ],
+  "pricing": {
+    "currency": 2,
+    "price": "940.00",
+    "price_from": null,
+    "price_to": null,
+    "currency_display": "y.e"
+  },
+  "seller": {
+    "id": 66,
+    "first_name": "Ryan",
+    "last_name": "Юдина",
+    "avatar": null,
+    "bio": "Обида способ исполнять князь видимо мелькнуть.",
+    "username": "fjones"
+  },
+  "detail": {
+    "area_m2": "3753.00"
+  },
+  "stats": {
+    "calls": 0,
+    "shares": 0,
+    "views": 8,
+    "comments": 0,
+    "likes": 1
+  },
+  "ads_at": "2026-06-07T16:38:45.158627+05:00"
+}
