@@ -1,0 +1,97 @@
+RESPONSE
+STATUS: 200
+TIME: 681ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 12 Jul 2026 01:09:25 GMT
+  Content-Type: application/json
+  Content-Length: 2348
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, PATCH, DELETE, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 4
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "id": 9999,
+  "title": "Хлеб расстройство сбросить изредка",
+  "slug": "-370340",
+  "deal_type": 2,
+  "property_type": 5,
+  "category": 7,
+  "advertiser_type": 1,
+  "description": "Роскошный блин развернуться болото. Лапа ход совещание единый. Необычный направо упорно привлекать отъезд мгновение тысяча. Бочок тревога решение бок видимо носок термин. Разводить функция остановить уточнить.",
+  "address_line": "3492 Rachel Hill Apt. 632",
+  "phone_number": "+998902967954",
+  "location": {
+    "latitude": 41.25177683194085,
+    "longitude": 69.19204360368728
+  },
+  "status": 9,
+  "is_liked": false,
+  "audio": null,
+  "district": {
+    "id": 13,
+    "name": "Paxtaobod tumani"
+  },
+  "region": {
+    "id": 1,
+    "name": "Andijon viloyati"
+  },
+  "country": {
+    "id": 15,
+    "name": "Oʻzbekiston"
+  },
+  "mortgage_available": false,
+  "media": [
+    {
+      "file": {
+        "id": 49885,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/47f29fbf13e54d47afb693e84a22c2e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260712%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260712T010925Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fb8d271dc997898fc3b59dd01e84146852299072bf314fa20132d562803cdc5c"
+      },
+      "order": 0,
+      "is_cover": true
+    },
+    {
+      "file": {
+        "id": 49896,
+        "url": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/07e3140229044ac98f3e6644eecdd6d1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260712%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260712T010925Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=035150d424d0f28e908a2ae525a6619546b3428efa78385ae1aa050d70e6ecb4"
+      },
+      "order": 1,
+      "is_cover": false
+    }
+  ],
+  "pricing": {
+    "currency": 1,
+    "price": "2900000.00",
+    "price_from": null,
+    "price_to": null,
+    "currency_display": "so'm"
+  },
+  "seller": {
+    "id": 20,
+    "first_name": "Сила",
+    "last_name": "Brown",
+    "avatar": null,
+    "bio": "Attack technology identify walk now often always bank price north.",
+    "username": "adkinsbrian"
+  },
+  "detail": {
+    "area_m2": "3382.00"
+  },
+  "stats": {
+    "calls": 0,
+    "shares": 0,
+    "views": 9,
+    "comments": 0,
+    "likes": 0
+  },
+  "ads_at": "2026-06-07T16:38:45.158627+05:00"
+}

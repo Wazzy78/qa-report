@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-35db21ec-33ba-4cc8-93d1-988e9a2a2687', 'type': 'android', 'name': 'autotest-zylecy', 'device_id': '8b5b3080-58bb-462d-96b2-6b1fa51f7feb', 'active': True}
