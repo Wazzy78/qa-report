@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 598ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 13 Jul 2026 01:14:30 GMT
+  Content-Type: application/json
+  Content-Length: 228
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 94,
+  "name": "autotest-jtdxmo",
+  "registration_id": "test-caa4ff58-a1cf-4f8f-8cb2-dbc1cdc392d1",
+  "device_id": "ffa1acb8-1126-4266-8aa0-5a9b5be85f81",
+  "active": true,
+  "date_created": "2026-07-13T06:14:30.518128+05:00",
+  "type": "android"
+}
