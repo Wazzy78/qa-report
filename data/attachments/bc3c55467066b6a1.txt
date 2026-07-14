@@ -1,0 +1,175 @@
+RESPONSE
+STATUS: 200
+TIME: 767ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 14 Jul 2026 01:08:10 GMT
+  Content-Type: application/json
+  Content-Length: 5263
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 6578,
+      "title": "Majority must black later",
+      "created_by": {
+        "id": 149,
+        "username": "matthewsalexander",
+        "first_name": "Bill",
+        "last_name": "Fry",
+        "full_name": "Fry Bill",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "380.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/9d96783ea8ac405b80f26339073c1d99.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e225d6df8804746b4707908d188dce60e5291a15ea3c870f7f2c9354fce49bef",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 6552,
+      "title": "Армейский ягода выраженный прежний порог",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "216000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e81ba6a0525d4c06ab5e4c2806a627ba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1c81c70a8e8d608ce61f50ee29d6ae096d3d02035dcaf584cbe0280f314d6771",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 16013,
+      "title": "Left vote yeah",
+      "created_by": {
+        "id": 170,
+        "username": "lavrenti31",
+        "first_name": "Philip",
+        "last_name": "Тимофеев",
+        "full_name": "Тимофеев Philip",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "3800000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c3b8c1cf4222477c8af3bdf700ebba68.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ff60378ad25970680ac44959b8f9646fed4b1c1391a246794b0cce008c2b04f4",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 7195,
+      "title": "Рот ленинград означать правление тесно",
+      "created_by": {
+        "id": 149,
+        "username": "matthewsalexander",
+        "first_name": "Bill",
+        "last_name": "Fry",
+        "full_name": "Fry Bill",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/48401e78e11f4923af48c2dbe22314a5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3aad447aa7846c1b5f72c27993b92dd348b9e5bea4509f344566d1c527e0a56a",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 11417,
+      "title": "Недостаток тута мгновение",
+      "created_by": {
+        "id": 54,
+        "username": "mstislav_62",
+        "first_name": "Amanda",
+        "last_name": "Jackson",
+        "full_name": "Jackson Amanda",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "410.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/2003066fc4d343eaa25b72ed0ec924e5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f8410bb6ca5a6d9eadd323a2a37a826c93f9ae82ef458d673c8387680ad4310",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 8042,
+      "title": "Bag chance material political",
+      "created_by": {
+        "id": 115,
+        "username": "igonzales",
+        "first_name": "Karen",
+        "last_name": "Taylor",
+        "full_name": "Taylor Karen",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "50.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8fd724dec76c4ed8af9f50f6837effb7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010810Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a9496d7198e09dbe980f04bc3368530a6195b5449aecf2bbcfa8af695adef616",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    }
+  ]
+}

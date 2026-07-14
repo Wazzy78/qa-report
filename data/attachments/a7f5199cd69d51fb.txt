@@ -1,0 +1,67 @@
+RESPONSE
+STATUS: 200
+TIME: 640ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 14 Jul 2026 01:08:11 GMT
+  Content-Type: application/json
+  Content-Length: 2029
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "slug": "",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010811Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=877adf44d830eb9d4541ff5319f8cb26f8228d08a912ecc66a9532eb1efced17"
+      },
+      "price": 50000.0,
+      "currency": 2,
+      "address_line": "Tashkent City, Yunusobod District",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010811Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bf589f33c0c598d55790edc8eb02c37d759e9c0215a96f1b08eea836f67df8c",
+      "subscription": "VIP",
+      "is_liked": false
+    },
+    {
+      "id": 23064,
+      "title": "test soft blok",
+      "slug": "",
+      "created_by": {
+        "id": 238,
+        "username": "Uzb_",
+        "first_name": "Саддам",
+        "last_name": "Максудов",
+        "full_name": "Максудов Саддам",
+        "avatar": null
+      },
+      "price": 550000.0,
+      "currency": 2,
+      "address_line": "город Ташкент, Юнусабадский район",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/1000083992_zw8ze4P.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260714%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260714T010811Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dcd38107235e85afa492db4702ece2c200fe73584ec1eca40d29dc86cf850d90",
+      "subscription": "VIP",
+      "is_liked": false
+    }
+  ]
+}

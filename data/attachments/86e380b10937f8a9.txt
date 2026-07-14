@@ -1,0 +1,24 @@
+RESPONSE
+STATUS: 201
+TIME: 700ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 14 Jul 2026 01:08:00 GMT
+  Content-Type: application/json
+  Content-Length: 57
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: POST, OPTIONS
+  X-DjangoQueryCount-Count: 3
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "verification_token": "e3b7***"
+}
