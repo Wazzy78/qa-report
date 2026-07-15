@@ -1,0 +1,175 @@
+RESPONSE
+STATUS: 200
+TIME: 883ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 15 Jul 2026 01:08:24 GMT
+  Content-Type: application/json
+  Content-Length: 5521
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-DjangoQueryCount-Count: 6
+  X-Frame-Options: DENY
+  Content-Language: uz
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 9328,
+      "title": "Издали магазин вывести командующий",
+      "created_by": {
+        "id": 155,
+        "username": "amberfields",
+        "first_name": "Stephanie",
+        "last_name": "Blake",
+        "full_name": "Blake Stephanie",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "240000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a2d88f1892d44932adb25491137794f4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0c41e32604936f8a0dce3dff6762ec1688c594cd8f854b87135344ccc2ef1c0f",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 9037,
+      "title": "Occur blue affect",
+      "created_by": {
+        "id": 158,
+        "username": "rjabovalidija",
+        "first_name": "Christopher",
+        "last_name": "Schmitt",
+        "full_name": "Schmitt Christopher",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "120.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/5ca28e69cf11465191f865b27daa5ebf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=18467c864d67519052d61f0b3d833ab90764d940aa9c82f3b6716f0b924be809",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 3195,
+      "title": "Металл прежний торопливый сверкающий решение сверкающий",
+      "created_by": {
+        "id": 93,
+        "username": "holmeskevin",
+        "first_name": "Marcus",
+        "last_name": "Reed",
+        "full_name": "Reed Marcus",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "280000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/a52a5d3276474e8a9e7d8ed607a8f11b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e8c1c3f335f2ca7821a41529d8f72247e481fc4722103cd9899078be5595988c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 7195,
+      "title": "Рот ленинград означать правление тесно",
+      "created_by": {
+        "id": 149,
+        "username": "matthewsalexander",
+        "first_name": "Bill",
+        "last_name": "Fry",
+        "full_name": "Fry Bill",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/48401e78e11f4923af48c2dbe22314a5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=07e7db861c152ba79214881f15cbe96ec6b8fbe8fac5797584e6366a3307ab21",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 14624,
+      "title": "Полностью команда выразить заявление задержать мусор",
+      "created_by": {
+        "id": 58,
+        "username": "robin74",
+        "first_name": "Викентий",
+        "last_name": "Селиверстова",
+        "full_name": "Селиверстова Викентий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "4056900000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8f9a6fc372c84b8bb6cbd932b4edec71.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ef2f1adfd2e2a7214bec711e70014fd75d46c0bf947b427b9cd3e6734401492c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    },
+    {
+      "id": 4390,
+      "title": "Костер беспомощный лиловый задержать порода",
+      "created_by": {
+        "id": 48,
+        "username": "aprildean",
+        "first_name": "Ярослав",
+        "last_name": "Некрасова",
+        "full_name": "Некрасова Ярослав",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "20.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/5b7f1968e0dd4500a150f07bb8a9bb1b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260715%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260715T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=29fe8b887ada6da8af2b1d974ceba0e3ba35556c08800f81ce40957239fe18d6",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false
+    }
+  ]
+}

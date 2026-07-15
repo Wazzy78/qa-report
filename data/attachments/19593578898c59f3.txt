@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-77bca1cf-5f5a-466b-87fc-001586c7d67b', 'type': 'android', 'name': 'autotest-rcnkrc', 'device_id': '3b3e957a-adf5-47ea-8d5e-0d3ac52979a2', 'active': True}
