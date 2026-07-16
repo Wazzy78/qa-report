@@ -1,0 +1,69 @@
+RESPONSE
+STATUS: 200
+TIME: 616ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 16 Jul 2026 01:11:38 GMT
+  Content-Type: application/json
+  Content-Length: 2117
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "slug": "",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011137Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=74103d68d17fd1165275c94eb07a31bc3f681c5ff03a22d060e688dbbd23f69b"
+      },
+      "price": 50000.0,
+      "currency": 2,
+      "address_line": "Tashkent City, Yunusobod District",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011137Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0a6b31619c36cf70830d88e061f30dc73e4149da2d9cb92acca44337d8c6f804",
+      "subscription": "VIP",
+      "is_liked": false,
+      "ads_at": "2026-07-06T11:48:13.769173+05:00"
+    },
+    {
+      "id": 23064,
+      "title": "test soft blok",
+      "slug": "",
+      "created_by": {
+        "id": 238,
+        "username": "Uzb_",
+        "first_name": "Саддам",
+        "last_name": "Максудов",
+        "full_name": "Максудов Саддам",
+        "avatar": null
+      },
+      "price": 550000.0,
+      "currency": 2,
+      "address_line": "город Ташкент, Юнусабадский район",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/1000083992_zw8ze4P.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011137Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=038b6d694827f13dc8805457b66b84fc4abc11c155bf3e0ed63e8feca7e02256",
+      "subscription": "VIP",
+      "is_liked": false,
+      "ads_at": "2026-07-06T11:17:12.991130+05:00"
+    }
+  ]
+}

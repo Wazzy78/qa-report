@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 779ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 16 Jul 2026 01:11:29 GMT
+  Content-Type: application/json
+  Content-Length: 6098
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 3009,
+      "title": "Chair worry upon hair politics",
+      "created_by": {
+        "id": 2,
+        "username": "khoshimov023",
+        "first_name": "Khoshimov",
+        "last_name": "Shavkatjon",
+        "full_name": "Shavkatjon Khoshimov",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/26/13/image_FD3FC635-CFE0-4679-8D3A-D241270A982F.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0f2208e5c128e62eb7bc4e233f2c31fd3482300854d84a4b132977b0e194d52e"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "2200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/f92a63fce2c34563991bc91d941bddd2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=942132c2f38fa3acddb3859e8d2a070cad8709b060c13b7002c46230736219d9",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Локомотивный, д. 936"
+    },
+    {
+      "id": 13923,
+      "title": "Порода забирать ночь приятель",
+      "created_by": {
+        "id": 155,
+        "username": "amberfields",
+        "first_name": "Stephanie",
+        "last_name": "Blake",
+        "full_name": "Blake Stephanie",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "4582300000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/0b2ae7882e494a508cab5f8d4b127106.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=549af85d68aa9a921771a4196c3d2229c63af62bf1945c92243848aa5481e28d",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Каштановое, д. 79 к. 624"
+    },
+    {
+      "id": 1522,
+      "title": "Аж дрогнуть актриса скользить труп",
+      "created_by": {
+        "id": 113,
+        "username": "rsorokin",
+        "first_name": "Desiree",
+        "last_name": "Фролов",
+        "full_name": "Фролов Desiree",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "220.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/34602e5b4f09493a83c5f5cbb036e2d2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a79aa2dea0730b7e998e856a41f13705cd0cd20edb7e7bf7a7d6ee1985116de7",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Омский, д. 3/7 к. 5/9"
+    },
+    {
+      "id": 10188,
+      "title": "Магазин еврейский мимо угол передо",
+      "created_by": {
+        "id": 126,
+        "username": "zosima1990",
+        "first_name": "Пимен",
+        "last_name": "Frazier",
+        "full_name": "Frazier Пимен",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "12100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/caae9a33761d471cb5832e99611334ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a0f4c285aee0b2c6d56273021b5d97ffc62e35d43bd4a748ccc2dd9e6941f997",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "835 Catherine Parkways Apt. 345"
+    },
+    {
+      "id": 11632,
+      "title": "According decide out building instead",
+      "created_by": {
+        "id": 147,
+        "username": "pahom_52",
+        "first_name": "Joshua",
+        "last_name": "Wright",
+        "full_name": "Wright Joshua",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "2729400000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/4234bc9b36b8431580269dad5ba7d257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=390ed5971d0abd70a52d3ec160316f79e78952e231d44a41ac9aa5bee117c94f",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "0671 Morgan Extensions"
+    },
+    {
+      "id": 6934,
+      "title": "Hit our century two",
+      "created_by": {
+        "id": 182,
+        "username": "ekaterina_20",
+        "first_name": "Лавр",
+        "last_name": "Дьячкова",
+        "full_name": "Дьячкова Лавр",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1531700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e9e314834977488c8dc3e8fb76e74c23.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260716%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260716T011129Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cfa19c7f5e973e3037e8f0eed01c837dd10c998d9be1041bca35054d500f9727",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Красноармейский, д. 588 к. 787"
+    }
+  ]
+}

@@ -1,2 +1,0 @@
-participant: 66
-room_type: 2
