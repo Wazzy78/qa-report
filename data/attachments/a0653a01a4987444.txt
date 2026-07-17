@@ -1,0 +1,206 @@
+RESPONSE
+STATUS: 200
+TIME: 794ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 17 Jul 2026 01:10:31 GMT
+  Content-Type: application/json
+  Content-Length: 6828
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1674,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7cb8381ceac7d203721253224b76bfedb556725ad659740aaf15aa048a71b547"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "50000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1ba4c704dbdac1eb2177ec405f0784faa1d3ea734e17fcd74d9634dff818d3c6",
+      "ads_at": "2026-07-06T11:48:13.769173+05:00",
+      "is_liked": false,
+      "address_line": "Tashkent City, Yunusobod District"
+    },
+    {
+      "id": 7221,
+      "title": "Difference power true better yet",
+      "created_by": {
+        "id": 62,
+        "username": "kristinharris",
+        "first_name": "Brenda",
+        "last_name": "Murphy",
+        "full_name": "Murphy Brenda",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1400000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a067e225251e427c86ae4bad33f8e4cc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=291e795fe78a522af97f09d293372b1e7c944ddc00d9d0d3ddd87d9f23f7e012",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "8490 Vanessa Parkway Apt. 844"
+    },
+    {
+      "id": 16893,
+      "title": "Сбросить уточнить интернет факультет вскинуть",
+      "created_by": {
+        "id": 78,
+        "username": "bromero",
+        "first_name": "Леонид",
+        "last_name": "Bean",
+        "full_name": "Bean Леонид",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "30.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8d491cd8b3964cca805b2cdcf52661ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2ccdb2be67d73caf546d00798fd3a9d133f5d2fef2cf221f7ec9ab17a7a8a91d",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Урожайное, д. 25"
+    },
+    {
+      "id": 13760,
+      "title": "Expert agree hard",
+      "created_by": {
+        "id": 19,
+        "username": "svetozar1982",
+        "first_name": "Аристарх",
+        "last_name": "Gray",
+        "full_name": "Gray Аристарх",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "6700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/12cc8c9f213f428cb407978b56e6db0d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e5ccfd7352bf0f79332a409e6c2885ced08dfa92c7aa5e54b9388055641a8407",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "910 Hoffman Radial Suite 535"
+    },
+    {
+      "id": 10958,
+      "title": "Economy act high our who",
+      "created_by": {
+        "id": 129,
+        "username": "mwheeler",
+        "first_name": "Вацлав",
+        "last_name": "Torres",
+        "full_name": "Torres Вацлав",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "13700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/5099ee5394de4ee29ae9578fb3ceb12b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f36d777c1416af130dd70ce42a5885335070de4e7daf60c43fb7085c3d078051",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Полтавское, д. 6"
+    },
+    {
+      "id": 4188,
+      "title": "Дыхание рота дошлый",
+      "created_by": {
+        "id": 82,
+        "username": "lacey20",
+        "first_name": "Савва",
+        "last_name": "Blake",
+        "full_name": "Blake Савва",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "9300000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/2159413a17144ef1acb84aa831e87cb7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e82bbb3c7c1b8a1d720825714f58d5b4b2705bde2b659ed6451413f713a63901",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "13615 Bennett Plaza"
+    },
+    {
+      "id": 9896,
+      "title": "Little north data same gas animal learn",
+      "created_by": {
+        "id": 148,
+        "username": "pcruz",
+        "first_name": "Алина",
+        "last_name": "Rice",
+        "full_name": "Rice Алина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/49105c922d984b77979bd9238138c227.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260717%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260717T011031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b464ec71b08568af6342480151ee1470f7a2e6218c4dd3932d0ab5bde4ce333f",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Просвещения, д. 8/7"
+    }
+  ]
+}
