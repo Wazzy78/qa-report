@@ -1,0 +1,206 @@
+RESPONSE
+STATUS: 200
+TIME: 874ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 18 Jul 2026 01:08:21 GMT
+  Content-Type: application/json
+  Content-Length: 6987
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1674,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=88346cc6b91db11d66ab8583100b654c0b277909c207a34e24bba9631321af33"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "50000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=abca26f858639ebf0e38d5f6e1ebfc5085d3fbfe1cac4a353b244e60a05a12ea",
+      "ads_at": "2026-07-06T11:48:13.769173+05:00",
+      "is_liked": false,
+      "address_line": "Tashkent City, Yunusobod District"
+    },
+    {
+      "id": 19851,
+      "title": "Collection similar skin the",
+      "created_by": {
+        "id": 194,
+        "username": "ealexander",
+        "first_name": "Валерия",
+        "last_name": "Козлов",
+        "full_name": "Козлов Валерия",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "383000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/28c3b3ba7022479199cdf54f1579236a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d4053ab1b2a9e4107859f4d2486fadfa04a3e9293d26bc5163feff6f91a7e75e",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "38150 James Crescent"
+    },
+    {
+      "id": 3960,
+      "title": "Исполнять металл сохранять недостаток рассуждение головной",
+      "created_by": {
+        "id": 75,
+        "username": "steven00",
+        "first_name": "Конон",
+        "last_name": "Newman",
+        "full_name": "Newman Конон",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "15700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/8ea15ebee9494e17a4a426e18f004bc2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0e1391070d7079bb04caafabc87526b0f3f4efc2769f6778a12056f89b6df4f5",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "82304 Wade Spring Apt. 770"
+    },
+    {
+      "id": 13973,
+      "title": "Дремать смеяться находить",
+      "created_by": {
+        "id": 153,
+        "username": "pwalker",
+        "first_name": "Маргарита",
+        "last_name": "Потапов",
+        "full_name": "Потапов Маргарита",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "18200000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/426a4864136f45c09abf813f1cfd8e4f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fd1ed41a8a663b11b48e73061993f4da7136c12fb980fe222f10665a162f5742",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Шоссейный, д. 2 к. 738"
+    },
+    {
+      "id": 8291,
+      "title": "Цель приходить мера степь тяжелый",
+      "created_by": {
+        "id": 129,
+        "username": "mwheeler",
+        "first_name": "Вацлав",
+        "last_name": "Torres",
+        "full_name": "Torres Вацлав",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "484000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/516f54c36f0849669455f4990c9b3ca9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=60fb3f1f940d6e2dcaf9005ea9e725dbdf8c1bfba778e73995d51d6c6258b3cc",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Коммуны, д. 303 к. 3"
+    },
+    {
+      "id": 5760,
+      "title": "Фонарик освобождение добиться",
+      "created_by": {
+        "id": 23,
+        "username": "juan35",
+        "first_name": "Grace",
+        "last_name": "Морозова",
+        "full_name": "Морозова Grace",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "470.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/2f429927807942e4a310d3d91862418c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fa126c18d4649b1478cfc7d3ce8cfb99d5329b9161c881e94f79e1ee092d50e8",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "955 Larry Prairie Apt. 615"
+    },
+    {
+      "id": 9380,
+      "title": "Develop present beat soldier discussion study",
+      "created_by": {
+        "id": 30,
+        "username": "emilywalker",
+        "first_name": "Dylan",
+        "last_name": "Sanchez",
+        "full_name": "Sanchez Dylan",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/2391d07adbef4085a28fc586327aee48.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260718%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260718T010821Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=16082ae9047012fa2018870691f78c786cce709e69864ec9255a142acb12edfc",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2500 Matthew Village"
+    }
+  ]
+}

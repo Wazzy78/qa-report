@@ -1,0 +1,3 @@
+ERROR    utils.validation_logger:validation_logger.py:22 [missing] results → 0 → participants: Field required
+ERROR    utils.validation_logger:validation_logger.py:22 [missing] results → 1 → participants: Field required
+ERROR    utils.validation_logger:validation_logger.py:22 [missing] results → 2 → participants: Field required
