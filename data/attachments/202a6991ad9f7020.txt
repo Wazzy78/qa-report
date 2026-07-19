@@ -1,0 +1,18 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/notification/device/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Authorization: Bear***
+  Content-Length: 179
+
+BODY:
+{
+  "registration_id": "test-374c2cdf-c2df-4173-baff-24ef20fc3098",
+  "type": "android",
+  "name": "autotest-ygtmfp",
+  "device_id": "13e9f581-eb76-4cf1-b60a-3af2ba7e73eb",
+  "active": true
+}
