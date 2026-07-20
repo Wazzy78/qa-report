@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 400
+TIME: 574ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 20 Jul 2026 01:09:41 GMT
+  Content-Type: application/json
+  Content-Length: 152
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "message": "To'g'ri telefon raqamini kiriting.",
+  "message_key": "invalid",
+  "errors": {
+    "contact": "invalid_phone_number"
+  },
+  "exception_class": "ValidationError"
+}

@@ -1,0 +1,30 @@
+RESPONSE
+STATUS: 404
+TIME: 571ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 20 Jul 2026 01:09:15 GMT
+  Content-Type: text/html; charset=utf-8
+  Content-Length: 179
+  Connection: keep-alive
+  X-Frame-Options: DENY
+  Vary: origin, Accept-Language, Cookie
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Not Found</title>
+</head>
+<body>
+  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>
+</body>
+</html>

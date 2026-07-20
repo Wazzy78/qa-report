@@ -1,0 +1,19 @@
+RESPONSE
+STATUS: 502
+TIME: 551ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 20 Jul 2026 01:09:37 GMT
+  Content-Type: text/html
+  Content-Length: 166
+  Connection: keep-alive
+
+BODY:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.18.0 (Ubuntu)</center>
+</body>
+</html>

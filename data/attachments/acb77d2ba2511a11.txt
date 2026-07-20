@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 590ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 20 Jul 2026 01:09:35 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 100,
+  "name": "autotest-oqitlk",
+  "registration_id": "test-b88099f1-ac32-45e7-baa5-639ae59a0a14",
+  "device_id": "130d40d9-070b-4c50-aa45-ab80432dde6e",
+  "active": true,
+  "date_created": "2026-07-20T06:09:35.390274+05:00",
+  "type": "android"
+}

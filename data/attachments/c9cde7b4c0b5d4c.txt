@@ -1,2 +1,0 @@
-verification_token: 52I6***
-security_code: 5***
