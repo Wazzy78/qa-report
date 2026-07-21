@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 595ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 21 Jul 2026 01:08:44 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 101,
+  "name": "autotest-rnobvr",
+  "registration_id": "test-396d0863-d21f-4909-8b44-e82df97d1f2a",
+  "device_id": "451beda5-74be-4315-ae41-3bffa582811c",
+  "active": true,
+  "date_created": "2026-07-21T06:08:44.907316+05:00",
+  "type": "android"
+}
