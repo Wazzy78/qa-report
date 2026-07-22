@@ -1,1 +1,0 @@
-payload: {'registration_id': 'test-396d0863-d21f-4909-8b44-e82df97d1f2a', 'type': 'android', 'name': 'autotest-rnobvr', 'device_id': '451beda5-74be-4315-ae41-3bffa582811c', 'active': True}
