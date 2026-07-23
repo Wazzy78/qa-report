@@ -1,0 +1,27 @@
+RESPONSE
+STATUS: 200
+TIME: 237ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 23 Jul 2026 01:08:30 GMT
+  Content-Type: application/json
+  Content-Length: 567
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "verification_token": "qg6j***",
+  "tokens": {
+    "access": "eyJh***",
+    "refresh": "eyJh***"
+  }
+}

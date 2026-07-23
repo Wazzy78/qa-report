@@ -1,2 +1,0 @@
-verification_token: wi7R***
-security_code: 5***

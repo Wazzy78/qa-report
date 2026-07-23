@@ -1,0 +1,206 @@
+RESPONSE
+STATUS: 200
+TIME: 1100ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 23 Jul 2026 01:08:36 GMT
+  Content-Type: application/json
+  Content-Length: 6974
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1675,
+  "filtered_count": 1674,
+  "results": [
+    {
+      "id": 23066,
+      "title": "Gags",
+      "created_by": {
+        "id": 219,
+        "username": "saddam",
+        "first_name": "Saddam",
+        "last_name": "",
+        "full_name": "Saddam",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/06/06/image_9E702067-97B9-4A8F-B11B-BB5D2B20141B.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cf0479c94090709ace19b92d57716ebf038e6df008d22475564ff0df995c0fd4"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "50000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 3,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/image_2366A402-2A1C-4FF7-9134-F9F41771DD22.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=39ed0d850e0c2e21a1cb55567878bb292af1fb30b07868ad4c85f677d4e26a05",
+      "ads_at": "2026-07-06T11:48:13.769173+05:00",
+      "is_liked": false,
+      "address_line": "Tashkent City, Yunusobod District"
+    },
+    {
+      "id": 11045,
+      "title": "Пропаганда а левый уничтожение",
+      "created_by": {
+        "id": 133,
+        "username": "kuznetsovvalerjan",
+        "first_name": "Ефрем",
+        "last_name": "Griffin",
+        "full_name": "Griffin Ефрем",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "19300000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/cb854f109dd448c4bc423d6dce7b01d2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=baaa2ddea1d0dceaa95416b860d35d04aa04bdfe9f3123248813a06a291481e2",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "581 Wilson Street"
+    },
+    {
+      "id": 2845,
+      "title": "It station agreement lay",
+      "created_by": {
+        "id": 27,
+        "username": "maksimiljan_2022",
+        "first_name": "Natalie",
+        "last_name": "Ефимов",
+        "full_name": "Ефимов Natalie",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "950000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/a6678d25b80948c2a11f1430a3bde223.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b565d1b8532561c1c44d3f2f4e42c4501184703b4581c9b589f43577afad348b",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "50831 Benjamin Mill Apt. 209"
+    },
+    {
+      "id": 5547,
+      "title": "Боец назначить жестокий витрина расстройство ягода",
+      "created_by": {
+        "id": 73,
+        "username": "anzhelapanfilova",
+        "first_name": "Alyssa",
+        "last_name": "Bullock",
+        "full_name": "Bullock Alyssa",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "2563500000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/576f2e9021244b21a3b5a5a0b6c59c08.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b7010485117ed7c645719389096b0356b4d941a781a859b429799f519b10d2c1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "887 Taylor Gardens"
+    },
+    {
+      "id": 3379,
+      "title": "Difficult own program hotel",
+      "created_by": {
+        "id": 29,
+        "username": "akovaleva",
+        "first_name": "Конон",
+        "last_name": "Jordan",
+        "full_name": "Jordan Конон",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "111000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/7bf729ea44784dc1847278e245496f9d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f41da4a8fa060f507be346e579ddd097a724df5ec718ab907d0e6d10e3783b04",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Ломоносова, д. 15 к. 57"
+    },
+    {
+      "id": 3298,
+      "title": "Цепочка тесно парень уточнить через",
+      "created_by": {
+        "id": 119,
+        "username": "kazimir58",
+        "first_name": "Рубен",
+        "last_name": "Lang",
+        "full_name": "Lang Рубен",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "210.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/0c247825213e447c8df85ded7488b7b8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010836Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=62fd26337d8f980f20b988a23fa35a08bc6c1140add7a85ca43fd98fc6ed90da",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2429 Deborah Center"
+    },
+    {
+      "id": 15394,
+      "title": "Сомнительный дружно адвокат болото тюрьма рис",
+      "created_by": {
+        "id": 185,
+        "username": "anzhelikamartinova",
+        "first_name": "Акулина",
+        "last_name": "Edwards",
+        "full_name": "Edwards Акулина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "23400000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c851c318dc954fa292d6835241c468ea.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260723%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260723T010836Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7ca3abfa4eba35f877b31d19cb30cd749613edf90e752e6f5d40e0c624611f3e",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Покровский, д. 3"
+    }
+  ]
+}
