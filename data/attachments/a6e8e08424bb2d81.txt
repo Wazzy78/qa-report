@@ -1,0 +1,2 @@
+verification_token: n3Vs***
+security_code: 5***

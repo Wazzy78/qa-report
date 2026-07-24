@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 582ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 24 Jul 2026 01:09:27 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 104,
+  "name": "autotest-tpahwp",
+  "registration_id": "test-43881ee6-f828-46b1-92ba-a88c2f3d5282",
+  "device_id": "0ab901af-0421-444d-8f78-d20a7176338e",
+  "active": true,
+  "date_created": "2026-07-24T06:09:27.599294+05:00",
+  "type": "android"
+}

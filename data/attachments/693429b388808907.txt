@@ -1,0 +1,41 @@
+RESPONSE
+STATUS: 200
+TIME: 591ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 24 Jul 2026 01:09:24 GMT
+  Content-Type: application/json
+  Content-Length: 165
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+[
+  {
+    "name": "Oʻzbekiston",
+    "id": 15,
+    "iso_code": "UZ",
+    "order": 1
+  },
+  {
+    "name": "BAA",
+    "id": 6,
+    "iso_code": "AE",
+    "order": 1
+  },
+  {
+    "name": "Qirgʻiziston",
+    "id": 3,
+    "iso_code": "KG",
+    "order": 1
+  }
+]

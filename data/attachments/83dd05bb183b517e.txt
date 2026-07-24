@@ -1,0 +1,49 @@
+RESPONSE
+STATUS: 200
+TIME: 618ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 24 Jul 2026 01:09:07 GMT
+  Content-Type: application/json
+  Content-Length: 903
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 23064,
+      "title": "test soft blok",
+      "slug": "",
+      "created_by": {
+        "id": 238,
+        "username": "Uzb_",
+        "first_name": "Саддам",
+        "last_name": "Максудов",
+        "full_name": "Максудов Саддам",
+        "avatar": null
+      },
+      "price": 550000.0,
+      "currency": 2,
+      "address_line": "город Ташкент, Юнусабадский район",
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/06/1000083992_zw8ze4P.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260724T010907Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2ae1545515f6ff1a30bb3c9f184fe7ad80eff7897deb8513186ca6a45e88e7da",
+      "subscription": "VIP",
+      "is_liked": false,
+      "ads_at": "2026-07-06T11:17:12.991130+05:00"
+    }
+  ]
+}

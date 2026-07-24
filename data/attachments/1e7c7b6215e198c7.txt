@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-43881ee6-f828-46b1-92ba-a88c2f3d5282', 'type': 'android', 'name': 'autotest-tpahwp', 'device_id': '0ab901af-0421-444d-8f78-d20a7176338e', 'active': True}
