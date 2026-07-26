@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 588ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 26 Jul 2026 01:09:42 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 106,
+  "name": "autotest-eojlgz",
+  "registration_id": "test-be1ab8b3-5825-44ee-b923-c1542e054575",
+  "device_id": "990de238-9685-4d18-9a61-9df0b12352a6",
+  "active": true,
+  "date_created": "2026-07-26T06:09:42.503160+05:00",
+  "type": "android"
+}

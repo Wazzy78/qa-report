@@ -1,0 +1,18 @@
+REQUEST
+METHOD: POST
+URL: https://api-v2-dev.joymee.uz/api/v1/notification/device/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Authorization: Bear***
+  Content-Length: 179
+
+BODY:
+{
+  "registration_id": "test-be1ab8b3-5825-44ee-b923-c1542e054575",
+  "type": "android",
+  "name": "autotest-eojlgz",
+  "device_id": "990de238-9685-4d18-9a61-9df0b12352a6",
+  "active": true
+}

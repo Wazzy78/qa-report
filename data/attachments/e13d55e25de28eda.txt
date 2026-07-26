@@ -1,0 +1,107 @@
+RESPONSE
+STATUS: 200
+TIME: 678ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 26 Jul 2026 01:09:07 GMT
+  Content-Type: application/json
+  Content-Length: 2192
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 226,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/account/seller/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 143,
+      "username": "troymorris",
+      "full_name": "Knight Мартын",
+      "avatar": null,
+      "announcement_count": 38,
+      "is_top": true
+    },
+    {
+      "id": 2,
+      "username": "khoshimov023",
+      "full_name": "Shavkatjon Khoshimov",
+      "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/26/13/image_FD3FC635-CFE0-4679-8D3A-D241270A982F.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260726%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260726T010907Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=11c93d6b8f7e4eaae39f3a2c906a35110b8907efcfe000026854063e2621c2fe",
+      "announcement_count": 36,
+      "is_top": true
+    },
+    {
+      "id": 74,
+      "username": "raisa2001",
+      "full_name": "Ситникова Екатерина",
+      "avatar": null,
+      "announcement_count": 36,
+      "is_top": true
+    },
+    {
+      "id": 6,
+      "username": "+998915506316",
+      "full_name": "Baxranov Ravshan",
+      "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/29/11/photo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260726%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260726T010907Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1be62f2ff4ed35586ea81010649364817f4e8e3c63fad5772497c6353f1d19a",
+      "announcement_count": 34,
+      "is_top": true
+    },
+    {
+      "id": 17,
+      "username": "esanchez",
+      "full_name": "Davis Евграф",
+      "avatar": null,
+      "announcement_count": 34,
+      "is_top": true
+    },
+    {
+      "id": 42,
+      "username": "pelagejaorlova",
+      "full_name": "Кондратьев Audrey",
+      "avatar": null,
+      "announcement_count": 33,
+      "is_top": true
+    },
+    {
+      "id": 73,
+      "username": "anzhelapanfilova",
+      "full_name": "Bullock Alyssa",
+      "avatar": null,
+      "announcement_count": 32,
+      "is_top": true
+    },
+    {
+      "id": 18,
+      "username": "jameswest",
+      "full_name": "Стрелков Добромысл",
+      "avatar": null,
+      "announcement_count": 31,
+      "is_top": true
+    },
+    {
+      "id": 60,
+      "username": "torrestravis",
+      "full_name": "Price Jimmy",
+      "avatar": null,
+      "announcement_count": 31,
+      "is_top": true
+    },
+    {
+      "id": 35,
+      "username": "greenmark",
+      "full_name": "Некрасова Макар",
+      "avatar": null,
+      "announcement_count": 31,
+      "is_top": true
+    }
+  ]
+}
