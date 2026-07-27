@@ -1,2 +1,0 @@
-verification_token: neQL***
-security_code: 5***

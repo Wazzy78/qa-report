@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 3667ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 27 Jul 2026 01:09:23 GMT
+  Content-Type: application/json
+  Content-Length: 213
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "celery": {
+    "status": "ok",
+    "workers": {
+      "general_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      },
+      "messaging_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      },
+      "announcement_worker": {
+        "status": "alive",
+        "stuck_tasks": false
+      }
+    }
+  }
+}

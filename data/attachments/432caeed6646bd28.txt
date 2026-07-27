@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 797ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 27 Jul 2026 01:08:56 GMT
+  Content-Type: application/json
+  Content-Length: 5583
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1674,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 5441,
+      "title": "Citizen thus heavy brother top",
+      "created_by": {
+        "id": 139,
+        "username": "uljan1998",
+        "first_name": "Joseph",
+        "last_name": "Киселева",
+        "full_name": "Киселева Joseph",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "640.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/bf94f100f76744c29bc5fbe49785d0fd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5e8c0925c974f8eb2784eb5a233da8d4a99b4415be783fe59f68d4a50ef11fe9",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Северное, д. 665 к. 4"
+    },
+    {
+      "id": 17272,
+      "title": "Коммунизм казнь мусор изредка материя",
+      "created_by": {
+        "id": 73,
+        "username": "anzhelapanfilova",
+        "first_name": "Alyssa",
+        "last_name": "Bullock",
+        "full_name": "Bullock Alyssa",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "2000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b953a3af4cf34f079e5f3902a9eb2f91.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=15dfbf265edc185515811b295287476587901463c0a318c91dd109d5f8f9c887",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Королева, д. 694"
+    },
+    {
+      "id": 5531,
+      "title": "Prove music offer kid four could",
+      "created_by": {
+        "id": 68,
+        "username": "anthony44",
+        "first_name": "Милий",
+        "last_name": "White",
+        "full_name": "White Милий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1300.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/dd5dee84ea924b649a073b526c557893.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=705abcb90bae5aed5c0f97b18c24f5f5649cb697044baed96bd8b00c920d2623",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Майский, д. 18"
+    },
+    {
+      "id": 17851,
+      "title": "Civil beautiful professor upon",
+      "created_by": {
+        "id": 146,
+        "username": "edwardsnicole",
+        "first_name": "Patrick",
+        "last_name": "May",
+        "full_name": "May Patrick",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "190.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b1e2cbef7f4f4f058b75ef2af96fbda6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fd9387a3529678ea7a21784db365235c8c1eb2574d78c5a5755a579b4fc89f8b",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Высотный, д. 911 к. 48"
+    },
+    {
+      "id": 9742,
+      "title": "Передо запеть заведение реклама грустный правление",
+      "created_by": {
+        "id": 167,
+        "username": "annabirjukova",
+        "first_name": "Прокофий",
+        "last_name": "Baker",
+        "full_name": "Baker Прокофий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "165000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/72f73548f29549119625d100e9e92763.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ffc6048ce7ce43ae13398bc66c51619e150ce676b4d687a39d1118ff5b74157a",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "0242 Sean Mews Apt. 197"
+    },
+    {
+      "id": 7224,
+      "title": "Wonder Republican someone put",
+      "created_by": {
+        "id": 8,
+        "username": "figueroajohn",
+        "first_name": "Jill",
+        "last_name": "Garza",
+        "full_name": "Garza Jill",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "180.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/1f68696d28724fa09e6afaf6dfefc8d9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010856Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f572f3c88cb248b985ef7802316c040f62f12f0eca783985af0eae5af767d88",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "9783 Dean Neck"
+    }
+  ]
+}

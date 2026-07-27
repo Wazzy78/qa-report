@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 828ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 27 Jul 2026 01:09:00 GMT
+  Content-Type: application/json
+  Content-Length: 5675
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1674,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 657,
+      "title": "Потом невыносимый терапия исполнять угодный",
+      "created_by": {
+        "id": 167,
+        "username": "annabirjukova",
+        "first_name": "Прокофий",
+        "last_name": "Baker",
+        "full_name": "Baker Прокофий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "190.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/b2f45a5cb66940b1b8c80d02d4407ca6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=41693f5d8c55fd24ea11b7d85cb9f5c165deccb6a1b618b127857f3d7a1b2007",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Приозерный, д. 48 стр. 44"
+    },
+    {
+      "id": 13217,
+      "title": "Пища низкий достоинство заработать витрина куча",
+      "created_by": {
+        "id": 144,
+        "username": "avgust2025",
+        "first_name": "Егор",
+        "last_name": "Khan",
+        "full_name": "Khan Егор",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "617000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b403e57edfa9443b93f4d2bbee3d5f54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a109a2da9f28148a67bacc3beea31ddd4a7c0e2ba3381053e71a07835bec7e0",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "4920 Medina Cape"
+    },
+    {
+      "id": 4959,
+      "title": "Walk charge old fish notice decision",
+      "created_by": {
+        "id": 8,
+        "username": "figueroajohn",
+        "first_name": "Jill",
+        "last_name": "Garza",
+        "full_name": "Garza Jill",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "15500000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/270331cb679a40f9884b04ee6c0e1a50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=167c257a8e5d500e6422884d9e1489999facc0ecde32de9be98e91590ac50b11",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Ленинградский, д. 3/4"
+    },
+    {
+      "id": 2343,
+      "title": "Какой девка остановить",
+      "created_by": {
+        "id": 25,
+        "username": "orest_2024",
+        "first_name": "Sara",
+        "last_name": "Hancock",
+        "full_name": "Hancock Sara",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "4733300000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/8507bd50c43847a9bb19df3a60cd2d43.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=43c56e550349708ffe2472126b5fc9355f1d3ddca3c457eb4a8eb80b9c07d1f8",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "03821 Miller Fields"
+    },
+    {
+      "id": 5301,
+      "title": "Выкинуть дружно нажать",
+      "created_by": {
+        "id": 111,
+        "username": "fedoseevelise",
+        "first_name": "Будимир",
+        "last_name": "Носкова",
+        "full_name": "Носкова Будимир",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1200000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/784eeb543c98489d92aa7e22188407fc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5c0dc6648778cab6a102c3ae29135aa6cab6974f3e17e60c39e8b44910d32936",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "983 Smith Streets Apt. 111"
+    },
+    {
+      "id": 11409,
+      "title": "Плод кожа невыносимый чем",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "8100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6c521858023246b0bd4173b2832f0d57.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=76766e60abdc3f69c625a84541d8c4a0874a6354534678e2d2fd0db3efff96b9",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "585 Evan Spurs Suite 062"
+    }
+  ]
+}

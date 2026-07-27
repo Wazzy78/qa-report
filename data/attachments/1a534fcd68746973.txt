@@ -1,0 +1,41 @@
+RESPONSE
+STATUS: 200
+TIME: 641ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 27 Jul 2026 01:08:54 GMT
+  Content-Type: application/json
+  Content-Length: 712
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 210,
+  "first_name": "Test 111",
+  "last_name": "111",
+  "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/25/19/image_3212BE8F-B08D-42C8-8141-44DE2452FD52.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260727%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260727T010854Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=379888355dcf9f3b9f6338289f6782e0d4aaaedd236426c5ba84c9b277bfb114",
+  "username": "test45",
+  "bio": "string.",
+  "phone": "+998888672005",
+  "balance": 999790993,
+  "show_phone": false,
+  "is_rieltor": true,
+  "status": "active",
+  "stats": {
+    "total": 21,
+    "deleted": 0,
+    "sold": 0,
+    "views": 27,
+    "calls": 0,
+    "shares": 0
+  }
+}
