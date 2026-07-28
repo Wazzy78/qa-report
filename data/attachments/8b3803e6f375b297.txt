@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 586ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 28 Jul 2026 01:08:29 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 108,
+  "name": "autotest-oxmjre",
+  "registration_id": "test-1a78a80e-060d-4f8b-9051-7289f55e4c83",
+  "device_id": "204322b4-f9d1-4af3-98e1-24120d22fdac",
+  "active": true,
+  "date_created": "2026-07-28T06:08:29.832256+05:00",
+  "type": "android"
+}

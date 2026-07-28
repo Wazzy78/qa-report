@@ -1,0 +1,1 @@
+payload: {'registration_id': 'test-1a78a80e-060d-4f8b-9051-7289f55e4c83', 'type': 'android', 'name': 'autotest-oxmjre', 'device_id': '204322b4-f9d1-4af3-98e1-24120d22fdac', 'active': True}

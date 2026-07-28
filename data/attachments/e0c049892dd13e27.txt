@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 780ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 28 Jul 2026 01:08:04 GMT
+  Content-Type: application/json
+  Content-Length: 5726
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1674,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 5106,
+      "title": "Perform stand surface organization edge",
+      "created_by": {
+        "id": 74,
+        "username": "raisa2001",
+        "first_name": "Екатерина",
+        "last_name": "Ситникова",
+        "full_name": "Ситникова Екатерина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "19100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/a3e217ff615a40dabcd4a969f512a697.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2fcddb1e92067e24a3be84055cf46ee5cd99124007edb273ba94292c54febc4f",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "алл. Амурская, д. 7/9 стр. 89"
+    },
+    {
+      "id": 19172,
+      "title": "Hair option fund",
+      "created_by": {
+        "id": 90,
+        "username": "ermil2026",
+        "first_name": "Ираида",
+        "last_name": "Власов",
+        "full_name": "Власов Ираида",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "250.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/30a29cc77e13469583c3eac3b38153fc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=88d28e00ee09db035583976e78c2f315ee86e98310774c33114bfe442ae50f6e",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "6083 Graham Lodge Suite 308"
+    },
+    {
+      "id": 4495,
+      "title": "Инфекция упорно совещание запретить задрать затянуться",
+      "created_by": {
+        "id": 202,
+        "username": "konon_2019",
+        "first_name": "Агап",
+        "last_name": "Johnson",
+        "full_name": "Johnson Агап",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "15900000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/584d84fee53640c1a945e25213842151.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b0a3fefd9ebbc0438f8a66b2039e5aed00d861bf39a36ce4df7eca3d5ab8ecb1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2844 Karen Mission"
+    },
+    {
+      "id": 10360,
+      "title": "Study share few common",
+      "created_by": {
+        "id": 92,
+        "username": "ostap_2013",
+        "first_name": "David",
+        "last_name": "Тимофеева",
+        "full_name": "Тимофеева David",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "140.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a24050bf1df54693a0c3575f92c11883.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d23a6aeefd1919ea931392d675056e70813c48afe00a0062ceaca001b6d4f1d",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Ленинский, д. 467"
+    },
+    {
+      "id": 12875,
+      "title": "Вариант ныне построить",
+      "created_by": {
+        "id": 174,
+        "username": "hughesray",
+        "first_name": "Кирилл",
+        "last_name": "Гордеева",
+        "full_name": "Гордеева Кирилл",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "2400.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7588673145434e12ad145ea37b2adcbf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f15a547a8a6ecd9030d1fb41f110b41ebe01c2efdedfc2ff3c3d86e9519f117a",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Радищева, д. 563 стр. 845"
+    },
+    {
+      "id": 6552,
+      "title": "Армейский ягода выраженный прежний порог",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "216000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e81ba6a0525d4c06ab5e4c2806a627ba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260728%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260728T010804Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e230cd60f73d7b55a62375d78ff1900e44270f3fe2e4962b05b3cc4a5d75a226",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Запрудный, д. 20"
+    }
+  ]
+}

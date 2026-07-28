@@ -1,2 +1,0 @@
-verification_token: O_f6***
-security_code: 5***
