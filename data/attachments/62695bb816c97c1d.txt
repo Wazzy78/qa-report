@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 567ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 29 Jul 2026 01:09:39 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 109,
+  "name": "autotest-bnddfg",
+  "registration_id": "test-41e69d6c-7a8c-4f74-bd76-42bc092dd39a",
+  "device_id": "0b1ad5fa-a6ed-4b3f-b71d-7ce0ea5ac285",
+  "active": true,
+  "date_created": "2026-07-29T06:09:39.214959+05:00",
+  "type": "android"
+}

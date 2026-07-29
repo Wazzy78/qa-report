@@ -1,2 +1,0 @@
-verification_token: giu6***
-security_code: 5***

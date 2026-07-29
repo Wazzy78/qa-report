@@ -1,0 +1,19 @@
+RESPONSE
+STATUS: 404
+TIME: 566ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 29 Jul 2026 01:09:21 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
