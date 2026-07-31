@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 769ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 31 Jul 2026 01:08:28 GMT
+  Content-Type: application/json
+  Content-Length: 5670
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1674,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 15740,
+      "title": "Вообще помимо о тяжелый кидать изображать",
+      "created_by": {
+        "id": 171,
+        "username": "tiffany71",
+        "first_name": "Никон",
+        "last_name": "Смирнова",
+        "full_name": "Смирнова Никон",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "237000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/ab07061529814cbc937f0f029510ba86.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aa1b051ee3c1686271876e729a7b6c6ac1f333cf7545dd6e181dc4a31e3b6445",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "алл. Алтайская, д. 4"
+    },
+    {
+      "id": 10426,
+      "title": "Point risk head once",
+      "created_by": {
+        "id": 103,
+        "username": "iosifmatveev",
+        "first_name": "Зиновий",
+        "last_name": "Воронцова",
+        "full_name": "Воронцова Зиновий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "130000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/0febf385820e492483b2f7ffa6b6b176.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fd78917fdf1f27237e419827c5af91880de81e0e1b4e282a3ec0b06d028bc6db",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "1848 Thomas Hill Apt. 993"
+    },
+    {
+      "id": 12756,
+      "title": "Kind end read discover",
+      "created_by": {
+        "id": 140,
+        "username": "jasonrojas",
+        "first_name": "Лора",
+        "last_name": "Суханов",
+        "full_name": "Суханов Лора",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "4700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/40006e77cae84d58a0d832fb6508e007.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2e3d7f184ef20e163487f3ac643e62b7ed451566c650cf88de46369eb5964800",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "11677 Jennifer Shoals Suite 936"
+    },
+    {
+      "id": 15390,
+      "title": "Relationship current community",
+      "created_by": {
+        "id": 57,
+        "username": "kristina09",
+        "first_name": "Наина",
+        "last_name": "Davis",
+        "full_name": "Davis Наина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "2600.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e36c771403054a2f8bc7dc0fc5fbcffd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cee6899733afa9a8b9b929dade0c444697d8fba603a237bf4625f061b9f09610",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "6397 Griffith Place Suite 932"
+    },
+    {
+      "id": 19571,
+      "title": "Функция мелькнуть космос актриса миллиард инфекция",
+      "created_by": {
+        "id": 81,
+        "username": "mitchellkathryn",
+        "first_name": "Радим",
+        "last_name": "Guerra",
+        "full_name": "Guerra Радим",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "153000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b65f19e4dd484f1994470f6414809ac4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c7e9d98bf319182b368160e2283c74c58d528bfe7bb130e173d96a15104ab9ae",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ш. Элеваторное, д. 3"
+    },
+    {
+      "id": 3516,
+      "title": "Charge southern response attention",
+      "created_by": {
+        "id": 79,
+        "username": "nancy92",
+        "first_name": "Герасим",
+        "last_name": "White",
+        "full_name": "White Герасим",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "930000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/a8191e5e5ad6417b8789f17984bb2f4f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eaf2e187589a391f002aff4541196ed9c7ccd2546ab6b3ca2100173330648d1c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "0398 Blanchard Summit Apt. 314"
+    }
+  ]
+}

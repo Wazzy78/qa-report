@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 588ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 31 Jul 2026 01:08:49 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 111,
+  "name": "autotest-ffobyc",
+  "registration_id": "test-511c9b0a-60f8-4d10-9b8b-c5a6b3fa5d41",
+  "device_id": "a50f545f-3f07-4681-a699-807e0243e246",
+  "active": true,
+  "date_created": "2026-07-31T06:08:49.707707+05:00",
+  "type": "android"
+}

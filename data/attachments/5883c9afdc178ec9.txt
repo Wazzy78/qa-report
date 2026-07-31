@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 778ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Fri, 31 Jul 2026 01:08:24 GMT
+  Content-Type: application/json
+  Content-Length: 5693
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1674,
+  "filtered_count": 1673,
+  "results": [
+    {
+      "id": 17087,
+      "title": "Off stand run",
+      "created_by": {
+        "id": 132,
+        "username": "anatoli_2014",
+        "first_name": "Клавдия",
+        "last_name": "Rodriguez",
+        "full_name": "Rodriguez Клавдия",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "450.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6dbf1ed06c894c4081b69075aa78b146.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7692607f2599446d04822be1bd62b55ffb0864197e4a03b3f6a3fffb43200792",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "наб. Славянская, д. 1 к. 69"
+    },
+    {
+      "id": 14714,
+      "title": "Низкий теория кузнец направо выгнать",
+      "created_by": {
+        "id": 38,
+        "username": "ninaborisova",
+        "first_name": "Яков",
+        "last_name": "Тетерин",
+        "full_name": "Тетерин Яков",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "468000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/25f3461dc1b64f6d816e9c580afad4ef.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cfaffdf0f9c36133ee8f30fe12140a9e24e90ff4baa819721c69150aadf51201",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "наб. Семашко, д. 484 стр. 598"
+    },
+    {
+      "id": 6213,
+      "title": "Издали грудь выгнать",
+      "created_by": {
+        "id": 42,
+        "username": "pelagejaorlova",
+        "first_name": "Audrey",
+        "last_name": "Кондратьев",
+        "full_name": "Кондратьев Audrey",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "680000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3f66ac897e7f4862aa0b474fdbd0fef7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=50796642000bb94112845c19d3db55c76f2074da87198bfcab9a723e91320f69",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "наб. Максима Горького, д. 593"
+    },
+    {
+      "id": 7455,
+      "title": "Более солнце висеть пища вздрогнуть",
+      "created_by": {
+        "id": 128,
+        "username": "fsavina",
+        "first_name": "Ashley",
+        "last_name": "Jennings",
+        "full_name": "Jennings Ashley",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "6200000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/8f5b7c63ab00437ba283679e5253b7d4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aea93bd1869e1568653e08f960bd092ea6918a22d0f72646aa8dbbf43f0eb6af",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Лесозаводский, д. 20 стр. 4/9"
+    },
+    {
+      "id": 2734,
+      "title": "Protect high speak",
+      "created_by": {
+        "id": 24,
+        "username": "ninelzhdanova",
+        "first_name": "Феликс",
+        "last_name": "Rodriguez",
+        "full_name": "Rodriguez Феликс",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1900.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/3ebf33726cbd463ca53ce474fb7c293b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=00ed0c483a7435335060555f98fb86516ff474dcdcb30c83d2f067ad41aa4c34",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "464 Young Plain Suite 232"
+    },
+    {
+      "id": 17599,
+      "title": "Hospital I policy matter own he",
+      "created_by": {
+        "id": 203,
+        "username": "titmorozov",
+        "first_name": "Радислав",
+        "last_name": "Jensen",
+        "full_name": "Jensen Радислав",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "100.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3439add3684b439a9f8f3544042f2c4f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260731%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260731T010824Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a9f445e4d713541478c40ebdae85596902e68544398e20495fcebf7c6db01336",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ул. Чайковского, д. 94 к. 16"
+    }
+  ]
+}
