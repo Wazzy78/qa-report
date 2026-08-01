@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 586ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sat, 01 Aug 2026 01:10:06 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 112,
+  "name": "autotest-awzjyo",
+  "registration_id": "test-37d28f71-4489-4c9b-8cbc-c99d91661fff",
+  "device_id": "64ecba8b-a839-41d7-b5a6-95f7d887faef",
+  "active": true,
+  "date_created": "2026-08-01T06:10:06.405554+05:00",
+  "type": "android"
+}
