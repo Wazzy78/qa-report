@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 1149ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Sun, 02 Aug 2026 01:08:39 GMT
+  Content-Type: application/json
+  Content-Length: 5739
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1673,
+  "filtered_count": 1672,
+  "results": [
+    {
+      "id": 4199,
+      "title": "Point worker often",
+      "created_by": {
+        "id": 16,
+        "username": "raymond57",
+        "first_name": "Виссарион",
+        "last_name": "Walker",
+        "full_name": "Walker Виссарион",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "720.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/ac8da9174b8d46099065058471f1b1d2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e7f61256493863e7aa598776b634115f3036954d72ba38618f701023dcc7b2f5",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "91550 Branch Field Suite 041"
+    },
+    {
+      "id": 17954,
+      "title": "Бегать самостоятельно эпоха увеличиваться выраженный расстройство",
+      "created_by": {
+        "id": 14,
+        "username": "meagan89",
+        "first_name": "Eric",
+        "last_name": "Ryan",
+        "full_name": "Ryan Eric",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "10400000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a5960576d17c4ac2989126cc6406afae.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d450c546cf24a1b53e6ab7e155551e0c2cee7bc01663e10dc2806e73a41b2b1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "80884 Richard Turnpike"
+    },
+    {
+      "id": 19872,
+      "title": "Упорно тревога труп запустить",
+      "created_by": {
+        "id": 193,
+        "username": "pantelemon2006",
+        "first_name": "Daniel",
+        "last_name": "Jarvis",
+        "full_name": "Jarvis Daniel",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "300.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/3fce84dab7ef4559ab7d8d85311eb019.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a06f5d753e20d083e7ce0e831fe604a9b49a53c0a0dfac9cc90704b1751d043f",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "5428 Moreno Flat Apt. 328"
+    },
+    {
+      "id": 2025,
+      "title": "Металл конференция мальчишка изредка",
+      "created_by": {
+        "id": 56,
+        "username": "nikonovamarfa",
+        "first_name": "Авксентий",
+        "last_name": "Lozano",
+        "full_name": "Lozano Авксентий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "12900000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/e880f31132284239882ef37b082ac094.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5c7d604c638c208b7ca5461568484aef5f6c290caaf70f6a4a0c12219b123813",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "50068 Wilson Crest"
+    },
+    {
+      "id": 7560,
+      "title": "Передо миг присесть анализ успокоиться",
+      "created_by": {
+        "id": 74,
+        "username": "raisa2001",
+        "first_name": "Екатерина",
+        "last_name": "Ситникова",
+        "full_name": "Ситникова Екатерина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1700.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/9cb50541803f40d2952a264afa2ef73b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5d87c734e224c4d8ea44209b34931848ada05ad36085c46531ec155433571fe5",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "67931 Barnes Causeway"
+    },
+    {
+      "id": 13217,
+      "title": "Пища низкий достоинство заработать витрина куча",
+      "created_by": {
+        "id": 144,
+        "username": "avgust2025",
+        "first_name": "Егор",
+        "last_name": "Khan",
+        "full_name": "Khan Егор",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "617000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b403e57edfa9443b93f4d2bbee3d5f54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260802%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260802T010839Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=abb7241cb49787f8aecfbcd2ea79da67b23be6676389cc810405c8d9d7d616e6",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "4920 Medina Cape"
+    }
+  ]
+}
