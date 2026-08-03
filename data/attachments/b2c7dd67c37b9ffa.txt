@@ -1,0 +1,108 @@
+RESPONSE
+STATUS: 200
+TIME: 1362ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 03 Aug 2026 01:08:15 GMT
+  Content-Type: application/json
+  Content-Length: 2151
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "count": 208,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/account/seller/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 6,
+      "username": "+998915506316",
+      "full_name": "Baxranov Ravshan",
+      "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/29/11/photo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010815Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e19314a47e00d8f56aab6bb634c916311a9a8bce97ffbb340928e4089d6fef0b",
+      "announcement_count": 23,
+      "is_top": true
+    },
+    {
+      "id": 2,
+      "username": "khoshimov023",
+      "full_name": "Shavkatjon Khoshimov",
+      "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/26/13/image_FD3FC635-CFE0-4679-8D3A-D241270A982F.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010815Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f8215344e8a13b275bd7cdb9e913706154e94470d1257d285a9b67a223dc6da7",
+      "announcement_count": 22,
+      "is_top": true
+    },
+    {
+      "id": 42,
+      "username": "pelagejaorlova",
+      "full_name": "Кондратьев Audrey",
+      "avatar": null,
+      "announcement_count": 21,
+      "is_top": true
+    },
+    {
+      "id": 73,
+      "username": "anzhelapanfilova",
+      "full_name": "Bullock Alyssa",
+      "avatar": null,
+      "announcement_count": 17,
+      "is_top": true
+    },
+    {
+      "id": 48,
+      "username": "aprildean",
+      "full_name": "Некрасова Ярослав",
+      "avatar": null,
+      "announcement_count": 16,
+      "is_top": true
+    },
+    {
+      "id": 155,
+      "username": "amberfields",
+      "full_name": "Blake Stephanie",
+      "avatar": null,
+      "announcement_count": 15,
+      "is_top": true
+    },
+    {
+      "id": 96,
+      "username": "john14",
+      "full_name": "Davis Иосиф",
+      "avatar": null,
+      "announcement_count": 14,
+      "is_top": true
+    },
+    {
+      "id": 82,
+      "username": "lacey20",
+      "full_name": "Blake Савва",
+      "avatar": null,
+      "announcement_count": 14,
+      "is_top": true
+    },
+    {
+      "id": 60,
+      "username": "torrestravis",
+      "full_name": "Price Jimmy",
+      "avatar": null,
+      "announcement_count": 14,
+      "is_top": true
+    },
+    {
+      "id": 97,
+      "username": "leon1998",
+      "full_name": "Пестова Sierra",
+      "avatar": null,
+      "announcement_count": 14,
+      "is_top": true
+    }
+  ]
+}

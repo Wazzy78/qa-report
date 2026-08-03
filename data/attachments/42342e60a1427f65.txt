@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 804ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Mon, 03 Aug 2026 01:08:22 GMT
+  Content-Type: application/json
+  Content-Length: 5658
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1671,
+  "filtered_count": 1670,
+  "results": [
+    {
+      "id": 2611,
+      "title": "Спичка очутиться прежде",
+      "created_by": {
+        "id": 77,
+        "username": "umitchell",
+        "first_name": "Mathew",
+        "last_name": "Rangel",
+        "full_name": "Rangel Mathew",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "30.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/476614875a954f159c1bea3dde691985.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=024a9381eb307c72eb5a04d024f6c81203ff7fc1fd4882372e9cab5fa69632f1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "836 Bond Fall"
+    },
+    {
+      "id": 9343,
+      "title": "Give couple not site huge arm",
+      "created_by": {
+        "id": 152,
+        "username": "xgibson",
+        "first_name": "Victor",
+        "last_name": "Richardson",
+        "full_name": "Richardson Victor",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "834000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b46d5a07ef534b00bce7592186ffc5bd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bbcb8a5b55d2eb0a38d527914986251a4263488e5049d182709ea60f3bac6509",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Детский, д. 7 стр. 5/9"
+    },
+    {
+      "id": 12819,
+      "title": "Поговорить висеть социалистический мгновение",
+      "created_by": {
+        "id": 134,
+        "username": "elise1999",
+        "first_name": "Савелий",
+        "last_name": "Kim",
+        "full_name": "Kim Савелий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "90.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/94d1d0d0938048acb594b74d991818a7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=93b271b9208dbf3ce7b2a09b09bfdb146e82dd1f303c0c4cb6f4b3449ced7011",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2923 Robinson Overpass Apt. 455"
+    },
+    {
+      "id": 9380,
+      "title": "Develop present beat soldier discussion study",
+      "created_by": {
+        "id": 30,
+        "username": "emilywalker",
+        "first_name": "Dylan",
+        "last_name": "Sanchez",
+        "full_name": "Sanchez Dylan",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1200.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/2391d07adbef4085a28fc586327aee48.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cff7e40bde759a4c1f4ec842b5817f86a7bf7b12b760a8fb1f9df6f2d73da571",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2500 Matthew Village"
+    },
+    {
+      "id": 5677,
+      "title": "Under husband career establish few hold",
+      "created_by": {
+        "id": 185,
+        "username": "anzhelikamartinova",
+        "first_name": "Акулина",
+        "last_name": "Edwards",
+        "full_name": "Edwards Акулина",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/915b66c3958d473289eada6916962b4e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7f574dc4485ff3e2ddbc5932b330b38a39f20d7dd0fbae9fcbcecf94ebcd8924",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "537 Fox Underpass Suite 747"
+    },
+    {
+      "id": 6513,
+      "title": "Умирать невозможно пятеро голубчик миф парень",
+      "created_by": {
+        "id": 95,
+        "username": "innokenti2015",
+        "first_name": "Лаврентий",
+        "last_name": "Куликов",
+        "full_name": "Куликов Лаврентий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "110.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/e4e0e847c85a4878839fcde7c60cf80e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260803%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260803T010822Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d31dd2a68d036f1ca5b2b9d03050a67be8f8b4f2e2ab9d1addf0672f75df5053",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ул. Рабочая, д. 3/4 стр. 346"
+    }
+  ]
+}

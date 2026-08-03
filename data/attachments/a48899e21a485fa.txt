@@ -1,2 +1,0 @@
-verification_token: xCP_***
-security_code: 5***
