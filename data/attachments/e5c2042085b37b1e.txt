@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 786ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Tue, 04 Aug 2026 01:08:37 GMT
+  Content-Type: application/json
+  Content-Length: 5654
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1671,
+  "filtered_count": 1670,
+  "results": [
+    {
+      "id": 11915,
+      "title": "Медицина тута промолчать",
+      "created_by": {
+        "id": 101,
+        "username": "valerija99",
+        "first_name": "Jennifer",
+        "last_name": "Александров",
+        "full_name": "Александров Jennifer",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "39000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7dab01a917954b31b7060ebf75ec0dc9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ed470cf34571aad2c5141088f699c987655604267e9cce3db70cf99c9cac7809",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ул. Прудная, д. 6"
+    },
+    {
+      "id": 1592,
+      "title": "Мягкий девка порода цепочка",
+      "created_by": {
+        "id": 45,
+        "username": "owilson",
+        "first_name": "Rebekah",
+        "last_name": "Jones",
+        "full_name": "Jones Rebekah",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1400.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/e1686e18461747f992a7fd21993735da.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aa2fd63f03968d9306e849aafcce4df97448a686665b6f5f6b6165fcc70932b1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "13056 Amanda Oval Suite 232"
+    },
+    {
+      "id": 17159,
+      "title": "Answer same yes establish current expert",
+      "created_by": {
+        "id": 165,
+        "username": "mathismichelle",
+        "first_name": "Nathaniel",
+        "last_name": "Лазарева",
+        "full_name": "Лазарева Nathaniel",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "89000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/b7561a9303ec430592488de64ff15418.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9ee7cb7bfc960a4192dcda20fbe5fe48bc2838badba798a13a5a3dbf04daa149",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "алл. Боровая, д. 9 к. 1/8"
+    },
+    {
+      "id": 9883,
+      "title": "Рассуждение плод умолять вытаскивать",
+      "created_by": {
+        "id": 173,
+        "username": "averyshane",
+        "first_name": "Teresa",
+        "last_name": "Martinez",
+        "full_name": "Martinez Teresa",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "270.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6f15c3ed55ad4b6a9340c621f18aa499.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=40f2b5ec5c61ea7e6dd6185542ee1f97d3728938b84c2d6946ef997edc3d51c3",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Горького, д. 161 к. 4"
+    },
+    {
+      "id": 3948,
+      "title": "All PM never she plan section",
+      "created_by": {
+        "id": 48,
+        "username": "aprildean",
+        "first_name": "Ярослав",
+        "last_name": "Некрасова",
+        "full_name": "Некрасова Ярослав",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1400.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/e9db25a80aaf43e7be8d92cd502c5bfe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d68a72be46fe61002366f1d8eb6d9a0e01ce72fdae40503aeaa751d8f3c5177",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "44124 Phillips Walk"
+    },
+    {
+      "id": 2918,
+      "title": "Second world should page particularly property",
+      "created_by": {
+        "id": 188,
+        "username": "jessicaanderson",
+        "first_name": "Brittany",
+        "last_name": "Martinez",
+        "full_name": "Martinez Brittany",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1900.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/13cbff05bbb44adcae690a037ea4f4a4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260804%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260804T010837Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f96167020ab32b15f3c301c39149fa529cd8faaa5fdc319abc54ab68da1f976e",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "3898 Powell Plains Apt. 689"
+    }
+  ]
+}
