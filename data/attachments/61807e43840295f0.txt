@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 810ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 05 Aug 2026 01:09:03 GMT
+  Content-Type: application/json
+  Content-Length: 5652
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1671,
+  "filtered_count": 1670,
+  "results": [
+    {
+      "id": 4160,
+      "title": "Зеленый горький палец",
+      "created_by": {
+        "id": 19,
+        "username": "svetozar1982",
+        "first_name": "Аристарх",
+        "last_name": "Gray",
+        "full_name": "Gray Аристарх",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "7600000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/b70efe26578045bb8c21469f2841d59c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0a160c7ea4fba8afefff77553f99db2a6c916b37e20aad088c8f819184975bcf",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "наб. Камская, д. 5"
+    },
+    {
+      "id": 6002,
+      "title": "Group art hair model happen",
+      "created_by": {
+        "id": 93,
+        "username": "holmeskevin",
+        "first_name": "Marcus",
+        "last_name": "Reed",
+        "full_name": "Reed Marcus",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "17500000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/6fa60bb3d2b64b70874fcf57e5ff172e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9e2c1eb612f7542ee2eee6bf5ebd1b09564084c880c293de47e5031134c0d7b8",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "12826 Anthony Mall Apt. 056"
+    },
+    {
+      "id": 15151,
+      "title": "Ago shake energy chair",
+      "created_by": {
+        "id": 158,
+        "username": "rjabovalidija",
+        "first_name": "Christopher",
+        "last_name": "Schmitt",
+        "full_name": "Schmitt Christopher",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "320.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a1ccfe04618f44d3813f55eaaa168008.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3d1e126eaf6a588ddd7b6c782ff0b0e09bce879cd162b8cd3e445ed902192642",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "8523 Larry Hill Suite 725"
+    },
+    {
+      "id": 13578,
+      "title": "Природа монета аллея вздрагивать бегать",
+      "created_by": {
+        "id": 23,
+        "username": "juan35",
+        "first_name": "Grace",
+        "last_name": "Морозова",
+        "full_name": "Морозова Grace",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "417000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/989103ceb2a24f87980dbbd8a2186640.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=926e20f37e64e8320b3b0d69b84ea52ebaabc85780a410a774d8319597e826cb",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "наб. Иркутская, д. 79 к. 22"
+    },
+    {
+      "id": 18503,
+      "title": "Очутиться вариант освобождение",
+      "created_by": {
+        "id": 176,
+        "username": "zoja_30",
+        "first_name": "Карп",
+        "last_name": "Волков",
+        "full_name": "Волков Карп",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "6700000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/ce178971b9f74d1ba0bccb128c82c613.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0f85e7cda29bbe91f1ed1149bd5da3a5cd599aedc28228ba8006540384cef8c5",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Леваневского, д. 68 к. 6/7"
+    },
+    {
+      "id": 14793,
+      "title": "Easy window step group collection high",
+      "created_by": {
+        "id": 42,
+        "username": "pelagejaorlova",
+        "first_name": "Audrey",
+        "last_name": "Кондратьев",
+        "full_name": "Кондратьев Audrey",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "210.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/ec4b066aa8344489af6968f7c6afb700.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010903Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1a0652499048159ba91442fa5c20bb7dbaca7837bb216c6a32f003f0efa70c47",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ул. Слободская, д. 1/2 к. 141"
+    }
+  ]
+}

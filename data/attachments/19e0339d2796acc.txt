@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 613ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 05 Aug 2026 01:09:25 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 123,
+  "name": "autotest-yovqab",
+  "registration_id": "test-ee3b93b8-b7f5-4fa3-8606-aba04071569e",
+  "device_id": "1cb9bf2b-c9de-49f8-8a36-d6d9c018bcd9",
+  "active": true,
+  "date_created": "2026-08-05T06:09:25.057374+05:00",
+  "type": "android"
+}

@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 861ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 05 Aug 2026 01:08:59 GMT
+  Content-Type: application/json
+  Content-Length: 5651
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 279,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1671,
+  "filtered_count": 1670,
+  "results": [
+    {
+      "id": 3528,
+      "title": "Труп деловой ставить",
+      "created_by": {
+        "id": 33,
+        "username": "perrymark",
+        "first_name": "Павел",
+        "last_name": "Clark",
+        "full_name": "Clark Павел",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "24100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/5fee01fe9c9c49c6a2f8802b57037833.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5855fcd99674faf7cd86edbbac3cbc6df323cf81b16c5beffdbed5285d463db8",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "9752 Sarah Spurs"
+    },
+    {
+      "id": 19601,
+      "title": "Ученый армейский упор прежний выразить заявление",
+      "created_by": {
+        "id": 96,
+        "username": "john14",
+        "first_name": "Иосиф",
+        "last_name": "Davis",
+        "full_name": "Davis Иосиф",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "2000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/699fc348576a43c6804ff3c1fa05bf05.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4c0e4863a96b63c12c14c0579088c8fa22c48f292bb8eeed07a0207dfbe8474c",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "9827 Kelly Pine"
+    },
+    {
+      "id": 10188,
+      "title": "Магазин еврейский мимо угол передо",
+      "created_by": {
+        "id": 126,
+        "username": "zosima1990",
+        "first_name": "Пимен",
+        "last_name": "Frazier",
+        "full_name": "Frazier Пимен",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "12100000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/caae9a33761d471cb5832e99611334ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a440bde66eca0c96b98e956757a68f92ea90c2fa13fdc6e3e5f103131eb5c035",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "835 Catherine Parkways Apt. 345"
+    },
+    {
+      "id": 9578,
+      "title": "Направо пространство правление факультет",
+      "created_by": {
+        "id": 135,
+        "username": "andrearivera",
+        "first_name": "Роман",
+        "last_name": "Salinas",
+        "full_name": "Salinas Роман",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "8200000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/c67992509a704d87b5cf2cc233281e34.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=07a3f3f565098eca5907f1babed1e1e0ecd237e8a0d14a1458c7eb922269eeeb",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пер. Бульварный, д. 68"
+    },
+    {
+      "id": 319,
+      "title": "Party save teach senior single Democrat",
+      "created_by": {
+        "id": 67,
+        "username": "milovan19",
+        "first_name": "Eric",
+        "last_name": "Третьяков",
+        "full_name": "Третьяков Eric",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "209000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/34c95ad121d7461b9a1d36c60116554f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=499e961a20ee5a36fcc06263c87dba68358e9914068f3c45ad268607de23e4b1",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "6017 Gary Key"
+    },
+    {
+      "id": 5195,
+      "title": "Paper on development",
+      "created_by": {
+        "id": 114,
+        "username": "german_43",
+        "first_name": "Antonio",
+        "last_name": "Максимова",
+        "full_name": "Максимова Antonio",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "380000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/a20e02b1ae304d9b91afd804760bb3fc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ccaedcf413f26dfde3e6eb8c21f5003541330e2e323c8a7043923ee4a57e97ff",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "ул. 9 Января, д. 1/1 стр. 15"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+RESPONSE
+STATUS: 200
+TIME: 565ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Wed, 05 Aug 2026 01:09:27 GMT
+  Content-Type: application/json
+  Content-Length: 11
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: PATCH, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 0
+}
