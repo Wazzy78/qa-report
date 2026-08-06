@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 201
+TIME: 624ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 06 Aug 2026 01:09:26 GMT
+  Content-Type: application/json
+  Content-Length: 229
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 124,
+  "name": "autotest-dlrwoc",
+  "registration_id": "test-52aeef35-bb0f-4de4-8357-8704a839799f",
+  "device_id": "3fc44cd1-bc0d-4c03-bde2-c08d03303554",
+  "active": true,
+  "date_created": "2026-08-06T06:09:26.083494+05:00",
+  "type": "android"
+}

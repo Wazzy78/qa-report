@@ -1,0 +1,181 @@
+RESPONSE
+STATUS: 200
+TIME: 827ms
+
+HEADERS:
+  Server: nginx/1.18.0 (Ubuntu)
+  Date: Thu, 06 Aug 2026 01:09:00 GMT
+  Content-Type: application/json
+  Content-Length: 6027
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language, Cookie
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Set-Cookie: sess***
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 278,
+  "next": "https://api-v2-dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 1669,
+  "filtered_count": 1668,
+  "results": [
+    {
+      "id": 1662,
+      "title": "Выбирать пространство приятель тесно",
+      "created_by": {
+        "id": 96,
+        "username": "john14",
+        "first_name": "Иосиф",
+        "last_name": "Davis",
+        "full_name": "Davis Иосиф",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "1278000000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/996695b9e966408cbf0b5eff191ac838.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eeded6c51ad6173949cbc3cdd3184b8e018e31422ecd436be7b986925a049117",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "бул. Набережный, д. 95 к. 903"
+    },
+    {
+      "id": 12819,
+      "title": "Поговорить висеть социалистический мгновение",
+      "created_by": {
+        "id": 134,
+        "username": "elise1999",
+        "first_name": "Савелий",
+        "last_name": "Kim",
+        "full_name": "Kim Савелий",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "90.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/94d1d0d0938048acb594b74d991818a7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=995912d567890b774a2de5d7af6a710c499891cbcd612b620546e703bc083bce",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2923 Robinson Overpass Apt. 455"
+    },
+    {
+      "id": 5611,
+      "title": "Следовательно оставить миллиард",
+      "created_by": {
+        "id": 82,
+        "username": "lacey20",
+        "first_name": "Савва",
+        "last_name": "Blake",
+        "full_name": "Blake Савва",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "36000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/16fbb79478eb43eeb403508a78bd7839.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d47877b6e1b36ff495833bd8e865a10314ab3f88dbae29a619421e2e1bcd25a3",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "3500 Joshua Views Suite 686"
+    },
+    {
+      "id": 1485,
+      "title": "Wall generation culture reduce true",
+      "created_by": {
+        "id": 189,
+        "username": "heathermccoy",
+        "first_name": "Пантелеймон",
+        "last_name": "Bates",
+        "full_name": "Bates Пантелеймон",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "950.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/19/1cc2c41849794282bd49b1f7c232eff6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f98a2f2ce2faa2c5846eff224d8fdf814aa1084f4c71502a4fe7c3494c5eb7c4",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "2187 Foster Estate"
+    },
+    {
+      "id": 7437,
+      "title": "See court Democrat kitchen suddenly agency",
+      "created_by": {
+        "id": 9,
+        "username": "helenpeterson",
+        "first_name": "Jason",
+        "last_name": "Ершов",
+        "full_name": "Ершов Jason",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "458000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/7d98a86908864ac697ab768e2cc0ab0b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8a7f31d37be936140ad37e8208c68ccaf805cc025e59b53c18d930a2874dfc37",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "339 Mora Locks"
+    },
+    {
+      "id": 14834,
+      "title": "While only our",
+      "created_by": {
+        "id": 6,
+        "username": "+998915506316",
+        "first_name": "Ravshan",
+        "last_name": "Baxranov",
+        "full_name": "Baxranov Ravshan",
+        "avatar": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/06/29/11/photo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6bb72b58d160ea3a9a4735e5dbd507e9c8e786333139145c49c672a069599d2d"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "1000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://6045bcfada7eaf657e3a72f25eb0f2fb.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/06/05/20/1eca28e82396443bba4206aa8231be8b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=47995e78c42c96104e8c649c6465062b%2F20260806%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260806T010900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd279884b3072bde872b35eed0e78c5de6a94607b953c165eae998757b9da3c7",
+      "ads_at": "2026-06-07T16:38:45.158627+05:00",
+      "is_liked": false,
+      "address_line": "пр. Пушкинский, д. 8 стр. 5/8"
+    }
+  ]
+}
