@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 404
+TIME: 955ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 12:06:47 GMT
+  Content-Type: text/html; charset=utf-8
+  Content-Length: 179
+  Connection: keep-alive
+  X-Frame-Options: DENY
+  Vary: origin, Accept-Language
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Not Found</title>
+</head>
+<body>
+  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>
+</body>
+</html>
