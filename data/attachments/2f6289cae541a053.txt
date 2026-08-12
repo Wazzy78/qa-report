@@ -1,0 +1,305 @@
+RESPONSE
+STATUS: 200
+TIME: 2109ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 11:56:21 GMT
+  Content-Type: application/json
+  Content-Length: 11124
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, POST, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "page": 1,
+  "total_pages": 342,
+  "next": "https://new.api.dev.joymee.uz/api/v1/announcement/?page=2",
+  "previous": null,
+  "total_count": 2060,
+  "filtered_count": 2060,
+  "results": [
+    {
+      "id": 615941,
+      "title": "Мономарказ срочно сотилади еки ижарага берилади!",
+      "created_by": {
+        "id": 566445,
+        "username": "behzod_77",
+        "first_name": "Behzod",
+        "last_name": "Kilichev",
+        "full_name": "Behzod Kilichev",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "230000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/891481238400400fb5bd4a9edb8b5c84.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ff177d2793f06774ef884fb46f7037f62454168b3d452ef7dd6c5e20d90514af",
+      "ads_at": "2026-07-07T15:17:07.149519+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent viloyati, Yangiyo‘l tumani"
+    },
+    {
+      "id": 615983,
+      "title": "Участка срочно сотилади",
+      "created_by": {
+        "id": 566445,
+        "username": "behzod_77",
+        "first_name": "Behzod",
+        "last_name": "Kilichev",
+        "full_name": "Behzod Kilichev",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "85000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 2,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/ec0c977b1e30487ca4a860b3caf4aa72.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=860bf552bca17aa1d4c7ba5516219b4d1fea123a601cb594cebcfeb8e4fd279a",
+      "ads_at": "2026-07-07T15:09:51.639088+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent viloyati, Yangiyo‘l tumani"
+    },
+    {
+      "id": 614393,
+      "title": "Срочно продам 2-ком квартира в Новостройке",
+      "created_by": {
+        "id": 562955,
+        "username": "zastroishchika_1",
+        "first_name": "Застройщик",
+        "last_name": "Капитал Строй",
+        "full_name": "Застройщик Капитал Строй",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "56000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 3,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/96aa076dc50d48feb055ce1fecebd477.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5da7c60e7c3a1ad53c1a875e31da2e24afca16c7f57ba3306294e678b115473b",
+      "ads_at": "2026-07-06T18:18:32.114034+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Yashnobod tumani"
+    },
+    {
+      "id": 587081,
+      "title": "Продаётся квартира в Новостройке",
+      "created_by": {
+        "id": 562955,
+        "username": "zastroishchika_1",
+        "first_name": "Застройщик",
+        "last_name": "Капитал Строй",
+        "full_name": "Застройщик Капитал Строй",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "57000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 3,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/07/1000005989.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=38273e2a298896da47a79ddba79d86c19c88b481ffaa63d3944aff2bac9a6f7b",
+      "ads_at": "2026-06-17T04:02:01.369068+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Yashnobod tumani"
+    },
+    {
+      "id": 548971,
+      "title": "Продаётся 2 комнатная квартира в Новостройке!!!",
+      "created_by": {
+        "id": 562955,
+        "username": "zastroishchika_1",
+        "first_name": "Застройщик",
+        "last_name": "Капитал Строй",
+        "full_name": "Застройщик Капитал Строй",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "57000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": 3,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/23/1000016298.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ca15960e601c4723b78ba31f5225dbd8ad7c81eff4e58a995201247e241c0697",
+      "ads_at": "2026-07-06T18:19:13.830644+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Yashnobod tumani"
+    },
+    {
+      "id": 428423,
+      "title": "Srochno arenda luboyiga",
+      "created_by": {
+        "id": 563532,
+        "username": "Rieltor_Nafisa_Ergasheva",
+        "first_name": "Nafisa",
+        "last_name": "Ergasheva",
+        "full_name": "Nafisa Ergasheva",
+        "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/photo_a7TGuAf.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=95d20db9f3b2f2781615b9d45e503214e144da542f1d365998267af4962ba1bb"
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "350.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/20/2d3912cdcb1d494b869751dba9b77416.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ea1958eea3734000dce6b80a8cc459632930e102d48a5633a857fc950d43b03d",
+      "ads_at": "2026-06-08T19:46:02.618903+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Chilonzor tumani"
+    },
+    {
+      "id": 361356,
+      "title": "Kunlik HOSTEL 24/7",
+      "created_by": {
+        "id": 542647,
+        "username": "baxtiyor_92",
+        "first_name": "Baxtiyor",
+        "last_name": "",
+        "full_name": "Baxtiyor",
+        "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/de09499391aa4a41a2cf453dd3500151.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c4d527767d88da03c19eff6bf361f6b2e24dc0ad8a154e65d4a3e296e08d0bdc"
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "70000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/18/1d0a8e4a24ed43e1a55d68d8fc014152.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=28f61307b1928575b6abba08618d6736919e9589cf1028b57f406d477a768a68",
+      "ads_at": "2026-05-19T21:09:06.411775+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Mirobod tumani"
+    },
+    {
+      "id": 370135,
+      "title": "kunlik kivartira 24/7",
+      "created_by": {
+        "id": 547875,
+        "username": "abror_124",
+        "first_name": "abror",
+        "last_name": "",
+        "full_name": "abror",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "600000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/18/652518acdaeb4cd6aa6bddee39144edd.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0099d791247c923e479a99a549fde3d91c80fed1d5305ab81d1a96d8acf7d0f3",
+      "ads_at": "2026-05-24T17:58:50.434633+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent shahri, Mirzo Ulug‘bek tumani"
+    },
+    {
+      "id": 509277,
+      "title": "Dacha",
+      "created_by": {
+        "id": 562655,
+        "username": "asadbek_286",
+        "first_name": "Asadbek",
+        "last_name": "Saparbekov",
+        "full_name": "Asadbek Saparbekov",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "125.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/22/a6b4f23cadae40db90d5616b6c410b6b.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=39774f45ca6b0d36fe9aa0c6ad06fe431d1eade631ef53bf96aa868a72b03c2f",
+      "ads_at": "2026-06-26T01:02:03.312462+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent viloyati, Bo‘stonliq tumani"
+    },
+    {
+      "id": 545397,
+      "title": "Dacha xumsan",
+      "created_by": {
+        "id": 547937,
+        "username": "bobur_244",
+        "first_name": "Bobur",
+        "last_name": "unarov",
+        "full_name": "Bobur unarov",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 2,
+        "price": "500000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "y.e"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/23/96b283452fab48c783a3008f9e18aeb8.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e5cee4f9846478e4be3cb92b976254bc1942323ef3605e2b1c67edc362e7de82",
+      "ads_at": "2026-07-05T18:46:57.943768+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent viloyati, Bo‘stonliq tumani"
+    },
+    {
+      "id": 309578,
+      "title": "Кунлик Аренда: Чирчик (Карвон) 3/2/8 450.000 ✅",
+      "created_by": {
+        "id": 537698,
+        "username": "odil_37",
+        "first_name": ".",
+        "last_name": "",
+        "full_name": ".",
+        "avatar": null
+      },
+      "pricing": {
+        "currency": 1,
+        "price": "450000.00",
+        "price_from": null,
+        "price_to": null,
+        "currency_display": "so'm"
+      },
+      "status": 1,
+      "subscription": null,
+      "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/3fe4bb558e4340809faf2346c7380d68.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T115621Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f194b559a29bb31ead3188ae1599a9de97aa8b52ef6bf1d314016c465ed4199a",
+      "ads_at": "2026-04-26T13:54:11.018821+05:00",
+      "is_liked": false,
+      "address_line": "Toshkent viloyati, Chirchiq shahar"
+    }
+  ]
+}

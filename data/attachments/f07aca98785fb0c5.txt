@@ -1,0 +1,29 @@
+RESPONSE
+STATUS: 409
+TIME: 1940ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 12:03:44 GMT
+  Content-Type: application/json
+  Content-Length: 250
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "bu kontaktga faol tasdiqlash kodi allaqachon mavjud",
+  "message_key": "active_verification_code_exists",
+  "errors": {},
+  "exception_class": "ObjectAlreadyExistsException",
+  "data": {
+    "verification_token": "mrC_***"
+  }
+}

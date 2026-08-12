@@ -1,0 +1,28 @@
+RESPONSE
+STATUS: 400
+TIME: 233ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 12:03:49 GMT
+  Content-Type: application/json
+  Content-Length: 158
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "Ensure this field has at least 6 characters.",
+  "message_key": "invalid",
+  "errors": {
+    "security_code": "mi***"
+  },
+  "exception_class": "ValidationError"
+}
