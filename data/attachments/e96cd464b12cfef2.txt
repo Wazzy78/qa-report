@@ -1,0 +1,117 @@
+RESPONSE
+STATUS: 200
+TIME: 2619ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:18:59 GMT
+  Content-Type: application/json
+  Content-Length: 4542
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "count": 93998,
+  "next": "https://new.api.dev.joymee.uz/api/v1/account/seller/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 540508,
+      "username": "Mehmonxonalar",
+      "full_name": "",
+      "avatar": null,
+      "announcement_count": 155,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 565529,
+      "username": "staylux_rent",
+      "full_name": "Посуточно Daily Apartments",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/image_B97648DB-6051-4AB5-81EB-9C630F7ADAAF.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bb343baaca93ea770842c733f324de2558e23b802fc0299d418c6db7c836f8f7",
+      "announcement_count": 74,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 563061,
+      "username": "dachauz",
+      "full_name": "Jahongir +998(98)778-13-12",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/d9c6ea74860f422caf7d184c671006c7.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e3e1f278f7e236cf45c70ec2cd0e37ceed3d617e300d99068ce849893607ef91",
+      "announcement_count": 55,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 550472,
+      "username": "rieltorboss",
+      "full_name": "Посуточная Квартира Daily Apartment Rental",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/dbd4ebbf06ef4cdaaf3f8d9189ced34f.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3ff476d7726bcaac8b91cad0bd621a16f08ff712ed161cbad28c426f7ed61f93",
+      "announcement_count": 55,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 547875,
+      "username": "abror_124",
+      "full_name": "abror",
+      "avatar": null,
+      "announcement_count": 45,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 542647,
+      "username": "baxtiyor_92",
+      "full_name": "Baxtiyor",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/de09499391aa4a41a2cf453dd3500151.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2cc263e5b2dce39c1b23dcf8ee0eddf64731249490a61331562cefcf2a583792",
+      "announcement_count": 40,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 549332,
+      "username": "domx_estate",
+      "full_name": "DOM-X estate",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/58485.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eefd2093338811e13b24c50a1c9fc8b87a7e15c5ba773b5811da030951f00a5e",
+      "announcement_count": 36,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 565053,
+      "username": "dacha_1",
+      "full_name": "Dacha bor дача Asilbek",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/c1511991f9034f52b105b31642418d93.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5b56021ef0c8455fec858bab199d90c1bf6297ac2dfb2e5291984d583ae14666",
+      "announcement_count": 34,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 563190,
+      "username": "oyatulloh_aosada",
+      "full_name": "Oyatulloh",
+      "avatar": null,
+      "announcement_count": 27,
+      "is_top": true,
+      "is_verified": false
+    },
+    {
+      "id": 553819,
+      "username": "amr",
+      "full_name": "Dacha arenda va savdo sotu",
+      "avatar": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/user/avatar/2026/07/05/23/9c44c51da62d4fae9afd5039ba5f0c6e.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131859Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5e6811344bcd12b4a13a770e2864609dae4a0ba93747f237d9f1e9173eb450db",
+      "announcement_count": 26,
+      "is_top": true,
+      "is_verified": false
+    }
+  ]
+}

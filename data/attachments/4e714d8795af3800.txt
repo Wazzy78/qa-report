@@ -1,0 +1,2 @@
+verification_token: cCBW***
+security_code: 5***

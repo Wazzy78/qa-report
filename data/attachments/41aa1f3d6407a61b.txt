@@ -1,0 +1,40 @@
+RESPONSE
+STATUS: 200
+TIME: 212ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:19:18 GMT
+  Content-Type: application/json
+  Content-Length: 1145
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "id": 616284,
+    "title": "Bbsbs",
+    "slug": "",
+    "price": 5000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/18/14/image_E333DD4F-8704-4FE0-91EA-2A6FB0422DC0.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131918Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=55bb365562862b9422e1ace8e8734ae9156c39d4893565bf8da565dc7cafc05b",
+    "address_line": "Toshkent shahri, Bektemir tumani"
+  },
+  {
+    "id": 616277,
+    "title": "123",
+    "slug": "",
+    "price": 1231231.0,
+    "currency": 1,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/18/08/image_2026-07-16_12-35-29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131918Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3bbf073d09d132ef498f3f28c81cb4aad47fe3709f8ccd21c07505e06453e014",
+    "address_line": "Toshkent shahri, Bektemir tumani"
+  }
+]

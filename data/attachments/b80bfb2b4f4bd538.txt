@@ -1,0 +1,2 @@
+WARNING  AUTH:token_provider.py:115 Token refresh failed (refresh rejected); falling back to full login
+INFO     AUTH:token_provider.py:118 Access token renewed via full OTP login

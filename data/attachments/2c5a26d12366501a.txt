@@ -1,2 +1,0 @@
-verification_token: PMdA***
-security_code: 5***

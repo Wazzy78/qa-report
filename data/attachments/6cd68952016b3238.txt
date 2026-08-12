@@ -1,0 +1,163 @@
+RESPONSE
+STATUS: 200
+TIME: 652ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:19:15 GMT
+  Content-Type: application/json
+  Content-Length: 6884
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, PATCH, DELETE, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "id": 615983,
+  "title": "Участка срочно сотилади",
+  "slug": "uchastka-srochno-sotiladi-299330",
+  "deal_type": 3,
+  "property_type": 2,
+  "category": 9,
+  "advertiser_type": 1,
+  "description": "🌐 Манзил: Тошкент вилояти, Янгийўл тумани, Нуробод махалла\n\n📍 Участка Бўзсув канали олдида жойлашган, ораси 10 метр\n\n🗺 Локация \n\n🔶 Майдони: 18 сотих (кадастрда)\n🔶 Захвати: 4 сотих\n🔶 6 та хона\n🔶 Камин, илиқ пол, отопления, аристон бор\n\n🔷 2 та дарвоза, 2 калитка бор\n🔷 2 та газ плита бор\n🔷 Хамма шароитлари мавжуд\n\n🌳 50 туп дарахт экилган\n\n🔥 Газ ⚡️Свет 💦 Сув бор\n\n🚗 6 та машинага жой бор\n\n📄 Кадастр xужжатлари жойида \n\n💵 Нархи: 85000y.e. СРОЧНО Келишамиз🤝🏻\n\n📞 Тел: +998993000030\n📞 Тел: +998994000040",
+  "address_line": "Toshkent viloyati, Yangiyo‘l tumani",
+  "phone_number": "+998993000030",
+  "location": {
+    "latitude": 41.158876092468645,
+    "longitude": 69.02558578634611
+  },
+  "status": 1,
+  "is_liked": false,
+  "audio": null,
+  "district": {
+    "id": 2397,
+    "name": "Yangiyo‘l tumani"
+  },
+  "region": {
+    "id": 501,
+    "name": "Toshkent viloyati"
+  },
+  "country": {
+    "id": 81,
+    "name": "O'zbekiston"
+  },
+  "mortgage_available": true,
+  "media": [
+    {
+      "file": {
+        "id": 2071177,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/ec0c977b1e30487ca4a860b3caf4aa72.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aae5fa992bbf76805c209b9038799c8b967133ffefbc563e8b3b2fe99c9ed423"
+      },
+      "order": 1,
+      "is_cover": true
+    },
+    {
+      "file": {
+        "id": 2071178,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/86a213e21c974ba7933251d8f6dd8288.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c87a8da290d116f448fb0784255062ba32e4b7d4d659afd1fdfda08e225f3c6c"
+      },
+      "order": 2,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071180,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/b837ae425e474331b3ed9bf0dbccb955.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bd3b9d2f10a6ea7da80c919734d66b6e03146d2970a6463b3727cc7b03599649"
+      },
+      "order": 3,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071182,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/43200d191e28456ead5df297abfe52ad.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c64e4f9457952d2a3b9c6b7adba6ebea07440f6c49c00461df6bc671ad8e9dd9"
+      },
+      "order": 4,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071183,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/6c8f5ec4eeeb4c7fa48013cb8e9c6926.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=12d8f090e8f71c04a920f7d0eeea71307f7a85a8069f878e455136cf1039e168"
+      },
+      "order": 5,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071184,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/98a7d16e39f14dac9b7250a3b3d24d7a.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b0eaca5f27812f4523db6699b7373a249e6648de471d6b699901f7bbe8cf4a8f"
+      },
+      "order": 6,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071185,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/f11eed1776d64b02a2cac5a938f5f99c.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bbbd9f367c326ac689f0dbb305bec06b2ce81f1f81696e0e5b8fa6a2f2e6422c"
+      },
+      "order": 7,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071186,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/1b11eb5244ab4cfa8cfe95b7416179ee.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7e0be6053a582e4ef07d76ff779a38f3beaa30f8f0a4b51f482e1c8883614755"
+      },
+      "order": 8,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071187,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/d97325e7c2974313a11b450b3331c6fa.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aebc2f8bd1c8d2c36b359133eaf2cbca12150d6e7c1f3cffc5b77dae92cee480"
+      },
+      "order": 9,
+      "is_cover": false
+    },
+    {
+      "file": {
+        "id": 2071188,
+        "url": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/10/fbdf6e6e2bd84329a953a615ec54726f.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T131915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3de090a8b1f4d294044371195d939673f940052d4d2d618b1b771e007e93fa13"
+      },
+      "order": 10,
+      "is_cover": false
+    }
+  ],
+  "pricing": {
+    "currency": 2,
+    "price": "85000.00",
+    "price_from": null,
+    "price_to": null,
+    "currency_display": "y.e"
+  },
+  "seller": {
+    "id": 566445,
+    "first_name": "Behzod",
+    "last_name": "Kilichev",
+    "avatar": null,
+    "bio": "",
+    "username": "behzod_77",
+    "is_verified": false
+  },
+  "detail": {
+    "area_m2": "4.00",
+    "floors_count": 1,
+    "capacity": null
+  },
+  "stats": {
+    "calls": 7,
+    "shares": 3,
+    "views": 66,
+    "comments": 0,
+    "likes": 0
+  },
+  "ads_at": "2026-07-07T15:09:51.639088+05:00"
+}
