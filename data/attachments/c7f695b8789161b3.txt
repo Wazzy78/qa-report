@@ -1,7 +1,0 @@
-REQUEST
-METHOD: GET
-URL: https://new.api.dev.joymee.uz/api/v1/announcement/615941/similar/
-
-HEADERS:
-  Accept: application/json, text/plain, */*
-  Content-Type: application/json

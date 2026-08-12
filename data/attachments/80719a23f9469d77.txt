@@ -1,0 +1,14 @@
+REQUEST
+METHOD: POST
+URL: https://new.api.dev.joymee.uz/api/v1/chat/message/
+
+HEADERS:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/json
+  Content-Length: 56
+
+BODY:
+{
+  "message": "autotest message burmoe",
+  "receiver_id": 1
+}

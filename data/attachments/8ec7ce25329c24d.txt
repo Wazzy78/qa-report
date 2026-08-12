@@ -1,0 +1,247 @@
+RESPONSE
+STATUS: 200
+TIME: 205ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:38:53 GMT
+  Content-Type: application/json
+  Content-Length: 16805
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "id": 217145,
+    "title": "2  sotik karobka  7ta xona 1ta xol 3ta sanuzel seli padval",
+    "slug": "2-sotik-karobka-7ta-xona-1ta-xol-3ta-sanuzel-seli-padval-267869",
+    "price": 89000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/05/23/1000046780.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bd6ed5e50ae7f624625f904b6402e641d933a844b8c2d689f77398ae069793de",
+    "address_line": "Toshkent viloyati, Qibray tumani"
+  },
+  {
+    "id": 239141,
+    "title": "Сдается дача в Тузеле",
+    "slug": "sdaetsia-dacha-v-tuzele-820113",
+    "price": 1200000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/05/23/image_C9DE4AA0-ECD0-41F1-9192-73C951457B09.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9c99460e519b8cd5f6cdb9ac48356bd63732fc3b306b5ce9a2bd8115266d0e43",
+    "address_line": "Toshkent viloyati, Qibray tumani"
+  },
+  {
+    "id": 297369,
+    "title": "5 суток, 3-этаж с мансардой",
+    "slug": "5-sutok-3-etazh-s-mansardoi-140034",
+    "price": 190000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/15/image_FD2A0306-8391-488D-AF13-6F93810A2903.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7692fe2d7a436a09aa776e803e56e974c5844649fbba875b27dc99497e3726b8",
+    "address_line": "Toshkent viloyati, Zangiota tumani"
+  },
+  {
+    "id": 295589,
+    "title": "Прoдается участок",
+    "slug": "prdaetsia-uchastok-137582",
+    "price": 90000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/15/image_FCF88546-4BFD-40F6-B3E5-BB1C8D4B381F.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=70715e93d3e03caf442cd8a1347ab98d3f83b3755d601fe5bb5c8a298106b3e9",
+    "address_line": "Toshkent viloyati, Qibray tumani"
+  },
+  {
+    "id": 309534,
+    "title": "18 сотых хаулы сатылады",
+    "slug": "18-sotykh-khauly-satylady-154732",
+    "price": 25000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/1000047157_AaOzZUr.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f9a2fc6e107969e9f10a17e77278b5f9443203ba981e045789fd2f8b7f8b64a2",
+    "address_line": "Toshkent viloyati, Yuqorichirchiq tumani"
+  },
+  {
+    "id": 309794,
+    "title": "Учаска сотилади 2 этажни 2 сотига курилган 255 квадрат йэнги бозор цэнтирида коросу махаласида",
+    "slug": "uchaska-sotiladi-2-etazhni-2-sotiga-kurilgan-255-kvadrat-iengi-bozor-tsentirida-korosu-makhalasida-160841",
+    "price": 145000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/932e66563309434e879eea004cf3d336.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=20a495ab4d637b9163c6f833284e00a87e71b6dbb459be2b334d19bffc7caf5c",
+    "address_line": "Toshkent viloyati, Quyichirchiq tumani"
+  },
+  {
+    "id": 319237,
+    "title": "Бочка ховли сотилади",
+    "slug": "bochka-khovli-sotiladi-174805",
+    "price": 65000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/8963627eca044233acf42c14444ff2e1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=782789f904797e000c38b95545b69a1bb1114a22ccdd28524f01aa14f3e1eee4",
+    "address_line": "Toshkent viloyati, Bo‘stonliq tumani"
+  },
+  {
+    "id": 302736,
+    "title": "Bochkadan arzonga dacha sotiladi",
+    "slug": "bochkadan-arzonga-dacha-sotiladi-148604",
+    "price": 179000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/image_BB1F00A1-84E8-462F-A78E-12D1AF6BD031.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c4b89e1816aa62eda1bc661341078a38f341ca865734f57537941f9a4c39e8f2",
+    "address_line": "Toshkent viloyati, Bo‘stonliq tumani"
+  },
+  {
+    "id": 432284,
+    "title": "Юнусабад. Зенит. Танавор",
+    "slug": "iunusabad-zenit-tanavor-243530",
+    "price": 340000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/20/cd7ecf3bbc5145099a4b27213d76da3f.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=62f93616af78ecd0e8d451b59f389eefbcc004ba88336974a3c73d60271428ec",
+    "address_line": "Toshkent shahri, Yunusobod tumani"
+  },
+  {
+    "id": 308258,
+    "title": "ПРОДАЕТСЯ 4/8/11 Новостройка ЖК Sayram Tower #МирзоУлугбекски_район Ор.р: Британская Школа",
+    "slug": "prodaetsia-4-8-11-novostroika-zhk-sayram-tower-mirzoulugbekski-raion-or-r-britanskaia-shkola-103855",
+    "price": 179000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/photo_1_2026-03-18_14-05-24.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bf37631b2a88af0d5a34cda7c9d6ebed7a094ddeab87c09307acbe32b651714d",
+    "address_line": "Toshkent shahri, Mirzo Ulug‘bek tumani"
+  },
+  {
+    "id": 457890,
+    "title": "Sotiladi",
+    "slug": "sotiladi-256208",
+    "price": 300000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/21/0b6304d3cc254e1e92078d138a450f7e.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d30fd6325c428f3ce68f77ea037d7bbc8f597e2474f837b49796e723610616c",
+    "address_line": "Toshkent shahri, Shayxontoxur tumani"
+  },
+  {
+    "id": 595546,
+    "title": "Sergeli Tumanida 3 qavatli uchaska sotiladi",
+    "slug": "sergeli-tumanida-3-qavatli-uchaska-sotiladi-274074",
+    "price": 136000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/07/08/43bed4c01a5745ca9553d9613348c096.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0dc3f4959144c1457731bd72047f1f6163db27567166f2f652e8c20e0653775f",
+    "address_line": "Toshkent shahri, Sergeli tumani"
+  },
+  {
+    "id": 315578,
+    "title": "Uchastka sotiladi qoyliq somon bozor",
+    "slug": "uchastka-sotiladi-qoyliq-somon-bozor-168196",
+    "price": 65000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/cf9862e24880430ea59d011ccf7bfa34.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=112c52d31bab21db5a9bd3536f02feb28df40e25ac6af492d0f4a6004f2ab083",
+    "address_line": "Toshkent shahri, Bektemir tumani"
+  },
+  {
+    "id": 318697,
+    "title": "Участка сотилади чилонзор райони 2 сот 2 этаж 5 хона",
+    "slug": "uchastka-sotiladi-chilonzor-raioni-2-sot-2-etazh-5-khona-174621",
+    "price": 135500.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/16/a5f81b79cb0340518dc10fd96db7b0c9.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=90a09e57c0cd7e98dec24c0272f1b77a093a6da1ecc230542f115c75957bce58",
+    "address_line": "Toshkent shahri, Chilonzor tumani"
+  },
+  {
+    "id": 459915,
+    "title": "Свой КОТТЕДЖ 1.5 сот 3 уровень новый ЕВРО РЕМОНТ",
+    "slug": "svoi-kottedzh-1-5-sot-3-uroven-novyi-evro-remont-434765",
+    "price": 174000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/21/image_41356F6E-5DEF-4851-A56E-AE992CE26935.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eba90cb56534872e172958a600fd4ebb63ec38cad3b362165abae4a7e5bc0dad",
+    "address_line": "Toshkent shahri, Yangihayot tumani"
+  },
+  {
+    "id": 334187,
+    "title": "Жомийда",
+    "slug": "zhomiida-189990",
+    "price": 360000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/17/d0a35bdb18624598a4f08516a677f05e.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b10125bd296cd6c1d25d00c47c8d7be07bf073ef6b7710be4ddbe7c17fa0af1f",
+    "address_line": "Toshkent shahri, Olmazor tumani"
+  },
+  {
+    "id": 504118,
+    "title": "Шикарный дом для обеспеченых людей",
+    "slug": "shikarnyi-dom-dlia-obespechenykh-liudei-279329",
+    "price": 295000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/22/70d7d5e9ed5a40bbb729a9dc26259306.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=809fb4f3ee3838964b8cae27945efe02929bd086a27b4843d34417fa0d32c3ad",
+    "address_line": "Toshkent shahri, Shayxontoxur tumani"
+  },
+  {
+    "id": 358970,
+    "title": "Учтепада Уризор махаласи Уризор Бошида Холат яхши 6- суту 8-та газ Сув конилзац Хамасни 1 кадам канфорт",
+    "slug": "uchtepada-urizor-makhalasi-urizor-boshida-kholat-iakhshi-6-sutu-8-ta-gaz-suv-konilzats-khamasni-1-kadam-kanfort-121853",
+    "price": 260000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/17/1000012788.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c5ae735369d08784e7cc14ae88f4671f1627c4ce4833f05e4d1f132daea09ad6",
+    "address_line": "Toshkent shahri, Uchtepa tumani"
+  },
+  {
+    "id": 367824,
+    "title": "6 сотох бодомзор",
+    "slug": "6-sotokh-bodomzor-164258",
+    "price": 330000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/18/f537776b381b467fa81d6e5810f7f862.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a61a8872bca9c6e42b05ad3e2f833ea1c8d97ecd0673ed8dbd8ea6cef4027231",
+    "address_line": "Toshkent shahri, Yunusobod tumani"
+  },
+  {
+    "id": 245982,
+    "title": "Продаю участок 4 сотых",
+    "slug": "prodaiu-uchastok-4-sotykh-822263",
+    "price": 40000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/00/1000005987.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd13fb5f9ed989f4cb56019532f3584c84519b7bf13be3e0210a8977cc4d2ca6",
+    "address_line": "Toshkent shahri, Yangihayot tumani"
+  },
+  {
+    "id": 247059,
+    "title": "Бобур махаллада зор ховлимиз сотилади",
+    "slug": "bobur-makhallada-zor-khovlimiz-sotiladi-925735",
+    "price": 188000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/00/photo_1_2026-03-09_12-10-23.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9b2b24978db87c3f3ef2491867ed0f23305b873672bfc54cf7e42bdd57441c26",
+    "address_line": "Toshkent shahri, Sergeli tumani"
+  },
+  {
+    "id": 251691,
+    "title": "Продается участок",
+    "slug": "prodaetsia-uchastok-831473",
+    "price": 310000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/00/image_49D29815-EDC5-4CB3-8150-83ECA284F683.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0336fef69a9827cbd0206bc93e9c25167ed9ac86c73e8641fc56a95c0ed02e2b",
+    "address_line": "Toshkent shahri, Sergeli tumani"
+  },
+  {
+    "id": 277901,
+    "title": "yengi uyla sergili bobur",
+    "slug": "yengi-uyla-sergili-bobur-868053",
+    "price": 265000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/15/386_eQ4H8ON.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2df99ed41ee1ede27942f9e29a64aea1a33284e89ecafdae17a93026e123ce36",
+    "address_line": "Toshkent shahri, Sergeli tumani"
+  },
+  {
+    "id": 382567,
+    "title": "Uch Tepa TUMANI Kotta qanada XOVLI SOTILADI",
+    "slug": "uch-tepa-tumani-kotta-qanada-xovli-sotiladi-217794",
+    "price": 270000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/18/2165371ce1e840ac8b35c39626832a87.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d06879a2465a1ccfb9043d457edcbe11cc9e71d7215c1d1d5aef6e604b017ce0",
+    "address_line": "Toshkent shahri, Uchtepa tumani"
+  },
+  {
+    "id": 385296,
+    "title": "Продаётся ТТЗ Участок в Мирзо Улугбек 6.15 сотак",
+    "slug": "prodaetsia-ttz-uchastok-v-mirzo-ulugbek-6-15-sotak-891882",
+    "price": 220000.0,
+    "currency": 2,
+    "image": "https://03ed1fea0c1dfaf2717513d6954e0fff.r2.cloudflarestorage.com/joymee-dev-private-bucket/announcement/file/image/2026/07/06/19/IMG_6455.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8f57cc1b81ac740a05d0c7745e53877d%2F20260812%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260812T133853Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b787571de30cc5b889b539d3d0e92a19f3828bbb43cf287b85435017074316e7",
+    "address_line": "Toshkent shahri, Mirzo Ulug‘bek tumani"
+  }
+]
