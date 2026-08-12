@@ -1,2 +1,0 @@
-verification_token: N79v***
-security_code: 5***

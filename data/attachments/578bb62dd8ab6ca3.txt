@@ -1,0 +1,27 @@
+RESPONSE
+STATUS: 429
+TIME: 238ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:26:20 GMT
+  Content-Type: application/json
+  Content-Length: 122
+  Connection: keep-alive
+  Retry-After: 120
+  Vary: Accept, origin, Accept-Language
+  Allow: POST, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+{
+  "message": "juda ko'p so'rov.",
+  "message_key": "too_many_requests",
+  "errors": {},
+  "exception_class": "TooManyRequestsException"
+}
