@@ -1,0 +1,454 @@
+RESPONSE
+STATUS: 200
+TIME: 606ms
+
+HEADERS:
+  Server: nginx
+  Date: Wed, 12 Aug 2026 13:35:29 GMT
+  Content-Type: application/json
+  Content-Length: 3980
+  Connection: keep-alive
+  Vary: Accept, origin, Accept-Language
+  Allow: GET, HEAD, OPTIONS
+  X-Frame-Options: DENY
+  Content-Language: uz
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+
+BODY:
+[
+  {
+    "name": "Shymkent",
+    "id": 451,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Shanghai",
+    "id": 434,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Guangdong",
+    "id": 435,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Zhejiang",
+    "id": 436,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Jiangsu",
+    "id": 437,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Moscow",
+    "id": 438,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Saint Petersburg",
+    "id": 439,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Tatarstan",
+    "id": 440,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Sverdlovsk Oblast",
+    "id": 441,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Novosibirsk Oblast",
+    "id": 442,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Krasnodar Krai",
+    "id": 443,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Istanbul",
+    "id": 444,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Ankara",
+    "id": 445,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Izmir",
+    "id": 446,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Antalya",
+    "id": 447,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Bursa",
+    "id": 448,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Almaty Region",
+    "id": 449,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Astana (Nur-Sultan)",
+    "id": 450,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Beijing",
+    "id": 433,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Karaganda Region",
+    "id": 452,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "East Kazakhstan",
+    "id": 453,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Atyrau Region",
+    "id": 454,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Aktobe Region",
+    "id": 455,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Mangystau Region",
+    "id": 456,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Pavlodar Region",
+    "id": 457,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Bishkek",
+    "id": 458,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Osh Region",
+    "id": 459,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Issyk-Kul Region",
+    "id": 460,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Talas Region",
+    "id": 461,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Naryn Region",
+    "id": 462,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Batken Region",
+    "id": 463,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Chui Region",
+    "id": 464,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Dushanbe",
+    "id": 465,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Sughd Region",
+    "id": 466,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Khatlon Region",
+    "id": 467,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Gorno-Badakhshan",
+    "id": 468,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Districts of Republican Subordination",
+    "id": 469,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Ashgabat",
+    "id": 470,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Ahal Region",
+    "id": 471,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Mary Region",
+    "id": 472,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Lebap Region",
+    "id": 473,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Dashoguz Region",
+    "id": 474,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Balkan Region",
+    "id": 475,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Kabul",
+    "id": 476,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Herat",
+    "id": 477,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Balkh",
+    "id": 478,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Kandahar",
+    "id": 479,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Nangarhar",
+    "id": 480,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Kunduz",
+    "id": 481,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Bamyan",
+    "id": 482,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Helmand",
+    "id": 483,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Fujairah",
+    "id": 484,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Ras Al Khaimah",
+    "id": 485,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Umm Al Quwain",
+    "id": 486,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Ajman",
+    "id": 487,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Sharjah",
+    "id": 488,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Dubai",
+    "id": 489,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Abu Dhabi",
+    "id": 490,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Toshkent shahri",
+    "id": 491,
+    "code": null,
+    "order": 1
+  },
+  {
+    "name": "Toshkent viloyati",
+    "id": 501,
+    "code": null,
+    "order": 2
+  },
+  {
+    "name": "Farg‘ona viloyati",
+    "id": 503,
+    "code": null,
+    "order": 3
+  },
+  {
+    "name": "Andijon viloyati",
+    "id": 494,
+    "code": null,
+    "order": 4
+  },
+  {
+    "name": "Namangan viloyati",
+    "id": 498,
+    "code": null,
+    "order": 5
+  },
+  {
+    "name": "Buxoro viloyati",
+    "id": 492,
+    "code": null,
+    "order": 6
+  },
+  {
+    "name": "Samarqand viloyati",
+    "id": 493,
+    "code": null,
+    "order": 7
+  },
+  {
+    "name": "Navoiy viloyati",
+    "id": 497,
+    "code": null,
+    "order": 8
+  },
+  {
+    "name": "Jizzax viloyati",
+    "id": 496,
+    "code": null,
+    "order": 9
+  },
+  {
+    "name": "Qashqadaryo viloyati",
+    "id": 495,
+    "code": null,
+    "order": 10
+  },
+  {
+    "name": "Surxondaryo viloyati",
+    "id": 499,
+    "code": null,
+    "order": 11
+  },
+  {
+    "name": "Sirdaryo viloyati",
+    "id": 500,
+    "code": null,
+    "order": 12
+  },
+  {
+    "name": "Xorazm viloyati",
+    "id": 504,
+    "code": null,
+    "order": 13
+  },
+  {
+    "name": "Qoraqalpog‘iston Respublikasi",
+    "id": 502,
+    "code": null,
+    "order": 14
+  }
+]
