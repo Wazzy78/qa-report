@@ -1,7 +1,0 @@
-REQUEST
-METHOD: GET
-URL: https://new.api.dev.joymee.uz/api/v1/dictionary/region/
-
-HEADERS:
-  Accept: application/json, text/plain, */*
-  Content-Type: application/json
